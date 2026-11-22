@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="EquipmentData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/equipment_data.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+id = &"EQ-004"
+display_name = "Machado Rúnico de Basalto"
+description = "Arma pesada gravada com runas de destruição dos antigos forjadores."
+category = &"equipment"
+slot = &"weapon"
+equipment_type = &"weapon"
+rarity = &"epic"
+stats = {
+"attack": 46,
+"armor_penetration": 18
+}
+use_effect = {}
+value = 350
+max_stack = 1

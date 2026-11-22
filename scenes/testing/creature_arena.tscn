@@ -1,0 +1,58 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scenes/testing/creature_arena.gd" id="1_arena"]
+[ext_resource type="PackedScene" path="res://player/player.tscn" id="2_player"]
+
+[sub_resource type="BoxShape3D" id="shape_ground"]
+size = Vector3(40, 1, 40)
+
+[sub_resource type="BoxMesh" id="mesh_ground"]
+size = Vector3(40, 1, 40)
+
+[sub_resource type="StandardMaterial3D" id="mat_ground"]
+albedo_color = Color(0.11, 0.1, 0.12, 1)
+roughness = 0.95
+
+[sub_resource type="StandardMaterial3D" id="mat_ring"]
+albedo_color = Color(0.3, 0.12, 0.14, 1)
+roughness = 0.8
+
+[sub_resource type="CylinderMesh" id="mesh_ring"]
+top_radius = 8.0
+bottom_radius = 8.0
+height = 0.02
+radial_segments = 48
+
+[node name="CreatureArena" type="Node3D"]
+script = ExtResource("1_arena")
+
+[node name="SunLight" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.7, 0.7, 0, -0.7, 0.7, 0, 10, 0)
+
+[node name="Ground" type="StaticBody3D" parent="."]
+
+[node name="Shape" type="CollisionShape3D" parent="Ground"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+shape = SubResource("shape_ground")
+
+[node name="Mesh" type="MeshInstance3D" parent="Ground"]
+transform = Transform3D(40, 0, 0, 0, 1, 0, 0, 0, 40, 0, -0.5, 0)
+mesh = SubResource("mesh_ground")
+surface_material_override/0 = SubResource("mat_ground")
+
+[node name="BossArenaRing" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.02, -9)
+mesh = SubResource("mesh_ring")
+surface_material_override/0 = SubResource("mat_ring")
+
+[node name="Player" parent="." instance=ExtResource("2_player")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05, 9)
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="Status" type="Label" parent="HUD"]
+offset_left = 14.0
+offset_top = 10.0
+offset_right = 1000.0
+offset_bottom = 240.0
+text = "creature arena"

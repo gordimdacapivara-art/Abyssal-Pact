@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="QuestData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/quest_data.gd" id="1_quest"]
+
+[resource]
+script = ExtResource("1_quest")
+id = &"QUEST-010"
+display_name = "Tradições Ancestrais"
+description = "Preste homenagem aos espíritos arbóreos nas raízes de Sylvaran."
+category = &"race"
+level_requirement = 4
+region_id = &"REG-011"
+class_id = &""
+race_id = &"RACE-002"
+rewards = {
+"xp": 240,
+"souls": 110
+}
+objectives = {
+"OBJ-001": {
+"description": "Oferecer Seiva Sagrada ao Altar",
+"required": 2
+}
+}

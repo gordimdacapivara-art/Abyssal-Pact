@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ContinentData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/continent_data.gd" id="1_cont"]
+
+[resource]
+script = ExtResource("1_cont")
+id = &"CONT-01"
+display_name = "Veyrath"
+description = "Continente vulcânico calcinado pelo fogo abissal. Terras cobertas de cinzas, rios de magma e montanhas de basalto negro esculpidas em pactos ancestrais."
+theme = "volcanic_ashlands"
+region_ids = PackedStringArray("REG-001", "REG-002", "REG-003", "REG-004", "REG-005", "REG-006", "REG-007", "REG-008", "REG-009", "REG-010")
+capital_region_id = &"REG-001"
+climate = "torrid_ash_storms"
+pending_assets = PackedStringArray("model_glb_veyrath_mountain_peaks", "model_glb_obsidian_fortress", "audio_ambient_volcanic_winds")

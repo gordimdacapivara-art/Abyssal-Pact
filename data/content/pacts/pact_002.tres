@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="PactData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/pact_data.gd" id="1_pact"]
+
+[resource]
+script = ExtResource("1_pact")
+id = &"PACT-002"
+display_name = "Pacto das Raízes Espectrais"
+description = "Simbionte espiritual com as árvores milenares de Sylvaran. Regenera vida e canaliza feitiçaria vegetal."
+lore = "Os bosques de Sylvaran não esquecem nada. Aqueles que abraçam suas raízes tornam-se guardiões das brumas e da memória perdida."
+tier = 1
+max_tier = 5
+unlocked = true
+unlock_level = 1
+active_ability_id = &"spectral_vines"
+passive_descriptions = PackedStringArray("Regeneração de vida passiva", "Dano arcano aumentado em 10%", "Passo silencioso em terreno natural")
+stat_modifiers = {
+"spirit_power": 15,
+"health_regen": 5,
+"max_mana": 35
+}
+evolution_requirements = {
+"souls_cost": 120,
+"required_item_id": "EQ-015",
+"item_quantity": 3
+}

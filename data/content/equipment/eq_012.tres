@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="EquipmentData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/equipment_data.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+id = &"EQ-012"
+display_name = "Elixir de Vida Abissal"
+description = "Poção revigorante destilada a partir de seiva de Sylvaran. Recupera 120 de vida."
+category = &"consumable"
+slot = &"none"
+equipment_type = &"none"
+rarity = &"common"
+stats = {}
+use_effect = {
+"type": "heal",
+"value": 120
+}
+value = 25
+max_stack = 20

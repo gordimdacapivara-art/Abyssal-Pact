@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="RegionData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/region_data.gd" id="1_reg"]
+
+[resource]
+script = ExtResource("1_reg")
+id = &"hell_forge"
+display_name = "Hell Forge"
+continent_id = &"NEXUS"
+description = "Dimensão independente de fogo cósmico ancestral, forja primordial dos pactos e hub obrigatório de ressurgimento."
+biome = "abyssal_forge"
+level_range = Vector2i(1, 100)
+connections = PackedStringArray("REG-001", "REG-011", "REG-021", "REG-031", "REG-010", "REG-020", "REG-030", "REG-040")
+boundaries = {
+"border_barrier": true,
+"center": Vector3(0, 0, 0),
+"radius": 150.0
+}
+lighting_profile = {
+"ambient_color": "#2a1215",
+"fog_color": "#38181a",
+"fog_density": 0.01,
+"fog_enabled": true,
+"sun_color": "#ff7744",
+"sun_energy": 1.45
+}
+scene_path = "res://scenes/world/dimension/hell_forge.tscn"
+status = "full_production"
+points_of_interest = [{
+"description": "Nexo cósmico de ressurgimento e refúgio protegido da Hell Forge.",
+"discovery_xp": 150,
+"id": "poi_hellforge_sanctuary",
+"name": "Santuário do Renascimento Abissal",
+"position": Vector3(0, 0, 0),
+"type": "city"
+}, {
+"description": "A forja monumental onde almas, demônios e pactos arcanos são forjados.",
+"discovery_xp": 200,
+"id": "poi_hellforge_anvil",
+"name": "A Grande Forja dos Pactos Primordiais",
+"position": Vector3(0, 2.5, -8),
+"type": "exploration"
+}]
+gates = []
+portals = [{
+"is_intercontinental": true,
+"portal_id": "portal_hf_veyrath_capital",
+"position": Vector3(-30, 0, 0),
+"target_region": "REG-001",
+"target_spawn": "portal_main"
+}, {
+"is_intercontinental": true,
+"portal_id": "portal_hf_sylvaran_capital",
+"position": Vector3(0, 0, -30),
+"target_region": "REG-011",
+"target_spawn": "portal_main"
+}, {
+"is_intercontinental": true,
+"portal_id": "portal_hf_kharduum_capital",
+"position": Vector3(30, 0, 0),
+"target_region": "REG-021",
+"target_spawn": "portal_main"
+}, {
+"is_intercontinental": true,
+"portal_id": "portal_hf_nhalkora_capital",
+"position": Vector3(0, 0, 30),
+"target_region": "REG-031",
+"target_spawn": "portal_main"
+}, {
+"is_intercontinental": true,
+"portal_id": "portal_hf_veyrath_terminal",
+"position": Vector3(-45, 0, -45),
+"target_region": "REG-010",
+"target_spawn": "portal_main"
+}, {
+"is_intercontinental": true,
+"portal_id": "portal_hf_sylvaran_terminal",
+"position": Vector3(45, 0, -45),
+"target_region": "REG-020",
+"target_spawn": "portal_main"
+}, {
+"is_intercontinental": true,
+"portal_id": "portal_hf_kharduum_terminal",
+"position": Vector3(45, 0, 45),
+"target_region": "REG-030",
+"target_spawn": "portal_main"
+}, {
+"is_intercontinental": true,
+"portal_id": "portal_hf_nhalkora_terminal",
+"position": Vector3(-45, 0, 45),
+"target_region": "REG-040",
+"target_spawn": "portal_main"
+}]
+enemy_spawns = []
+boss_encounter_id = &""
+boss_arena = {}
+pending_assets = PackedStringArray()

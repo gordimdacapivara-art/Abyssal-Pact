@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="QuestData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/quest_data.gd" id="1_quest"]
+
+[resource]
+script = ExtResource("1_quest")
+id = &"QUEST-003"
+display_name = "Ecos do Passado Vulcânico"
+description = "Colete fragmentos de obsidiana deixados nos cumes ao redor do Baluarte."
+category = &"side"
+level_requirement = 2
+region_id = &"REG-001"
+class_id = &""
+race_id = &""
+rewards = {
+"xp": 120,
+"souls": 50
+}
+objectives = {
+"OBJ-001": {
+"description": "Coletar Fragmentos de Obsidiana",
+"required": 5
+}
+}

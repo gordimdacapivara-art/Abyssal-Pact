@@ -1,0 +1,197 @@
+{
+  "total_equipment": 16,
+  "equipment": {
+    "WEP-002": {
+      "item_id": "WEP-002",
+      "name": "Lâmina Rúnica de Basalto",
+      "type": "weapon",
+      "chance": 6.0,
+      "rarity": "rare",
+      "stats": {
+        "attack": 22,
+        "defense": 4
+      },
+      "description": "Lâmina média com entalhes de proteção"
+    },
+    "WEP-003": {
+      "item_id": "WEP-003",
+      "name": "Alfanje da Fenda Abissal",
+      "type": "weapon",
+      "chance": 6.0,
+      "rarity": "rare",
+      "stats": {
+        "attack": 25,
+        "abyssal_damage": 10
+      },
+      "description": "Sabre curvo impregnado de miasma"
+    },
+    "WEP-004": {
+      "item_id": "WEP-004",
+      "name": "Espada Larga do Cruzado Caído",
+      "type": "weapon",
+      "chance": 6.0,
+      "rarity": "rare",
+      "stats": {
+        "attack": 34,
+        "stagger": 15
+      },
+      "description": "Espada de duas mãos com corte pesado"
+    },
+    "WEP-005": {
+      "item_id": "WEP-005",
+      "name": "Montante da Forja Sombria",
+      "type": "weapon",
+      "chance": 6.0,
+      "rarity": "rare",
+      "stats": {
+        "attack": 40,
+        "burn_chance": 12
+      },
+      "description": "Grande montante de aço temperado em magma"
+    },
+    "WEP-011": {
+      "item_id": "WEP-011",
+      "name": "Machado Rúnico de Basalto",
+      "type": "weapon",
+      "chance": 15.0,
+      "rarity": "epic",
+      "stats": {
+        "attack": 46,
+        "armor_penetration": 18
+      },
+      "description": "Machado de guerra equilibrado"
+    },
+    "WEP-012": {
+      "item_id": "WEP-012",
+      "name": "Machadinha do Carniceiro",
+      "type": "weapon",
+      "chance": 6.0,
+      "rarity": "uncommon",
+      "stats": {
+        "attack": 20,
+        "bleed": 10
+      },
+      "description": "Machadinha leve para combate veloz"
+    },
+    "WEP-015": {
+      "item_id": "WEP-015",
+      "name": "Machado do Titã de Pedra",
+      "type": "weapon",
+      "chance": 6.0,
+      "rarity": "uncommon",
+      "stats": {
+        "attack": 65,
+        "stagger": 35
+      },
+      "description": "Machado lendário de impacto colossal"
+    },
+    "WEP-001": {
+      "item_id": "WEP-001",
+      "name": "Espada das Cinzas",
+      "type": "weapon",
+      "chance": 15.0,
+      "rarity": "epic",
+      "stats": {
+        "attack": 18,
+        "fire_damage": 8
+      },
+      "description": "Espada de uma mão forjada em cinzas vulcânicas"
+    },
+    "WEP-021": {
+      "item_id": "WEP-021",
+      "name": "Martelo Colossal da Forja",
+      "type": "weapon",
+      "chance": 15.0,
+      "rarity": "epic",
+      "stats": {
+        "attack": 55,
+        "impact_damage": 30
+      },
+      "description": "Martelo pesado com cabeça de bigorna"
+    },
+    "WEP-031": {
+      "item_id": "WEP-031",
+      "name": "Lança das Cinzas Abissais",
+      "type": "weapon",
+      "chance": 15.0,
+      "rarity": "epic",
+      "stats": {
+        "attack": 28,
+        "reach": 3.5
+      },
+      "description": "Lança pontiaguda de alcance estendido"
+    },
+    "WEP-041": {
+      "item_id": "WEP-041",
+      "name": "Adaga de Obsidiana",
+      "type": "weapon",
+      "chance": 15.0,
+      "rarity": "epic",
+      "stats": {
+        "attack": 22,
+        "crit_chance": 12
+      },
+      "description": "Adaga curva com corte hemorrágico"
+    },
+    "WEP-051": {
+      "item_id": "WEP-051",
+      "name": "Arco Recurvo de Caça",
+      "type": "weapon",
+      "chance": 15.0,
+      "rarity": "epic",
+      "stats": {
+        "attack": 24,
+        "range": 25
+      },
+      "description": "Arco rápido de madeira tenaz"
+    },
+    "WEP-061": {
+      "item_id": "WEP-061",
+      "name": "Bacamarte Rúnico de Fogo",
+      "type": "weapon",
+      "chance": 15.0,
+      "rarity": "epic",
+      "stats": {
+        "attack": 48,
+        "aoe_radius": 4
+      },
+      "description": "Arma de fogo portátil de dispersão"
+    },
+    "WEP-071": {
+      "item_id": "WEP-071",
+      "name": "Cajado da Maré Abissal",
+      "type": "weapon",
+      "chance": 15.0,
+      "rarity": "epic",
+      "stats": {
+        "attack": 14,
+        "magic_power": 32
+      },
+      "description": "Báculo mágico canalizador de frio e água"
+    },
+    "WEP-081": {
+      "item_id": "WEP-081",
+      "name": "Foice da Colheita Anímica",
+      "type": "weapon",
+      "chance": 15.0,
+      "rarity": "epic",
+      "stats": {
+        "attack": 36,
+        "life_steal": 8
+      },
+      "description": "Foice curva que extrai almas derrotadas"
+    },
+    "WEP-091": {
+      "item_id": "WEP-091",
+      "name": "Escudo Torre de Ferro Negro",
+      "type": "shield",
+      "chance": 15.0,
+      "rarity": "epic",
+      "stats": {
+        "defense": 35,
+        "block_rate": 80
+      },
+      "description": "Escudo de corpo inteiro de alta absorção"
+    }
+  }
+}

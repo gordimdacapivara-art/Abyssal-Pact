@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="QuestData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/quest_data.gd" id="1_quest"]
+
+[resource]
+script = ExtResource("1_quest")
+id = &"QUEST-007"
+display_name = "O Domínio do Arcanista"
+description = "Conduza conjurações precisas para sintonizar sua essência arcana aos fluxos do mundo."
+category = &"class"
+level_requirement = 3
+region_id = &"REG-001"
+class_id = &"CLASS-001"
+race_id = &""
+rewards = {
+"xp": 200,
+"souls": 100
+}
+objectives = {
+"OBJ-001": {
+"description": "Executar Conjurações com Sucesso",
+"required": 5
+}
+}

@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="PactData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/pact_data.gd" id="1_pact"]
+
+[resource]
+script = ExtResource("1_pact")
+id = &"PACT-003"
+display_name = "Pacto da Forja de Basalto"
+description = "Pacto inabalável com a rocha sólida e as muralhas de Khar-Duum. Focado em defesa pesada e resistência."
+lore = "Nem o vento nem o tempo quebram o basalto. Quem carrega este selo torna sua própria pele uma couraça de pedra viva."
+tier = 1
+max_tier = 5
+unlocked = false
+unlock_level = 5
+active_ability_id = &"stone_skin"
+passive_descriptions = PackedStringArray("Redução de dano físico recebido em 12%", "Imunidade a atordoamentos curtos", "Reflexão de dano por impacto")
+stat_modifiers = {
+"physical_defense": 22,
+"max_health": 60,
+"poise": 20
+}
+evolution_requirements = {
+"souls_cost": 250,
+"required_item_id": "EQ-017",
+"item_quantity": 2
+}

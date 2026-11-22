@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="RegionData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/region_data.gd" id="1_region"]
+
+[resource]
+script = ExtResource("1_region")
+id = &"REG-038"
+display_name = "Palácio Adormecido"
+continent_id = &"CONT-04"
+description = "Região Gruta da Maré Eterna no continente CONT-04. Bioma eternal_surge_grotto, nível recomendado 46-56."
+biome = "eternal_surge_grotto"
+level_range = Vector2i(46, 56)
+connections = PackedStringArray("REG-037", "REG-039")
+boundaries = {
+"border_barrier": true,
+"center": Vector3(0, 0, 0),
+"radius": 120.0
+}
+lighting_profile = {
+"ambient_color": "#182236",
+"fog_color": "#1e2a44",
+"fog_density": 0.015,
+"fog_enabled": true,
+"sun_color": "#88c2e8",
+"sun_energy": 1.0
+}
+scene_path = "res://scenes/world/regions/palacio_adormecido.tscn"
+status = "full_production"
+points_of_interest = [{
+"description": "Assentamento e zona segura da região Gruta da Maré Eterna.",
+"discovery_xp": 100,
+"id": "poi_reg-038_city",
+"name": "Santuário dos Ecos Marinhos",
+"position": Vector3(0, 0, 0),
+"type": "city"
+}, {
+"description": "Entrada da masmorra Labirinto das Cavernas Alagadas (nível recomendado 46+).",
+"discovery_xp": 80,
+"id": "poi_reg-038_dung",
+"name": "Labirinto das Cavernas Alagadas",
+"position": Vector3(-50, 0, -40),
+"type": "dungeon"
+}, {
+"description": "Ponto de observação e marco de exploração de Gruta da Maré Eterna.",
+"discovery_xp": 60,
+"id": "poi_reg-038_landmark",
+"name": "Marco de Gruta da Maré Eterna",
+"position": Vector3(45, 3, 30),
+"type": "exploration"
+}, {
+"description": "Portal arcano conectado à rede de viagem rápida.",
+"discovery_xp": 50,
+"id": "poi_reg-038_portal",
+"name": "Portal de Gruta da Maré Eterna",
+"position": Vector3(30, 0, 20),
+"type": "portal"
+}]
+gates = [{
+"gate_id": "gate_north",
+"position": Vector3(0, 0, -95),
+"radius": 5.0,
+"target_region": "REG-037",
+"target_spawn": "gate_south"
+}, {
+"gate_id": "gate_south",
+"position": Vector3(0, 0, 95),
+"radius": 5.0,
+"target_region": "REG-039",
+"target_spawn": "gate_north"
+}]
+portals = [{
+"is_intercontinental": true,
+"portal_id": "portal_reg-038_hub",
+"position": Vector3(30, 0, 20),
+"target_region": "hell_forge",
+"target_spawn": "default"
+}]
+enemy_spawns = [{
+"count": 2,
+"demon_id": "DEMON-186",
+"position": Vector3(35, 0, -45),
+"radius": 6.0,
+"spawn_id": "spawn_demon-186"
+}, {
+"count": 2,
+"demon_id": "DEMON-187",
+"position": Vector3(-40, 0, 60),
+"radius": 6.0,
+"spawn_id": "spawn_demon-187"
+}, {
+"count": 2,
+"demon_id": "DEMON-188",
+"position": Vector3(-70, 0, -15),
+"radius": 6.0,
+"spawn_id": "spawn_demon-188"
+}, {
+"count": 4,
+"demon_id": "DEMON-189",
+"position": Vector3(20, 0, 65),
+"radius": 6.0,
+"spawn_id": "spawn_demon-189"
+}, {
+"count": 2,
+"demon_id": "DEMON-190",
+"position": Vector3(-30, 0, -75),
+"radius": 6.0,
+"spawn_id": "spawn_demon-190"
+}]
+boss_encounter_id = &""
+boss_arena = {}
+pending_assets = PackedStringArray()

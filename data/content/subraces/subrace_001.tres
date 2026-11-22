@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="SubraceData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/subrace_data.gd" id="1_sub"]
+
+[resource]
+script = ExtResource("1_sub")
+id = &"SUBRACE-001"
+display_name = "Sub-raça SUBRACE-001 (protótipo: chifruda)"
+parent_race_id = &"RACE-001"
+is_prototype = true
+pending_fields = PackedStringArray("display_name", "identity", "animations", "definitive_model")
+visual_overrides = {
+"head_tint": Color(0.62, 0.5, 0.34, 1.0),
+"accessories": PackedStringArray("horn"),
+"scale": 1.06
+}
+description = "Sub-raça A do protótipo: chifres no osso 'head' (peça PROVISÓRIA do construtor modular) e tinta de cabeça distinta. Nome e identidade PENDENTES de design."

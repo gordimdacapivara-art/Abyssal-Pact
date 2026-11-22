@@ -1,0 +1,187 @@
+[gd_scene load_steps=19 format=3]
+
+[ext_resource type="Script" path="res://scenes/testing/movement_playtest.gd" id="1_root"]
+[ext_resource type="Script" path="res://scenes/testing/probe_stone.gd" id="2_stone"]
+[ext_resource type="PackedScene" path="res://player/player.tscn" id="3_player"]
+
+[sub_resource type="BoxShape3D" id="shape_ground"]
+size = Vector3(44, 1, 44)
+
+[sub_resource type="BoxShape3D" id="shape_wall"]
+size = Vector3(8, 3, 0.7)
+
+[sub_resource type="BoxShape3D" id="shape_step1"]
+size = Vector3(3, 0.35, 1)
+
+[sub_resource type="BoxShape3D" id="shape_step2"]
+size = Vector3(3, 0.7, 1)
+
+[sub_resource type="BoxShape3D" id="shape_step3"]
+size = Vector3(3, 1.05, 1)
+
+[sub_resource type="BoxShape3D" id="shape_step4"]
+size = Vector3(3, 1.4, 1)
+
+[sub_resource type="BoxShape3D" id="shape_platform"]
+size = Vector3(5, 0.5, 6)
+
+[sub_resource type="BoxShape3D" id="shape_pillar"]
+size = Vector3(1.6, 8, 1.6)
+
+[sub_resource type="BoxShape3D" id="shape_cambox"]
+size = Vector3(2, 3, 2)
+
+[sub_resource type="BoxShape3D" id="shape_stone"]
+size = Vector3(0.6, 1.2, 0.6)
+
+[sub_resource type="BoxMesh" id="mesh_box"]
+size = Vector3(1, 1, 1)
+
+[sub_resource type="StandardMaterial3D" id="mat_ground"]
+albedo_color = Color(0.14, 0.13, 0.15, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="mat_obstacle"]
+albedo_color = Color(0.45, 0.16, 0.14, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="mat_platform"]
+albedo_color = Color(0.35, 0.33, 0.36, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="mat_stone"]
+albedo_color = Color(0.2, 0.2, 0.22, 1)
+roughness = 0.7
+
+; Geometria neutra de prova (sem lore). Sol orientado por script (_ready).
+
+[node name="MovementPlaytest" type="Node3D"]
+script = ExtResource("1_root")
+
+[node name="SunLight" type="DirectionalLight3D" parent="."]
+
+[node name="Ground" type="StaticBody3D" parent="."]
+
+[node name="Shape" type="CollisionShape3D" parent="Ground"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+shape = SubResource("shape_ground")
+
+[node name="Mesh" type="MeshInstance3D" parent="Ground"]
+transform = Transform3D(44, 0, 0, 0, 1, 0, 0, 0, 44, 0, -0.5, 0)
+mesh = SubResource("mesh_box")
+surface_material_override/0 = SubResource("mat_ground")
+
+[node name="Wall" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, -9)
+
+[node name="Shape" type="CollisionShape3D" parent="Wall"]
+shape = SubResource("shape_wall")
+
+[node name="Mesh" type="MeshInstance3D" parent="Wall"]
+transform = Transform3D(8, 0, 0, 0, 3, 0, 0, 0, 0.7, 0, 0, 0)
+mesh = SubResource("mesh_box")
+surface_material_override/0 = SubResource("mat_obstacle")
+
+[node name="Step1" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0.175, -4)
+
+[node name="Shape" type="CollisionShape3D" parent="Step1"]
+shape = SubResource("shape_step1")
+
+[node name="Mesh" type="MeshInstance3D" parent="Step1"]
+transform = Transform3D(3, 0, 0, 0, 0.35, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("mesh_box")
+surface_material_override/0 = SubResource("mat_platform")
+
+[node name="Step2" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0.35, -5)
+
+[node name="Shape" type="CollisionShape3D" parent="Step2"]
+shape = SubResource("shape_step2")
+
+[node name="Mesh" type="MeshInstance3D" parent="Step2"]
+transform = Transform3D(3, 0, 0, 0, 0.7, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("mesh_box")
+surface_material_override/0 = SubResource("mat_platform")
+
+[node name="Step3" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0.525, -6)
+
+[node name="Shape" type="CollisionShape3D" parent="Step3"]
+shape = SubResource("shape_step3")
+
+[node name="Mesh" type="MeshInstance3D" parent="Step3"]
+transform = Transform3D(3, 0, 0, 0, 1.05, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("mesh_box")
+surface_material_override/0 = SubResource("mat_platform")
+
+[node name="Step4" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0.7, -7)
+
+[node name="Shape" type="CollisionShape3D" parent="Step4"]
+shape = SubResource("shape_step4")
+
+[node name="Mesh" type="MeshInstance3D" parent="Step4"]
+transform = Transform3D(3, 0, 0, 0, 1.4, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("mesh_box")
+surface_material_override/0 = SubResource("mat_platform")
+
+[node name="Platform" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1.15, -10.5)
+
+[node name="Shape" type="CollisionShape3D" parent="Platform"]
+shape = SubResource("shape_platform")
+
+[node name="Mesh" type="MeshInstance3D" parent="Platform"]
+transform = Transform3D(5, 0, 0, 0, 0.5, 0, 0, 0, 6, 0, 0, 0)
+mesh = SubResource("mesh_box")
+surface_material_override/0 = SubResource("mat_platform")
+
+[node name="Pillar" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 4, -14)
+
+[node name="Shape" type="CollisionShape3D" parent="Pillar"]
+shape = SubResource("shape_pillar")
+
+[node name="Mesh" type="MeshInstance3D" parent="Pillar"]
+transform = Transform3D(1.6, 0, 0, 0, 8, 0, 0, 0, 1.6, 0, 0, 0)
+mesh = SubResource("mesh_box")
+surface_material_override/0 = SubResource("mat_stone")
+
+[node name="CameraObstacle" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 10.5)
+
+[node name="Shape" type="CollisionShape3D" parent="CameraObstacle"]
+shape = SubResource("shape_cambox")
+
+[node name="Mesh" type="MeshInstance3D" parent="CameraObstacle"]
+transform = Transform3D(2, 0, 0, 0, 3, 0, 0, 0, 2, 0, 0, 0)
+mesh = SubResource("mesh_box")
+surface_material_override/0 = SubResource("mat_stone")
+
+[node name="ProbeStone" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.7, 4.2)
+script = ExtResource("2_stone")
+
+[node name="Shape" type="CollisionShape3D" parent="ProbeStone"]
+shape = SubResource("shape_stone")
+
+[node name="Mesh" type="MeshInstance3D" parent="ProbeStone"]
+transform = Transform3D(0.6, 0, 0, 0, 1.2, 0, 0, 0, 0.6, 0, 0, 0)
+mesh = SubResource("mesh_box")
+surface_material_override/0 = SubResource("mat_stone")
+
+[node name="SpawnPoint" type="Marker3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2, 6)
+
+[node name="Player" parent="." instance=ExtResource("3_player")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05, 6)
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="Status" type="Label" parent="HUD"]
+offset_left = 12.0
+offset_top = 8.0
+offset_right = 720.0
+offset_bottom = 200.0
+text = "playground"

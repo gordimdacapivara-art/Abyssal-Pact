@@ -1,0 +1,128 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scenes/ui/hud/azaroth_cinematic_alert.gd" id="1_alert"]
+
+[node name="AzarothCinematicAlert" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 24.0
+offset_top = 24.0
+offset_right = 484.0
+offset_bottom = 264.0
+script = ExtResource("1_alert")
+
+[node name="Panel" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBox" type="VBoxContainer" parent="Panel"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Header" type="HBoxContainer" parent="Panel/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="CrestIcon" type="Label" parent="Panel/VBox/Header"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "💀"
+
+[node name="HeaderTitle" type="Label" parent="Panel/VBox/Header"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 0.45, 0.2, 1)
+theme_override_font_sizes/font_size = 13
+text = "⚠️ AMEAÇA ABISSAL IMINENTE"
+
+[node name="MessageLabel" type="Label" parent="Panel/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.95, 0.9, 0.85, 1)
+theme_override_font_sizes/font_size = 12
+text = "AZAROTH E SEU EXÉRCITO IRÃO INVADIR EM BREVE AS TERRAS DE CINZÁLIA, VEYRATH."
+autowrap_mode = 3
+
+[node name="HSeparator" type="HSeparator" parent="Panel/VBox"]
+layout_mode = 2
+
+[node name="InfoGrid" type="GridContainer" parent="Panel/VBox"]
+layout_mode = 2
+theme_override_constants/h_separation = 12
+theme_override_constants/v_separation = 4
+columns = 2
+
+[node name="RegionKey" type="Label" parent="Panel/VBox/InfoGrid"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7, 0.7, 0.7, 1)
+theme_override_font_sizes/font_size = 11
+text = "Região:"
+
+[node name="RegionVal" type="Label" parent="Panel/VBox/InfoGrid"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.85, 0.5, 1)
+theme_override_font_sizes/font_size = 11
+text = "Cinzália (REG-001)"
+
+[node name="ContinentKey" type="Label" parent="Panel/VBox/InfoGrid"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7, 0.7, 0.7, 1)
+theme_override_font_sizes/font_size = 11
+text = "Continente:"
+
+[node name="ContinentVal" type="Label" parent="Panel/VBox/InfoGrid"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.85, 0.5, 1)
+theme_override_font_sizes/font_size = 11
+text = "Veyrath"
+
+[node name="TimeKey" type="Label" parent="Panel/VBox/InfoGrid"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7, 0.7, 0.7, 1)
+theme_override_font_sizes/font_size = 11
+text = "Previsão:"
+
+[node name="TimeVal" type="Label" parent="Panel/VBox/InfoGrid"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.4, 0.3, 1)
+theme_override_font_sizes/font_size = 11
+text = "01:00:00 restantes"
+
+[node name="CoordsKey" type="Label" parent="Panel/VBox/InfoGrid"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7, 0.7, 0.7, 1)
+theme_override_font_sizes/font_size = 11
+text = "Coordenadas:"
+
+[node name="CoordsVal" type="Label" parent="Panel/VBox/InfoGrid"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8, 0.8, 0.9, 1)
+theme_override_font_sizes/font_size = 11
+text = "X: 0, Y: 0, Z: -50"
+
+[node name="Actions" type="HBoxContainer" parent="Panel/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="LocateButton" type="Button" parent="Panel/VBox/Actions"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 11
+text = "🗺️ LOCALIZAR NO MAPA"
+
+[node name="DismissButton" type="Button" parent="Panel/VBox/Actions"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 11
+text = "✖ MINIMIZAR"
+
+[node name="Badge" type="Button" parent="."]
+visible = false
+layout_mode = 0
+offset_right = 230.0
+offset_bottom = 34.0
+theme_override_colors/font_color = Color(1, 0.8, 0.3, 1)
+theme_override_font_sizes/font_size = 11
+text = "🔥 AMEAÇA: AZAROTH (60m)"

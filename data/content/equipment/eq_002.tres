@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="EquipmentData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/equipment_data.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+id = &"EQ-002"
+display_name = "Cajado do Vazio Vulcânico"
+description = "Cajado esculpido em obsidiana pura que canaliza energias do núcleo cáustico."
+category = &"equipment"
+slot = &"weapon"
+equipment_type = &"weapon"
+rarity = &"rare"
+stats = {
+"attack": 14,
+"magic_power": 32,
+"max_mana": 40
+}
+use_effect = {}
+value = 180
+max_stack = 1

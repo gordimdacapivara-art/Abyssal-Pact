@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="EquipmentData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/equipment_data.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+id = &"EQ-018"
+display_name = "Relíquia da Hell Forge"
+description = "Artefato primordial pulsante de poder demoníaco que amplifica pactos abissais."
+category = &"relic"
+slot = &"none"
+equipment_type = &"none"
+rarity = &"legendary"
+stats = {
+"all_attributes": 12,
+"abyssal_resonance": 25
+}
+use_effect = {}
+value = 800
+max_stack = 1

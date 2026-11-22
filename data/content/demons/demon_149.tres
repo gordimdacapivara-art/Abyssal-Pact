@@ -1,0 +1,65 @@
+[gd_resource type="Resource" script_class="DemonData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/demon_data.gd" id="1_demon"]
+
+[resource]
+script = ExtResource("1_demon")
+id = &"DEMON-149"
+display_name = "Criatura DEMON-149 - flyer (editorial)"
+description = "Criatura regional editorial da familia flyer no continente Khar-Duum (REG-030). Nome canonico, silhueta, lore e modelo GLB PENDENTES de design (DEMON_BESTIARY.md). Placeholder identificado em enemies/creature.tscn."
+continent_id = &"CONT-03"
+region_id = &"REG-030"
+family = &"flyer"
+category = &"regional"
+rarity = &"elite"
+stats = {
+"max_health": 208,
+"damage": 22,
+"defense": 1.05,
+"move_speed": 3.6,
+"attack_range": 5,
+"attack_cooldown": 2.2,
+"xp_reward": 32,
+"gold_reward": 19
+}
+resistances = {
+"physical": 1,
+"abyssal": 0.9,
+"fire": 1
+}
+ability_ids = PackedStringArray("ABIL-DEM-FLYER")
+rewards = {
+"xp": 32,
+"gold": 19,
+"items": PackedStringArray()
+}
+model_path = "res://assets/models/demons/demon_149.glb"
+model_pending = true
+placeholder_scene = "res://enemies/creature.tscn"
+animations = {
+"idle": "idle",
+"walk": "walk",
+"attack": "attack",
+"hurt": "hurt",
+"death": "death",
+"clip_source": "char_ref_humanoid (PROVISORIO)"
+}
+ai = {
+"perception_radius": 15,
+"fov_degrees": 150,
+"aggro_radius": 8,
+"deaggro_radius": 16,
+"leash_radius": 25.0,
+"patrol_radius": 6.0,
+"move_speed": 3.6,
+"chase_speed": 4.5,
+"attack_range": 5,
+"attack_cooldown": 2.2,
+"defend_chance": 0.25,
+"defend_duration": 1.2,
+"stunned_duration": 0.6,
+"respawn_seconds": 45,
+"respawn_enabled": true,
+"return_speed": 3.96,
+"states": PackedStringArray("idle", "patrol", "alert", "chase", "attack", "defend", "stunned", "return", "death")
+}

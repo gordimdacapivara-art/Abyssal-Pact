@@ -1,0 +1,59 @@
+[gd_resource type="Resource" script_class="ClassData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/class_data.gd" id="1_class"]
+
+[resource]
+script = ExtResource("1_class")
+id = &"CLASS-001"
+display_name = "Arcanista"
+group_id = &"CLASS-GROUP-01"
+identity = "Conduz o véu abissal como cântico e estilhaço (fantasia PROVISÓRIA do protótipo)."
+is_prototype = true
+pending_fields = PackedStringArray("role_tags", "specializations", "unlocks", "animations", "vfx", "tuning")
+base_attributes = {
+"health": 90.0,
+"mana": 110.0,
+"might": 6.0,
+"spell_power": 14.0,
+"defense": 4.0,
+"speed_ratio": 1.0
+}
+ability_ids = PackedStringArray("ABIL-ARC-01", "ABIL-ARC-02", "ABIL-ARC-11", "ABIL-ARC-12")
+active_ability_ids = PackedStringArray("ABIL-ARC-01", "ABIL-ARC-02")
+passive_ability_ids = PackedStringArray("ABIL-ARC-11", "ABIL-ARC-12")
+skill_tree = [{
+"node_id": "node-arc-01",
+"tier": 1,
+"ability_id": "ABIL-ARC-01",
+"requires": [],
+"unlocks_at_level": 1
+}, {
+"node_id": "node-arc-02",
+"tier": 1,
+"ability_id": "ABIL-ARC-11",
+"requires": [],
+"unlocks_at_level": 1
+}, {
+"node_id": "node-arc-03",
+"tier": 2,
+"ability_id": "ABIL-ARC-02",
+"requires": ["node-arc-01"],
+"unlocks_at_level": 3
+}, {
+"node_id": "node-arc-04",
+"tier": 2,
+"ability_id": "ABIL-ARC-12",
+"requires": ["node-arc-02"],
+"unlocks_at_level": 5
+}]
+progression = {
+"max_level": 60,
+"xp_base": 40.0,
+"xp_growth": 1.35,
+"unlock_schedule": {
+"1": ["ABIL-ARC-01", "ABIL-ARC-11"],
+"3": ["ABIL-ARC-02"],
+"5": ["ABIL-ARC-12"]
+}
+}
+description = "PROTÓTIPO FUNCIONAL de referência: classe completa com habilidades demonstráveis (2 ativas + 1 passiva demonstrável + 1 passiva reservada), atributos iniciais, árvore e progressão. Papel em grupo, especializações, requisitos e dependências de arte PENDENTES de design."

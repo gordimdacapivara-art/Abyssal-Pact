@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="AbilityData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/ability_data.gd" id="1_ability"]
+
+[resource]
+script = ExtResource("1_ability")
+id = &"ABIL-DEM-SENTINEL"
+display_name = "Onda de Choque (editorial)"
+kind = &"special"
+class_id = &""
+description = "Ataque em área de família sentinela, compartilhado pelas criaturas regionais dessa família."
+pending = false
+cooldown = 4
+cast_time = 0.5
+range_m = 3.5
+target_mode = &"burst_area"
+cost = 0.0
+cost_resource = &"none"
+damage = 15
+damage_type = &"abyssal"
+animation = &"attack"
+vfx = &"FX-DEM-SENTINEL"

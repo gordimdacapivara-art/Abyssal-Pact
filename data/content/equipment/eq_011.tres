@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="EquipmentData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/equipment_data.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+id = &"EQ-011"
+display_name = "Selo de Basalto"
+description = "Anel esculpido na rocha matriz dos cânions de Khar-Duum."
+category = &"equipment"
+slot = &"ring2"
+equipment_type = &"accessory_ring"
+rarity = &"uncommon"
+stats = {
+"defense": 12,
+"health_regen": 4
+}
+use_effect = {}
+value = 130
+max_stack = 1

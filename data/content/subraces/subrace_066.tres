@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="SubraceData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/subrace_data.gd" id="1_sub"]
+
+[resource]
+script = ExtResource("1_sub")
+id = &"SUBRACE-066"
+display_name = "Sub-raÃ§a SUBRACE-066 (pendente de design)"
+parent_race_id = &"RACE-033"
+is_prototype = false
+pending_fields = PackedStringArray("display_name", "identity", "visual_overrides", "animations")
+description = "Registro editorial de capacidade; identidade e diferenÃ§as visuais PENDENTES de design (RACES_AND_SUBRACES.md)."

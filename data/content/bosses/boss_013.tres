@@ -1,0 +1,115 @@
+[gd_resource type="Resource" script_class="BossData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/boss_data.gd" id="1_boss"]
+
+[resource]
+script = ExtResource("1_boss")
+id = &"BOSS-013"
+display_name = "Chefe BOSS-013 (editorial)"
+description = "Chefe demoniaco editorial do continente Sylvaran (REG-015), com 3 fases de combate, habilidades compartilhadas de chefe, interface dedicada e entrada cinematografica. Nome, lore, arena definitiva e modelo GLB PENDENTES de design (BOSS_CATALOG.md). Placeholder identificado em enemies/boss.tscn."
+narrative_identity = "Identidade narrativa PENDENTE de design (BOSS_CATALOG.md). Registro editorial BOSS-013 sem lore inventada."
+continent_id = &"CONT-02"
+region_id = &"REG-015"
+arena = {
+"name": "Arena BOSS-013 (provisoria)",
+"radius": 18.0,
+"hazards": PackedStringArray("hazard_pending"),
+"entrance_marker": "arena_entry"
+}
+category = &"boss"
+rarity = &"boss_elite"
+stats = {
+"max_health": 3360,
+"damage": 66,
+"defense": 0.6,
+"move_speed": 2.6,
+"attack_range": 3.5,
+"attack_cooldown": 3.0,
+"xp_reward": 760,
+"gold_reward": 380
+}
+resistances = {
+"physical": 0.7,
+"abyssal": 0.6,
+"fire": 0.9
+}
+ability_ids = PackedStringArray("ABIL-BOSS-SLAM", "ABIL-BOSS-BEAM", "ABIL-BOSS-HAZARD", "ABIL-BOSS-SUMMON", "ABIL-BOSS-ENRAGE")
+special_abilities = PackedStringArray("ABIL-BOSS-SLAM", "ABIL-BOSS-BEAM", "ABIL-BOSS-HAZARD", "ABIL-BOSS-SUMMON", "ABIL-BOSS-ENRAGE")
+phases = [{
+"index": 1,
+"at_health_pct": 1.0,
+"behavior": "ground_pressure",
+"abilities": PackedStringArray("ABIL-BOSS-SLAM"),
+"animation": "phase_1"
+}, {
+"index": 2,
+"at_health_pct": 0.66,
+"behavior": "mixed_pressure",
+"abilities": PackedStringArray("ABIL-BOSS-SLAM", "ABIL-BOSS-BEAM", "ABIL-BOSS-HAZARD"),
+"animation": "phase_2"
+}, {
+"index": 3,
+"at_health_pct": 0.33,
+"behavior": "enraged",
+"abilities": PackedStringArray("ABIL-BOSS-SLAM", "ABIL-BOSS-BEAM", "ABIL-BOSS-HAZARD", "ABIL-BOSS-SUMMON", "ABIL-BOSS-ENRAGE"),
+"animation": "phase_3"
+}]
+phase_count = 3
+exclusive_animations = {
+"entrance": "boss_entrance",
+"phase_2": "boss_phase_2",
+"phase_3": "boss_phase_3",
+"cast": "boss_cast",
+"death": "boss_death",
+"clip_source": "PENDENTE (nenhum GLB de chefe existe)"
+}
+boss_ui = {
+"bar_style": "segmented",
+"name_color": "#c9a227",
+"phase_markers": true,
+"show_cast_bar": true
+}
+entrance = {
+"cinematic": true,
+"duration_seconds": 3.0,
+"camera_move": "dolly_in",
+"title_card": "Chefe BOSS-013 (editorial)"
+}
+defeat_conditions = PackedStringArray("health_zero")
+rewards = {
+"xp": 760,
+"gold": 380,
+"items": PackedStringArray(),
+"unlocks": PackedStringArray("BOSS-013-unlock (pendente)")
+}
+model_path = "res://assets/models/bosses/boss_013.glb"
+model_pending = true
+placeholder_scene = "res://enemies/boss.tscn"
+animations = {
+"idle": "idle",
+"walk": "walk",
+"attack": "attack",
+"hurt": "hurt",
+"death": "death",
+"clip_source": "char_ref_humanoid (PROVISORIO)"
+}
+ai = {
+"perception_radius": 20,
+"fov_degrees": 180,
+"aggro_radius": 14,
+"deaggro_radius": 30,
+"leash_radius": 22,
+"patrol_radius": 0.0,
+"move_speed": 2.6,
+"chase_speed": 3.1,
+"attack_range": 3.5,
+"attack_cooldown": 3.0,
+"defend_chance": 0.3,
+"defend_duration": 1.5,
+"stunned_duration": 0.4,
+"respawn_seconds": 0,
+"respawn_enabled": false,
+"return_speed": 2.8,
+"states": PackedStringArray("idle", "alert", "chase", "attack", "defend", "stunned", "return", "death"),
+"phase_driven": true
+}

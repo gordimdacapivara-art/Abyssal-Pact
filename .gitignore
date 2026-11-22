@@ -1,0 +1,17 @@
+# Godot 4+ ignore rules
+.godot/
+
+# Godot-specific export / build ignores
+*.translation
+
+# Mono / C# ignores (if applicable)
+.mono/
+data_*/
+mono_crash.*.json
+
+# System & Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log

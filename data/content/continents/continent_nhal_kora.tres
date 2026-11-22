@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ContinentData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/continent_data.gd" id="1_cont"]
+
+[resource]
+script = ExtResource("1_cont")
+id = &"CONT-04"
+display_name = "Nhal'Kora"
+description = "Continente costeiro de recifes negros, falésias espectrais e fossas oceânicas conectadas ao abismo primordial. Águas escuras e névoas bioluminescentes banham ruínas afogadas."
+theme = "abyssal_dark_coasts"
+region_ids = PackedStringArray("REG-031", "REG-032", "REG-033", "REG-034", "REG-035", "REG-036", "REG-037", "REG-038", "REG-039", "REG-040")
+capital_region_id = &"REG-031"
+climate = "subzero_toxic_tides"
+pending_assets = PackedStringArray("model_glb_nhal_kora_sea_spires", "model_glb_drowned_citadel", "audio_ambient_abyssal_surges")

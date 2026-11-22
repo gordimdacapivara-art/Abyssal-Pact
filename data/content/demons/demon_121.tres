@@ -1,0 +1,65 @@
+[gd_resource type="Resource" script_class="DemonData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/demon_data.gd" id="1_demon"]
+
+[resource]
+script = ExtResource("1_demon")
+id = &"DEMON-121"
+display_name = "Criatura DEMON-121 - brute (editorial)"
+description = "Criatura regional editorial da familia brute no continente Khar-Duum (REG-025). Nome canonico, silhueta, lore e modelo GLB PENDENTES de design (DEMON_BESTIARY.md). Placeholder identificado em enemies/creature.tscn."
+continent_id = &"CONT-03"
+region_id = &"REG-025"
+family = &"brute"
+category = &"regional"
+rarity = &"common"
+stats = {
+"max_health": 220,
+"damage": 16,
+"defense": 0.75,
+"move_speed": 2.2,
+"attack_range": 2.5,
+"attack_cooldown": 2.5,
+"xp_reward": 20,
+"gold_reward": 12
+}
+resistances = {
+"physical": 0.8,
+"abyssal": 1,
+"fire": 1.1
+}
+ability_ids = PackedStringArray("ABIL-DEM-BRUTE")
+rewards = {
+"xp": 20,
+"gold": 12,
+"items": PackedStringArray()
+}
+model_path = "res://assets/models/demons/demon_121.glb"
+model_pending = true
+placeholder_scene = "res://enemies/creature.tscn"
+animations = {
+"idle": "idle",
+"walk": "walk",
+"attack": "attack",
+"hurt": "hurt",
+"death": "death",
+"clip_source": "char_ref_humanoid (PROVISORIO)"
+}
+ai = {
+"perception_radius": 12,
+"fov_degrees": 120,
+"aggro_radius": 8,
+"deaggro_radius": 16,
+"leash_radius": 25.0,
+"patrol_radius": 6.0,
+"move_speed": 2.2,
+"chase_speed": 2.75,
+"attack_range": 2.5,
+"attack_cooldown": 2.5,
+"defend_chance": 0.35,
+"defend_duration": 1.2,
+"stunned_duration": 0.6,
+"respawn_seconds": 20,
+"respawn_enabled": true,
+"return_speed": 2.42,
+"states": PackedStringArray("idle", "patrol", "alert", "chase", "attack", "defend", "stunned", "return", "death")
+}

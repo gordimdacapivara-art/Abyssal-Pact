@@ -1,0 +1,79 @@
+[gd_scene load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://player/player_controller.gd" id="1_ctrl"]
+[ext_resource type="Script" path="res://player/player_camera_rig.gd" id="2_rig"]
+[ext_resource type="Script" path="res://player/interaction_sensor.gd" id="3_sensor"]
+[ext_resource type="Script" path="res://player/player_animator.gd" id="4_anim"]
+
+[sub_resource type="CapsuleShape3D" id="cap_shape"]
+radius = 0.35
+height = 1.7
+
+[sub_resource type="CapsuleMesh" id="cap_mesh"]
+radius = 0.35
+height = 1.7
+
+[sub_resource type="StandardMaterial3D" id="mat_body"]
+albedo_color = Color(0.16, 0.15, 0.18, 1)
+roughness = 0.8
+
+[sub_resource type="BoxMesh" id="mark_mesh"]
+size = Vector3(0.1, 0.1, 0.12)
+
+[sub_resource type="StandardMaterial3D" id="mat_mark"]
+albedo_color = Color(0.85, 0.25, 0.2, 1)
+
+[sub_resource type="SphereShape3D" id="sensor_shape"]
+radius = 2.2
+
+; Modelo PROVISÓRIO (cápsula + marca de face): substituir ModelRoot pelo GLB
+; definitivo preservando os nomes de clipe do contrato (player_animator.gd).
+; Animação: AnimationPlayer/AnimationTree vazios — o PlayerAnimator opera os
+; dois quando os clipes existirem.
+
+[node name="Player" type="CharacterBody3D"]
+collision_layer = 2
+collision_mask = 1
+script = ExtResource("1_ctrl")
+
+[node name="Collision" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.85, 0)
+shape = SubResource("cap_shape")
+
+[node name="ModelRoot" type="Node3D" parent="."]
+
+[node name="Body" type="MeshInstance3D" parent="ModelRoot"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.85, 0)
+mesh = SubResource("cap_mesh")
+surface_material_override/0 = SubResource("mat_body")
+
+[node name="FaceMark" type="MeshInstance3D" parent="ModelRoot"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.45, -0.3)
+mesh = SubResource("mark_mesh")
+surface_material_override/0 = SubResource("mat_mark")
+
+[node name="Animator" type="Node" parent="."]
+script = ExtResource("4_anim")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[node name="AnimationTree" type="AnimationTree" parent="."]
+
+[node name="CameraRig" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.55, 0)
+script = ExtResource("2_rig")
+
+[node name="SpringArm3D" type="SpringArm3D" parent="CameraRig"]
+collision_mask = 1
+spring_length = 4.2
+margin = 0.25
+
+[node name="Camera3D" type="Camera3D" parent="CameraRig/SpringArm3D"]
+fov = 70.0
+
+[node name="InteractionSensor" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
+script = ExtResource("3_sensor")
+
+[node name="SensorShape" type="CollisionShape3D" parent="InteractionSensor"]
+shape = SubResource("sensor_shape")

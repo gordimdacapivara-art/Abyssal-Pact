@@ -1,0 +1,77 @@
+[gd_resource type="Resource" script_class="WorldBossData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/world_boss_data.gd" id="1_wb"]
+
+[resource]
+script = ExtResource("1_wb")
+id = &"WB-AZAROTH"
+display_name = "Azaroth, o Devorador de Reinos"
+title = "Titã Abissal Primordial"
+description = "O único World Boss global de Abyssal Pact. Um titã cósmico de fogo e sombras abissais que emerge ciclicamente a cada 5 horas para devorar a essência do mundo."
+max_health = 1000000.0
+attack_power = 850.0
+defense = 450.0
+move_speed = 6.5
+phases = [{
+"abilities": PackedStringArray("ABIL_AZAROTH_TECTONIC_SLAM", "ABIL_AZAROTH_ABYSSAL_RIFT"),
+"animation": "slam_tectonic",
+"army_command": "patrol_flank",
+"at_health_pct": 1.0,
+"attack_cooldown": 4.0,
+"behavior": &"tectonic_awakening",
+"damage_mult": 1.0,
+"description": "Azaroth emerge da fenda dimensional desferindo ondas de choque tectônicas e comandando patrulhas de infantaria.",
+"index": 1,
+"name": "Ascensão da Fenda",
+"speed_mult": 1.0,
+"telegraph_duration": 2.2
+}, {
+"abilities": PackedStringArray("ABIL_AZAROTH_TECTONIC_SLAM", "ABIL_AZAROTH_ABYSSAL_BEAM", "ABIL_AZAROTH_MAGMA_RAIN"),
+"animation": "beam_sweep",
+"army_command": "summon_superiors",
+"at_health_pct": 0.75,
+"attack_cooldown": 3.2,
+"behavior": &"volcanic_eruption",
+"damage_mult": 1.2,
+"description": "Chamas abissais inflamam o titã, disparando feixes cósmicos, chuvas de magma e convocando comandantes superiores.",
+"index": 2,
+"name": "Fúria Vulcânica",
+"speed_mult": 1.1,
+"telegraph_duration": 1.8
+}, {
+"abilities": PackedStringArray("ABIL_AZAROTH_CHAOS_VORTEX", "ABIL_AZAROTH_VOID_NOVA", "ABIL_AZAROTH_ABYSSAL_BEAM"),
+"animation": "channel_vortex",
+"army_command": "accelerate_primordials",
+"at_health_pct": 0.5,
+"attack_cooldown": 2.5,
+"behavior": &"chaos_vortex",
+"damage_mult": 1.35,
+"description": "Vórtices de matéria escura atraem os jogadores enquanto fendas aceleradas liberam colossos primordiais.",
+"index": 3,
+"name": "Tempestade do Caos",
+"speed_mult": 1.2,
+"telegraph_duration": 1.5
+}, {
+"abilities": PackedStringArray("ABIL_AZAROTH_CATACLYSMIC_DEVOUR", "ABIL_AZAROTH_APOCALYPTIC_BARRAGE", "ABIL_AZAROTH_TECTONIC_SLAM", "ABIL_AZAROTH_VOID_NOVA"),
+"animation": "enrage_roar",
+"army_command": "army_frenzy",
+"at_health_pct": 0.25,
+"attack_cooldown": 1.8,
+"behavior": &"primordial_enrage",
+"damage_mult": 1.6,
+"description": "Enrage primordial total: canalização apocalíptica contínua e todo o exército em investida frenética suicida.",
+"index": 4,
+"name": "O Devorador Despertado",
+"speed_mult": 1.35,
+"telegraph_duration": 1.2
+}]
+ability_ids = PackedStringArray("ABIL_AZAROTH_TECTONIC_SLAM", "ABIL_AZAROTH_ABYSSAL_RIFT", "ABIL_AZAROTH_ABYSSAL_BEAM", "ABIL_AZAROTH_MAGMA_RAIN", "ABIL_AZAROTH_CHAOS_VORTEX", "ABIL_AZAROTH_VOID_NOVA", "ABIL_AZAROTH_CATACLYSMIC_DEVOUR", "ABIL_AZAROTH_APOCALYPTIC_BARRAGE")
+rewards = {
+"achievement_id": "ach_world_boss_azaroth_slain",
+"gold": 5000,
+"mythic_essence": "Essência do Devorador",
+"title": "Flagelo de Azaroth",
+"xp": 10000
+}
+arena_radius = 75.0
+scale_factor = 3.5

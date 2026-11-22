@@ -1,0 +1,46 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://scenes/testing/race_playtest.gd" id="1_root"]
+[ext_resource type="PackedScene" path="res://player/player.tscn" id="2_player"]
+
+[sub_resource type="BoxShape3D" id="shape_ground"]
+size = Vector3(30, 1, 30)
+
+[sub_resource type="BoxMesh" id="mesh_ground"]
+size = Vector3(30, 1, 30)
+
+[sub_resource type="StandardMaterial3D" id="mat_ground"]
+albedo_color = Color(0.14, 0.13, 0.15, 1)
+roughness = 0.9
+
+[node name="RacePlaytest" type="Node3D"]
+script = ExtResource("1_root")
+
+[node name="SunLight" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.5, 0.87, 0, -0.87, 0.5, 0, 8, 4)
+
+[node name="Ground" type="StaticBody3D" parent="."]
+
+[node name="Shape" type="CollisionShape3D" parent="Ground"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+shape = SubResource("shape_ground")
+
+[node name="Mesh" type="MeshInstance3D" parent="Ground"]
+transform = Transform3D(30, 0, 0, 0, 1, 0, 0, 0, 30, 0, -0.5, 0)
+mesh = SubResource("mesh_ground")
+surface_material_override/0 = SubResource("mat_ground")
+
+[node name="Preview" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3)
+
+[node name="Player" parent="." instance=ExtResource("2_player")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05, 5)
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="Status" type="Label" parent="HUD"]
+offset_left = 12.0
+offset_top = 8.0
+offset_right = 780.0
+offset_bottom = 220.0
+text = "race playtest"

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="QuestData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/quest_data.gd" id="1_quest"]
+
+[resource]
+script = ExtResource("1_quest")
+id = &"QUEST-004"
+display_name = "Tesouros de Enxofre"
+description = "Explore as fendas de enxofre e resgate os pertences da caravana perdida."
+category = &"side"
+level_requirement = 4
+region_id = &"REG-002"
+class_id = &""
+race_id = &""
+rewards = {
+"xp": 180,
+"souls": 90
+}
+objectives = {
+"OBJ-001": {
+"description": "Encontrar Caixas de Suprimentos",
+"required": 3
+}
+}

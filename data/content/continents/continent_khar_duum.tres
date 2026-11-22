@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ContinentData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/continent_data.gd" id="1_cont"]
+
+[resource]
+script = ExtResource("1_cont")
+id = &"CONT-03"
+display_name = "Khar-Duum"
+description = "Continente desértico de cânions profundos, ossadas titânicas e ruínas ciclópicas de pedra talhada. Tempestades de areia cinzenta cobrem templos solares esquecidos."
+theme = "cyclopean_ash_desert"
+region_ids = PackedStringArray("REG-021", "REG-022", "REG-023", "REG-024", "REG-025", "REG-026", "REG-027", "REG-028", "REG-029", "REG-030")
+capital_region_id = &"REG-021"
+climate = "arid_bone_tempests"
+pending_assets = PackedStringArray("model_glb_khar_duum_megaliths", "model_glb_sand_temple", "audio_ambient_howling_canyons")

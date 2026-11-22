@@ -1,0 +1,123 @@
+[gd_resource type="Resource" script_class="RegionData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/region_data.gd" id="1_region"]
+
+[resource]
+script = ExtResource("1_region")
+id = &"REG-032"
+display_name = "Cidade Submersa de Gelo"
+continent_id = &"CONT-04"
+description = "Região Recife da Maré Negra no continente CONT-04. Bioma black_tide_reef, nível recomendado 32-42."
+biome = "black_tide_reef"
+level_range = Vector2i(32, 42)
+connections = PackedStringArray("REG-031", "REG-034")
+boundaries = {
+"border_barrier": true,
+"center": Vector3(0, 0, 0),
+"radius": 120.0
+}
+lighting_profile = {
+"ambient_color": "#182236",
+"fog_color": "#1e2a44",
+"fog_density": 0.015,
+"fog_enabled": true,
+"sun_color": "#88c2e8",
+"sun_energy": 1.0
+}
+scene_path = "res://scenes/world/regions/cidade_submersa_de_gelo.tscn"
+status = "full_production"
+points_of_interest = [{
+"description": "Assentamento e zona segura da região Recife da Maré Negra.",
+"discovery_xp": 100,
+"id": "poi_reg-032_city",
+"name": "Vila dos Pescadores Cegos",
+"position": Vector3(0, 0, 0),
+"type": "city"
+}, {
+"description": "Entrada da masmorra Covil do Coral Negro (nível recomendado 32+).",
+"discovery_xp": 80,
+"id": "poi_reg-032_dung",
+"name": "Covil do Coral Negro",
+"position": Vector3(-50, 0, -40),
+"type": "dungeon"
+}, {
+"description": "Ponto de observação e marco de exploração de Recife da Maré Negra.",
+"discovery_xp": 60,
+"id": "poi_reg-032_landmark",
+"name": "Marco de Recife da Maré Negra",
+"position": Vector3(45, 3, 30),
+"type": "exploration"
+}, {
+"description": "Recinto de combate onde habita o Chefe BOSS-025.",
+"discovery_xp": 150,
+"id": "poi_reg-032_boss_arena",
+"name": "Arena de BOSS-025",
+"position": Vector3(0, 0, -60),
+"type": "boss_arena"
+}, {
+"description": "Portal arcano conectado à rede de viagem rápida.",
+"discovery_xp": 50,
+"id": "poi_reg-032_portal",
+"name": "Portal de Recife da Maré Negra",
+"position": Vector3(30, 0, 20),
+"type": "portal"
+}]
+gates = [{
+"gate_id": "gate_north",
+"position": Vector3(0, 0, -95),
+"radius": 5.0,
+"target_region": "REG-031",
+"target_spawn": "gate_south"
+}, {
+"gate_id": "gate_south",
+"position": Vector3(0, 0, 95),
+"radius": 5.0,
+"target_region": "REG-034",
+"target_spawn": "gate_north"
+}]
+portals = [{
+"is_intercontinental": true,
+"portal_id": "portal_reg-032_hub",
+"position": Vector3(30, 0, 20),
+"target_region": "hell_forge",
+"target_spawn": "default"
+}]
+enemy_spawns = [{
+"count": 2,
+"demon_id": "DEMON-156",
+"position": Vector3(35, 0, -45),
+"radius": 6.0,
+"spawn_id": "spawn_demon-156"
+}, {
+"count": 2,
+"demon_id": "DEMON-157",
+"position": Vector3(-40, 0, 60),
+"radius": 6.0,
+"spawn_id": "spawn_demon-157"
+}, {
+"count": 2,
+"demon_id": "DEMON-158",
+"position": Vector3(-70, 0, -15),
+"radius": 6.0,
+"spawn_id": "spawn_demon-158"
+}, {
+"count": 4,
+"demon_id": "DEMON-159",
+"position": Vector3(20, 0, 65),
+"radius": 6.0,
+"spawn_id": "spawn_demon-159"
+}, {
+"count": 2,
+"demon_id": "DEMON-160",
+"position": Vector3(-30, 0, -75),
+"radius": 6.0,
+"spawn_id": "spawn_demon-160"
+}]
+boss_encounter_id = &"BOSS-025"
+boss_arena = {
+"arena_name": "Arena de BOSS-025",
+"hazards": PackedStringArray(),
+"position": Vector3(0, 0, -60),
+"radius": 18.0
+}
+pending_assets = PackedStringArray()

@@ -1,0 +1,123 @@
+[gd_resource type="Resource" script_class="RegionData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/region_data.gd" id="1_region"]
+
+[resource]
+script = ExtResource("1_region")
+id = &"REG-037"
+display_name = "Costa Boreal"
+continent_id = &"CONT-04"
+description = "Região Fiorde das Sombras no continente CONT-04. Bioma shadow_fjord, nível recomendado 44-54."
+biome = "shadow_fjord"
+level_range = Vector2i(44, 54)
+connections = PackedStringArray("REG-036", "REG-038")
+boundaries = {
+"border_barrier": true,
+"center": Vector3(0, 0, 0),
+"radius": 120.0
+}
+lighting_profile = {
+"ambient_color": "#182236",
+"fog_color": "#1e2a44",
+"fog_density": 0.015,
+"fog_enabled": true,
+"sun_color": "#88c2e8",
+"sun_energy": 1.0
+}
+scene_path = "res://scenes/world/regions/costa_boreal.tscn"
+status = "full_production"
+points_of_interest = [{
+"description": "Assentamento e zona segura da região Fiorde das Sombras.",
+"discovery_xp": 100,
+"id": "poi_reg-037_city",
+"name": "Fortaleza da Vigia Negra",
+"position": Vector3(0, 0, 0),
+"type": "city"
+}, {
+"description": "Entrada da masmorra Cidadela do Fiorde Profundo (nível recomendado 44+).",
+"discovery_xp": 80,
+"id": "poi_reg-037_dung",
+"name": "Cidadela do Fiorde Profundo",
+"position": Vector3(-50, 0, -40),
+"type": "dungeon"
+}, {
+"description": "Ponto de observação e marco de exploração de Fiorde das Sombras.",
+"discovery_xp": 60,
+"id": "poi_reg-037_landmark",
+"name": "Marco de Fiorde das Sombras",
+"position": Vector3(45, 3, 30),
+"type": "exploration"
+}, {
+"description": "Recinto de combate onde habita o Chefe BOSS-030.",
+"discovery_xp": 150,
+"id": "poi_reg-037_boss_arena",
+"name": "Arena de BOSS-030",
+"position": Vector3(0, 0, -60),
+"type": "boss_arena"
+}, {
+"description": "Portal arcano conectado à rede de viagem rápida.",
+"discovery_xp": 50,
+"id": "poi_reg-037_portal",
+"name": "Portal de Fiorde das Sombras",
+"position": Vector3(30, 0, 20),
+"type": "portal"
+}]
+gates = [{
+"gate_id": "gate_north",
+"position": Vector3(0, 0, -95),
+"radius": 5.0,
+"target_region": "REG-036",
+"target_spawn": "gate_south"
+}, {
+"gate_id": "gate_south",
+"position": Vector3(0, 0, 95),
+"radius": 5.0,
+"target_region": "REG-038",
+"target_spawn": "gate_north"
+}]
+portals = [{
+"is_intercontinental": true,
+"portal_id": "portal_reg-037_hub",
+"position": Vector3(30, 0, 20),
+"target_region": "hell_forge",
+"target_spawn": "default"
+}]
+enemy_spawns = [{
+"count": 2,
+"demon_id": "DEMON-181",
+"position": Vector3(35, 0, -45),
+"radius": 6.0,
+"spawn_id": "spawn_demon-181"
+}, {
+"count": 2,
+"demon_id": "DEMON-182",
+"position": Vector3(-40, 0, 60),
+"radius": 6.0,
+"spawn_id": "spawn_demon-182"
+}, {
+"count": 2,
+"demon_id": "DEMON-183",
+"position": Vector3(-70, 0, -15),
+"radius": 6.0,
+"spawn_id": "spawn_demon-183"
+}, {
+"count": 4,
+"demon_id": "DEMON-184",
+"position": Vector3(20, 0, 65),
+"radius": 6.0,
+"spawn_id": "spawn_demon-184"
+}, {
+"count": 2,
+"demon_id": "DEMON-185",
+"position": Vector3(-30, 0, -75),
+"radius": 6.0,
+"spawn_id": "spawn_demon-185"
+}]
+boss_encounter_id = &"BOSS-030"
+boss_arena = {
+"arena_name": "Arena de BOSS-030",
+"hazards": PackedStringArray(),
+"position": Vector3(0, 0, -60),
+"radius": 18.0
+}
+pending_assets = PackedStringArray()

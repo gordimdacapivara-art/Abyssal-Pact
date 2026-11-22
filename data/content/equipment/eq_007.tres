@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="EquipmentData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/equipment_data.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+id = &"EQ-007"
+display_name = "Perneiras de Obsidiana"
+description = "Grevas articuladas que conferem mobilidade e proteção consistente."
+category = &"equipment"
+slot = &"legs"
+equipment_type = &"armor_legs"
+rarity = &"uncommon"
+stats = {
+"defense": 14,
+"max_stamina": 20
+}
+use_effect = {}
+value = 110
+max_stack = 1

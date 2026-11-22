@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="QuestData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/quest_data.gd" id="1_quest"]
+
+[resource]
+script = ExtResource("1_quest")
+id = &"QUEST-008"
+display_name = "Provações de Combate"
+description = "Demonstre maestria em postura defensiva contra criaturas brutas."
+category = &"class"
+level_requirement = 5
+region_id = &"REG-001"
+class_id = &"CLASS-002"
+race_id = &""
+rewards = {
+"xp": 220,
+"souls": 110
+}
+objectives = {
+"OBJ-001": {
+"description": "Aparar Golpes Inimigos",
+"required": 3
+}
+}

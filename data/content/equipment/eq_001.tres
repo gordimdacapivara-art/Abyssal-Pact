@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="EquipmentData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/equipment_data.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+id = &"EQ-001"
+display_name = "Espada das Cinzas"
+description = "Lâmina forjada em aço vulcânico resfriado nas cinzas de Veyrath."
+category = &"equipment"
+slot = &"weapon"
+equipment_type = &"weapon"
+rarity = &"common"
+stats = {
+"attack": 18,
+"crit_chance": 5
+}
+use_effect = {}
+value = 45
+max_stack = 1

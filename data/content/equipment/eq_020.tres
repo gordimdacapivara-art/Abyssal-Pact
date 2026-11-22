@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="EquipmentData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/equipment_data.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+id = &"EQ-020"
+display_name = "Chave das Catacumbas"
+description = "Chave entalhada em ferro negro necessária para destravar os portões inferiores de Basalto."
+category = &"quest"
+slot = &"none"
+equipment_type = &"none"
+rarity = &"rare"
+stats = {}
+use_effect = {}
+value = 0
+max_stack = 1

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="QuestData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/quest_data.gd" id="1_quest"]
+
+[resource]
+script = ExtResource("1_quest")
+id = &"QUEST-001"
+display_name = "O Despertar da Hell Forge"
+description = "Desperte a forja ancestral e sele o primeiro pacto de vínculo abissal."
+category = &"main"
+level_requirement = 1
+region_id = &"REG-001"
+class_id = &""
+race_id = &""
+rewards = {
+"xp": 150,
+"souls": 80
+}
+objectives = {
+"OBJ-001": {
+"description": "Ativar o Altar Central da Hell Forge",
+"required": 2
+}
+}

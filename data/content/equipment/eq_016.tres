@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="EquipmentData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/equipment_data.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+id = &"EQ-016"
+display_name = "Essência de Cinzas"
+description = "Resíduo espiritual colhido das criaturas de cinzas de Veyrath."
+category = &"material"
+slot = &"none"
+equipment_type = &"none"
+rarity = &"uncommon"
+stats = {}
+use_effect = {}
+value = 30
+max_stack = 99

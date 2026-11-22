@@ -1,0 +1,123 @@
+[gd_resource type="Resource" script_class="RegionData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/region_data.gd" id="1_region"]
+
+[resource]
+script = ExtResource("1_region")
+id = &"REG-013"
+display_name = "Copa Celeste"
+continent_id = &"CONT-02"
+description = "Região Copas Ancestrais no continente CONT-02. Bioma ancient_canopy, nível recomendado 18-28."
+biome = "ancient_canopy"
+level_range = Vector2i(18, 28)
+connections = PackedStringArray("REG-011", "REG-015")
+boundaries = {
+"border_barrier": true,
+"center": Vector3(0, 0, 0),
+"radius": 120.0
+}
+lighting_profile = {
+"ambient_color": "#182a20",
+"fog_color": "#1f382b",
+"fog_density": 0.012,
+"fog_enabled": true,
+"sun_color": "#9be0b2",
+"sun_energy": 1.1
+}
+scene_path = "res://scenes/world/regions/copa_celeste.tscn"
+status = "full_production"
+points_of_interest = [{
+"description": "Assentamento e zona segura da região Copas Ancestrais.",
+"discovery_xp": 100,
+"id": "poi_reg-013_city",
+"name": "Aldeia das Pontes",
+"position": Vector3(0, 0, 0),
+"type": "city"
+}, {
+"description": "Entrada da masmorra Ninho dos Galhos (nível recomendado 18+).",
+"discovery_xp": 80,
+"id": "poi_reg-013_dung",
+"name": "Ninho dos Galhos",
+"position": Vector3(-50, 0, -40),
+"type": "dungeon"
+}, {
+"description": "Ponto de observação e marco de exploração de Copas Ancestrais.",
+"discovery_xp": 60,
+"id": "poi_reg-013_landmark",
+"name": "Marco de Copas Ancestrais",
+"position": Vector3(45, 3, 30),
+"type": "exploration"
+}, {
+"description": "Recinto de combate onde habita o Chefe BOSS-011.",
+"discovery_xp": 150,
+"id": "poi_reg-013_boss_arena",
+"name": "Arena de BOSS-011",
+"position": Vector3(0, 0, -60),
+"type": "boss_arena"
+}, {
+"description": "Portal arcano conectado à rede de viagem rápida.",
+"discovery_xp": 50,
+"id": "poi_reg-013_portal",
+"name": "Portal de Copas Ancestrais",
+"position": Vector3(30, 0, 20),
+"type": "portal"
+}]
+gates = [{
+"gate_id": "gate_north",
+"position": Vector3(0, 0, -95),
+"radius": 5.0,
+"target_region": "REG-011",
+"target_spawn": "gate_south"
+}, {
+"gate_id": "gate_south",
+"position": Vector3(0, 0, 95),
+"radius": 5.0,
+"target_region": "REG-015",
+"target_spawn": "gate_north"
+}]
+portals = [{
+"is_intercontinental": true,
+"portal_id": "portal_reg-013_hub",
+"position": Vector3(30, 0, 20),
+"target_region": "hell_forge",
+"target_spawn": "default"
+}]
+enemy_spawns = [{
+"count": 2,
+"demon_id": "DEMON-061",
+"position": Vector3(35, 0, -45),
+"radius": 6.0,
+"spawn_id": "spawn_demon-061"
+}, {
+"count": 2,
+"demon_id": "DEMON-062",
+"position": Vector3(-40, 0, 60),
+"radius": 6.0,
+"spawn_id": "spawn_demon-062"
+}, {
+"count": 2,
+"demon_id": "DEMON-063",
+"position": Vector3(-70, 0, -15),
+"radius": 6.0,
+"spawn_id": "spawn_demon-063"
+}, {
+"count": 4,
+"demon_id": "DEMON-064",
+"position": Vector3(20, 0, 65),
+"radius": 6.0,
+"spawn_id": "spawn_demon-064"
+}, {
+"count": 2,
+"demon_id": "DEMON-065",
+"position": Vector3(-30, 0, -75),
+"radius": 6.0,
+"spawn_id": "spawn_demon-065"
+}]
+boss_encounter_id = &"BOSS-011"
+boss_arena = {
+"arena_name": "Arena de BOSS-011",
+"hazards": PackedStringArray(),
+"position": Vector3(0, 0, -60),
+"radius": 18.0
+}
+pending_assets = PackedStringArray()

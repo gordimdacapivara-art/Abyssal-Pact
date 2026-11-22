@@ -1,0 +1,65 @@
+[gd_resource type="Resource" script_class="DemonData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/demon_data.gd" id="1_demon"]
+
+[resource]
+script = ExtResource("1_demon")
+id = &"DEMON-015"
+display_name = "Criatura DEMON-015 - caster (editorial)"
+description = "Criatura regional editorial da familia caster no continente Veyrath (REG-003). Nome canonico, silhueta, lore e modelo GLB PENDENTES de design (DEMON_BESTIARY.md). Placeholder identificado em enemies/creature.tscn."
+continent_id = &"CONT-01"
+region_id = &"REG-003"
+family = &"caster"
+category = &"regional"
+rarity = &"common"
+stats = {
+"max_health": 120,
+"damage": 15,
+"defense": 1.1,
+"move_speed": 2.4,
+"attack_range": 8,
+"attack_cooldown": 2,
+"xp_reward": 20,
+"gold_reward": 12
+}
+resistances = {
+"physical": 1.1,
+"abyssal": 0.7,
+"fire": 1
+}
+ability_ids = PackedStringArray("ABIL-DEM-CASTER")
+rewards = {
+"xp": 20,
+"gold": 12,
+"items": PackedStringArray()
+}
+model_path = "res://assets/models/demons/demon_015.glb"
+model_pending = true
+placeholder_scene = "res://enemies/creature.tscn"
+animations = {
+"idle": "idle",
+"walk": "walk",
+"attack": "attack",
+"hurt": "hurt",
+"death": "death",
+"clip_source": "char_ref_humanoid (PROVISORIO)"
+}
+ai = {
+"perception_radius": 16,
+"fov_degrees": 110,
+"aggro_radius": 8,
+"deaggro_radius": 16,
+"leash_radius": 25.0,
+"patrol_radius": 6.0,
+"move_speed": 2.4,
+"chase_speed": 3,
+"attack_range": 8,
+"attack_cooldown": 2,
+"defend_chance": 0.15,
+"defend_duration": 1.2,
+"stunned_duration": 0.6,
+"respawn_seconds": 20,
+"respawn_enabled": true,
+"return_speed": 2.64,
+"states": PackedStringArray("idle", "patrol", "alert", "chase", "attack", "defend", "stunned", "return", "death")
+}

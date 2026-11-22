@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="AbilityData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/ability_data.gd" id="1_ability"]
+
+[resource]
+script = ExtResource("1_ability")
+id = &"ABIL-BOSS-BEAM"
+display_name = "Feixe Abissal (editorial)"
+kind = &"special"
+class_id = &""
+description = "Habilidade especial de chefe compartilhada: feixe à distância."
+pending = false
+cooldown = 8
+cast_time = 1
+range_m = 12
+target_mode = &"burst_area"
+cost = 0.0
+cost_resource = &"none"
+damage = 26
+damage_type = &"abyssal"
+animation = &"attack"
+vfx = &"FX-BOSS-BEAM"

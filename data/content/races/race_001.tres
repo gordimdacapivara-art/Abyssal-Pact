@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="RaceData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/race_data.gd" id="1_race"]
+
+[resource]
+script = ExtResource("1_race")
+id = &"RACE-001"
+display_name = "Raça RACE-001 (protótipo visual)"
+subrace_ids = PackedStringArray("SUBRACE-001", "SUBRACE-002")
+is_prototype = true
+pending_fields = PackedStringArray("display_name", "identity", "attributes", "class_compatibility", "animations", "definitive_model")
+visual_profile = {
+"body_type": "humanoid_shared",
+"model_glb": "res://assets/models/characters/reference/char_ref_humanoid.glb",
+"body_tint": Color(0.16, 0.15, 0.2, 1.0),
+"head_tint": Color(0.5, 0.44, 0.38, 1.0),
+"accessories": PackedStringArray(),
+"scale": 1.0,
+"special_structures": PackedStringArray()
+}
+description = "PROTÓTIPO FUNCIONAL de referência: raça com esqueleto humanoide COMPARTILHADO (char_ref_humanoid.glb do pipeline GLB) e duas sub-raças com diferenças visuais demonstráveis via construtor modular. Nome, identidade, atributos raciais (não presumidos), compatibilidade oficial com classes e modelo definitivo PENDENTES de design. Modelo atual é PROVISÓRIO (manequim do pipeline)."

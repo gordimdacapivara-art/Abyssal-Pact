@@ -1,0 +1,210 @@
+{
+  "total_recipes": 8,
+  "recipes": [
+    {
+      "recipe_id": "rec_sword_ashes",
+      "result_item": "WEP-001",
+      "result_name": "Espada das Cinzas",
+      "result_quantity": 1,
+      "station": "Hell Forge",
+      "level_required": 1,
+      "materials": [
+        {
+          "item_id": "mat_scrap_metal",
+          "name": "Sucata de Ferro Rústico",
+          "quantity": 8
+        },
+        {
+          "item_id": "mat_demon_essence_inf",
+          "name": "Essência Demoníaca Inferior",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_bone_splinter",
+          "name": "Lasca de Osso Monstruoso",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rec_axe_basalt",
+      "result_item": "WEP-011",
+      "result_name": "Machado Rúnico de Basalto",
+      "result_quantity": 1,
+      "station": "Hell Forge",
+      "level_required": 15,
+      "materials": [
+        {
+          "item_id": "mat_colossus_plate",
+          "name": "Placa de Rocha Tectônica",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_superior_demon_horn",
+          "name": "Chifre Rúnico Espiralado",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_abyssal_crystal_shard",
+          "name": "Estilhaço de Cristal Abissal",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "recipe_id": "rec_hammer_colossal",
+      "result_item": "WEP-021",
+      "result_name": "Martelo Colossal da Forja",
+      "result_quantity": 1,
+      "station": "Hell Forge",
+      "level_required": 25,
+      "materials": [
+        {
+          "item_id": "mat_colossus_rubble",
+          "name": "Cascilho de Basalto Maciço",
+          "quantity": 12
+        },
+        {
+          "item_id": "mat_titan_core",
+          "name": "Núcleo Sísmico de Titã",
+          "quantity": 1
+        },
+        {
+          "item_id": "mat_demon_essence_sup",
+          "name": "Essência Demoníaca Superior",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rec_spear_ashes",
+      "result_item": "WEP-031",
+      "result_name": "Lança das Cinzas Abissais",
+      "result_quantity": 1,
+      "station": "Hell Forge",
+      "level_required": 10,
+      "materials": [
+        {
+          "item_id": "mat_beast_fang",
+          "name": "Presa Afiada Bestial",
+          "quantity": 6
+        },
+        {
+          "item_id": "mat_corrupted_flesh",
+          "name": "Retalho de Carne Corrompida",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_abyssal_fragment",
+          "name": "Fragmento de Rocha Abissal",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rec_shield_black_iron",
+      "result_item": "WEP-091",
+      "result_name": "Escudo Torre de Ferro Negro",
+      "result_quantity": 1,
+      "station": "Hell Forge",
+      "level_required": 30,
+      "materials": [
+        {
+          "item_id": "mat_pure_abyssal_ore",
+          "name": "Minério Puro do Vazio Abissal",
+          "quantity": 6
+        },
+        {
+          "item_id": "mat_corrupted_carapace_sup",
+          "name": "Couraça de Demônio Superior",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_supreme_carapace_fragment",
+          "name": "Fragmento de Placa Soberana",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rec_primordial_annihilator",
+      "result_item": "WEP-005",
+      "result_name": "Montante da Forja Sombria (Mítico)",
+      "result_quantity": 1,
+      "station": "Hell Forge Mítica",
+      "level_required": 60,
+      "materials": [
+        {
+          "item_id": "mat_primordial_ingot_200",
+          "name": "Lingote de Éter Sólido e Ferro Estelar",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_primordial_core_200",
+          "name": "Coração do Primeiro Abismo",
+          "quantity": 1
+        },
+        {
+          "item_id": "mat_primordial_seal_200",
+          "name": "Selo do Soberano do Vácuo",
+          "quantity": 1
+        },
+        {
+          "item_id": "mat_demon_essence_supreme",
+          "name": "Essência Demoníaca Suprema",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "recipe_id": "rec_potion_abyssal_life",
+      "result_item": "EQ-012",
+      "result_name": "Elixir de Vida Abissal",
+      "result_quantity": 3,
+      "station": "Bancada de Alquimia",
+      "level_required": 5,
+      "materials": [
+        {
+          "item_id": "mat_beast_heart",
+          "name": "Coração Feroz",
+          "quantity": 1
+        },
+        {
+          "item_id": "mat_raw_meat",
+          "name": "Carne Crua de Caça",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_grave_dust",
+          "name": "Poeira de Cripta",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rec_flask_corrupted_mana",
+      "result_item": "EQ-013",
+      "result_name": "Frasco de Mana Corrompida",
+      "result_quantity": 3,
+      "station": "Bancada de Alquimia",
+      "level_required": 5,
+      "materials": [
+        {
+          "item_id": "mat_magic_dust",
+          "name": "Poeira de Cristal Encantado",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_condensed_ether",
+          "name": "Éter Condensado Líquido",
+          "quantity": 1
+        },
+        {
+          "item_id": "mat_spectral_essence",
+          "name": "Essência Espectral Frigente",
+          "quantity": 2
+        }
+      ]
+    }
+  ]
+}

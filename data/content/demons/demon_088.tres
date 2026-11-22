@@ -1,0 +1,65 @@
+[gd_resource type="Resource" script_class="DemonData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/demon_data.gd" id="1_demon"]
+
+[resource]
+script = ExtResource("1_demon")
+id = &"DEMON-088"
+display_name = "Criatura DEMON-088 - swarm (editorial)"
+description = "Criatura regional editorial da familia swarm no continente Sylvaran (REG-018). Nome canonico, silhueta, lore e modelo GLB PENDENTES de design (DEMON_BESTIARY.md). Placeholder identificado em enemies/creature.tscn."
+continent_id = &"CONT-02"
+region_id = &"REG-018"
+family = &"swarm"
+category = &"regional"
+rarity = &"rare"
+stats = {
+"max_health": 108,
+"damage": 9,
+"defense": 1,
+"move_speed": 3,
+"attack_range": 1.8,
+"attack_cooldown": 1,
+"xp_reward": 27,
+"gold_reward": 16
+}
+resistances = {
+"physical": 1,
+"abyssal": 1,
+"fire": 0.85
+}
+ability_ids = PackedStringArray("ABIL-DEM-SWARM")
+rewards = {
+"xp": 27,
+"gold": 16,
+"items": PackedStringArray()
+}
+model_path = "res://assets/models/demons/demon_088.glb"
+model_pending = true
+placeholder_scene = "res://enemies/creature.tscn"
+animations = {
+"idle": "idle",
+"walk": "walk",
+"attack": "attack",
+"hurt": "hurt",
+"death": "death",
+"clip_source": "char_ref_humanoid (PROVISORIO)"
+}
+ai = {
+"perception_radius": 10,
+"fov_degrees": 130,
+"aggro_radius": 8,
+"deaggro_radius": 16,
+"leash_radius": 25.0,
+"patrol_radius": 6.0,
+"move_speed": 3,
+"chase_speed": 3.75,
+"attack_range": 1.8,
+"attack_cooldown": 1,
+"defend_chance": 0.1,
+"defend_duration": 1.2,
+"stunned_duration": 0.6,
+"respawn_seconds": 20,
+"respawn_enabled": true,
+"return_speed": 3.3,
+"states": PackedStringArray("idle", "patrol", "alert", "chase", "attack", "defend", "stunned", "return", "death")
+}

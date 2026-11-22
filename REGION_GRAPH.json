@@ -1,0 +1,2172 @@
+{
+  "metadata": {
+    "title": "ABYSSAL PACT — Complete Regional Navigation Graph",
+    "version": "2.0.0",
+    "author": "Principal Cartographer of ABYSSAL PACT",
+    "node_count": 41,
+    "edge_count": 150,
+    "unique_connection_count": 75,
+    "graph_properties": {
+      "is_connected": true,
+      "has_eulerian_path": false,
+      "average_degree": 3.66
+    }
+  },
+  "nodes": {
+    "REG-001": {
+      "id": "REG-001",
+      "name": "Planície Cinzenta de Veyrath",
+      "node_type": "region",
+      "continent_id": "CONT-01",
+      "normalized_position": [
+        0.24,
+        0.36
+      ],
+      "level_range": [
+        1,
+        5
+      ],
+      "safe_zone": "Baluarte das Cinzas",
+      "degree": 8
+    },
+    "REG-002": {
+      "id": "REG-002",
+      "name": "Fendas de Enxofre",
+      "node_type": "region",
+      "continent_id": "CONT-01",
+      "normalized_position": [
+        0.36,
+        0.34
+      ],
+      "level_range": [
+        3,
+        7
+      ],
+      "safe_zone": "Posto de Enxofre",
+      "degree": 4
+    },
+    "REG-003": {
+      "id": "REG-003",
+      "name": "Desfiladeiro de Magma",
+      "node_type": "region",
+      "continent_id": "CONT-01",
+      "normalized_position": [
+        0.18,
+        0.42
+      ],
+      "level_range": [
+        5,
+        10
+      ],
+      "safe_zone": "Acampamento da Forja",
+      "degree": 2
+    },
+    "REG-004": {
+      "id": "REG-004",
+      "name": "Pântano de Cinzas",
+      "node_type": "region",
+      "continent_id": "CONT-01",
+      "normalized_position": [
+        0.28,
+        0.24
+      ],
+      "level_range": [
+        8,
+        12
+      ],
+      "safe_zone": "Aldeia Queimada",
+      "degree": 4
+    },
+    "REG-005": {
+      "id": "REG-005",
+      "name": "Picos de Obsidiana",
+      "node_type": "region",
+      "continent_id": "CONT-01",
+      "normalized_position": [
+        0.11,
+        0.28
+      ],
+      "level_range": [
+        10,
+        15
+      ],
+      "safe_zone": "Posto das Agulhas",
+      "degree": 3
+    },
+    "REG-006": {
+      "id": "REG-006",
+      "name": "Deserto Fuliginoso",
+      "node_type": "region",
+      "continent_id": "CONT-01",
+      "normalized_position": [
+        0.14,
+        0.15
+      ],
+      "level_range": [
+        13,
+        17
+      ],
+      "safe_zone": "Refúgio de Sílica",
+      "degree": 3
+    },
+    "REG-007": {
+      "id": "REG-007",
+      "name": "Cratera Abissal de Ferro",
+      "node_type": "region",
+      "continent_id": "CONT-01",
+      "normalized_position": [
+        0.26,
+        0.14
+      ],
+      "level_range": [
+        15,
+        20
+      ],
+      "safe_zone": "Guarnição de Chumbo",
+      "degree": 4
+    },
+    "REG-008": {
+      "id": "REG-008",
+      "name": "Terra Férrea",
+      "node_type": "region",
+      "continent_id": "CONT-01",
+      "normalized_position": [
+        0.38,
+        0.18
+      ],
+      "level_range": [
+        18,
+        22
+      ],
+      "safe_zone": "Fortim de Ferro",
+      "degree": 4
+    },
+    "REG-009": {
+      "id": "REG-009",
+      "name": "Garganta Calcinada",
+      "node_type": "region",
+      "continent_id": "CONT-01",
+      "normalized_position": [
+        0.24,
+        0.07
+      ],
+      "level_range": [
+        20,
+        25
+      ],
+      "safe_zone": "Posto do Abismo",
+      "degree": 3
+    },
+    "REG-010": {
+      "id": "REG-010",
+      "name": "Voo de Cinzas",
+      "node_type": "region",
+      "continent_id": "CONT-01",
+      "normalized_position": [
+        0.36,
+        0.08
+      ],
+      "level_range": [
+        23,
+        28
+      ],
+      "safe_zone": "Santuário da Cinza",
+      "degree": 3
+    },
+    "REG-011": {
+      "id": "REG-011",
+      "name": "Bosque Sussurrante",
+      "node_type": "region",
+      "continent_id": "CONT-02",
+      "normalized_position": [
+        0.64,
+        0.36
+      ],
+      "level_range": [
+        1,
+        6
+      ],
+      "safe_zone": "Bosque das Almas",
+      "degree": 6
+    },
+    "REG-012": {
+      "id": "REG-012",
+      "name": "Pântano Espectral",
+      "node_type": "region",
+      "continent_id": "CONT-02",
+      "normalized_position": [
+        0.76,
+        0.38
+      ],
+      "level_range": [
+        4,
+        8
+      ],
+      "safe_zone": "Refúgio da Bruma",
+      "degree": 3
+    },
+    "REG-013": {
+      "id": "REG-013",
+      "name": "Clareira das Runas",
+      "node_type": "region",
+      "continent_id": "CONT-02",
+      "normalized_position": [
+        0.66,
+        0.25
+      ],
+      "level_range": [
+        6,
+        10
+      ],
+      "safe_zone": "Posto Rúnico",
+      "degree": 4
+    },
+    "REG-014": {
+      "id": "REG-014",
+      "name": "Raízes Antigas",
+      "node_type": "region",
+      "continent_id": "CONT-02",
+      "normalized_position": [
+        0.78,
+        0.26
+      ],
+      "level_range": [
+        9,
+        13
+      ],
+      "safe_zone": "Vila do Tronco Oco",
+      "degree": 4
+    },
+    "REG-015": {
+      "id": "REG-015",
+      "name": "Vale dos Salgueiros Negros",
+      "node_type": "region",
+      "continent_id": "CONT-02",
+      "normalized_position": [
+        0.88,
+        0.32
+      ],
+      "level_range": [
+        12,
+        16
+      ],
+      "safe_zone": "Acampamento Fúnebre",
+      "degree": 3
+    },
+    "REG-016": {
+      "id": "REG-016",
+      "name": "Cume das Névoas",
+      "node_type": "region",
+      "continent_id": "CONT-02",
+      "normalized_position": [
+        0.58,
+        0.18
+      ],
+      "level_range": [
+        14,
+        18
+      ],
+      "safe_zone": "Mirante das Brumas",
+      "degree": 3
+    },
+    "REG-017": {
+      "id": "REG-017",
+      "name": "Pântano de Sangue",
+      "node_type": "region",
+      "continent_id": "CONT-02",
+      "normalized_position": [
+        0.88,
+        0.18
+      ],
+      "level_range": [
+        17,
+        21
+      ],
+      "safe_zone": "Fortaleza Rubra",
+      "degree": 2
+    },
+    "REG-018": {
+      "id": "REG-018",
+      "name": "Selva das Sombras",
+      "node_type": "region",
+      "continent_id": "CONT-02",
+      "normalized_position": [
+        0.77,
+        0.14
+      ],
+      "level_range": [
+        19,
+        23
+      ],
+      "safe_zone": "Posto do Dossel",
+      "degree": 4
+    },
+    "REG-019": {
+      "id": "REG-019",
+      "name": "Fenda Esmeralda",
+      "node_type": "region",
+      "continent_id": "CONT-02",
+      "normalized_position": [
+        0.65,
+        0.1
+      ],
+      "level_range": [
+        22,
+        26
+      ],
+      "safe_zone": "Vila Esmeralda",
+      "degree": 4
+    },
+    "REG-020": {
+      "id": "REG-020",
+      "name": "Coração da Floresta Abissal",
+      "node_type": "region",
+      "continent_id": "CONT-02",
+      "normalized_position": [
+        0.78,
+        0.07
+      ],
+      "level_range": [
+        25,
+        30
+      ],
+      "safe_zone": "Santuário da Seiva",
+      "degree": 3
+    },
+    "REG-021": {
+      "id": "REG-021",
+      "name": "Dunas de Areia Negra",
+      "node_type": "region",
+      "continent_id": "CONT-03",
+      "normalized_position": [
+        0.36,
+        0.64
+      ],
+      "level_range": [
+        1,
+        6
+      ],
+      "safe_zone": "Fortaleza de Basalto",
+      "degree": 5
+    },
+    "REG-022": {
+      "id": "REG-022",
+      "name": "Cânion dos Ventos Áridos",
+      "node_type": "region",
+      "continent_id": "CONT-03",
+      "normalized_position": [
+        0.24,
+        0.63
+      ],
+      "level_range": [
+        4,
+        8
+      ],
+      "safe_zone": "Posto das Gargantas",
+      "degree": 3
+    },
+    "REG-023": {
+      "id": "REG-023",
+      "name": "Oásis da Serpente",
+      "node_type": "region",
+      "continent_id": "CONT-03",
+      "normalized_position": [
+        0.38,
+        0.74
+      ],
+      "level_range": [
+        7,
+        11
+      ],
+      "safe_zone": "Vila da Miragem",
+      "degree": 3
+    },
+    "REG-024": {
+      "id": "REG-024",
+      "name": "Platô Escaldante",
+      "node_type": "region",
+      "continent_id": "CONT-03",
+      "normalized_position": [
+        0.13,
+        0.65
+      ],
+      "level_range": [
+        10,
+        14
+      ],
+      "safe_zone": "Refúgio da Rocha",
+      "degree": 2
+    },
+    "REG-025": {
+      "id": "REG-025",
+      "name": "Vale dos Monólitos",
+      "node_type": "region",
+      "continent_id": "CONT-03",
+      "normalized_position": [
+        0.26,
+        0.76
+      ],
+      "level_range": [
+        13,
+        17
+      ],
+      "safe_zone": "Acampamento das Estelas",
+      "degree": 4
+    },
+    "REG-026": {
+      "id": "REG-026",
+      "name": "Fenda de Sal",
+      "node_type": "region",
+      "continent_id": "CONT-03",
+      "normalized_position": [
+        0.12,
+        0.78
+      ],
+      "level_range": [
+        15,
+        19
+      ],
+      "safe_zone": "Posto do Sal Branco",
+      "degree": 3
+    },
+    "REG-027": {
+      "id": "REG-027",
+      "name": "Cidadela Vermelha",
+      "node_type": "region",
+      "continent_id": "CONT-03",
+      "normalized_position": [
+        0.37,
+        0.86
+      ],
+      "level_range": [
+        18,
+        22
+      ],
+      "safe_zone": "Baluarte Vermelho",
+      "degree": 3
+    },
+    "REG-028": {
+      "id": "REG-028",
+      "name": "Labirinto de Cânions",
+      "node_type": "region",
+      "continent_id": "CONT-03",
+      "normalized_position": [
+        0.24,
+        0.87
+      ],
+      "level_range": [
+        20,
+        24
+      ],
+      "safe_zone": "Posto da Poeira",
+      "degree": 4
+    },
+    "REG-029": {
+      "id": "REG-029",
+      "name": "Deserto Silencioso",
+      "node_type": "region",
+      "continent_id": "CONT-03",
+      "normalized_position": [
+        0.12,
+        0.9
+      ],
+      "level_range": [
+        23,
+        27
+      ],
+      "safe_zone": "Acampamento Ermo",
+      "degree": 3
+    },
+    "REG-030": {
+      "id": "REG-030",
+      "name": "Garganta do Fogo Profundo",
+      "node_type": "region",
+      "continent_id": "CONT-03",
+      "normalized_position": [
+        0.28,
+        0.94
+      ],
+      "level_range": [
+        26,
+        32
+      ],
+      "safe_zone": "Fortaleza Subterrânea",
+      "degree": 4
+    },
+    "REG-031": {
+      "id": "REG-031",
+      "name": "Baía dos Afogados",
+      "node_type": "region",
+      "continent_id": "CONT-04",
+      "normalized_position": [
+        0.64,
+        0.64
+      ],
+      "level_range": [
+        1,
+        6
+      ],
+      "safe_zone": "Cidadela dos Afogados",
+      "degree": 7
+    },
+    "REG-032": {
+      "id": "REG-032",
+      "name": "Penhascos Espectrais",
+      "node_type": "region",
+      "continent_id": "CONT-04",
+      "normalized_position": [
+        0.77,
+        0.63
+      ],
+      "level_range": [
+        4,
+        8
+      ],
+      "safe_zone": "Posto do Farol",
+      "degree": 3
+    },
+    "REG-033": {
+      "id": "REG-033",
+      "name": "Recife Abissal",
+      "node_type": "region",
+      "continent_id": "CONT-04",
+      "normalized_position": [
+        0.63,
+        0.75
+      ],
+      "level_range": [
+        7,
+        11
+      ],
+      "safe_zone": "Aldeia das Marés",
+      "degree": 3
+    },
+    "REG-034": {
+      "id": "REG-034",
+      "name": "Costa das Névoas Frias",
+      "node_type": "region",
+      "continent_id": "CONT-04",
+      "normalized_position": [
+        0.88,
+        0.65
+      ],
+      "level_range": [
+        10,
+        14
+      ],
+      "safe_zone": "Vila do Quebra-Mar",
+      "degree": 2
+    },
+    "REG-035": {
+      "id": "REG-035",
+      "name": "Fjord dos Condenados",
+      "node_type": "region",
+      "continent_id": "CONT-04",
+      "normalized_position": [
+        0.75,
+        0.75
+      ],
+      "level_range": [
+        13,
+        17
+      ],
+      "safe_zone": "Refúgio dos Remadores",
+      "degree": 4
+    },
+    "REG-036": {
+      "id": "REG-036",
+      "name": "Geleira Sussurrante",
+      "node_type": "region",
+      "continent_id": "CONT-04",
+      "normalized_position": [
+        0.87,
+        0.76
+      ],
+      "level_range": [
+        16,
+        20
+      ],
+      "safe_zone": "Posto Glacial",
+      "degree": 3
+    },
+    "REG-037": {
+      "id": "REG-037",
+      "name": "Estuário dos Sussurros",
+      "node_type": "region",
+      "continent_id": "CONT-04",
+      "normalized_position": [
+        0.69,
+        0.87
+      ],
+      "level_range": [
+        19,
+        23
+      ],
+      "safe_zone": "Posto do Canal",
+      "degree": 4
+    },
+    "REG-038": {
+      "id": "REG-038",
+      "name": "Maré Eterna",
+      "node_type": "region",
+      "continent_id": "CONT-04",
+      "normalized_position": [
+        0.81,
+        0.87
+      ],
+      "level_range": [
+        22,
+        26
+      ],
+      "safe_zone": "Acampamento das Marés",
+      "degree": 3
+    },
+    "REG-039": {
+      "id": "REG-039",
+      "name": "Fossa Oceânica",
+      "node_type": "region",
+      "continent_id": "CONT-04",
+      "normalized_position": [
+        0.68,
+        0.95
+      ],
+      "level_range": [
+        25,
+        29
+      ],
+      "safe_zone": "Cidadela Submersa",
+      "degree": 2
+    },
+    "REG-040": {
+      "id": "REG-040",
+      "name": "Fim do Abismo",
+      "node_type": "region",
+      "continent_id": "CONT-04",
+      "normalized_position": [
+        0.82,
+        0.95
+      ],
+      "level_range": [
+        28,
+        35
+      ],
+      "safe_zone": "Santuário Abissal",
+      "degree": 3
+    },
+    "DIM-HELL-FORGE": {
+      "id": "DIM-HELL-FORGE",
+      "name": "Hell Forge",
+      "node_type": "dimensional_nexus",
+      "continent_id": "NEXUS",
+      "normalized_position": null,
+      "level_range": [
+        1,
+        100
+      ],
+      "safe_zone": "Forja Central da Hell Forge",
+      "degree": 8
+    }
+  },
+  "edges": [
+    {
+      "from": "REG-001",
+      "to": "REG-002",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 121.7,
+      "route_name": "Estrada de Fronteira: Planície Cinzenta de Veyrath ↔ Fendas de Enxofre",
+      "required_level": 3,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-001",
+      "to": "REG-003",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 84.9,
+      "route_name": "Estrada de Fronteira: Planície Cinzenta de Veyrath ↔ Desfiladeiro de Magma",
+      "required_level": 5,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-001",
+      "to": "REG-004",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 126.5,
+      "route_name": "Estrada de Fronteira: Planície Cinzenta de Veyrath ↔ Pântano de Cinzas",
+      "required_level": 8,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-001",
+      "to": "REG-005",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 152.6,
+      "route_name": "Estrada de Fronteira: Planície Cinzenta de Veyrath ↔ Picos de Obsidiana",
+      "required_level": 10,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-002",
+      "to": "REG-001",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 121.7,
+      "route_name": "Estrada de Fronteira: Fendas de Enxofre ↔ Planície Cinzenta de Veyrath",
+      "required_level": 1,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-002",
+      "to": "REG-004",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 128.1,
+      "route_name": "Estrada de Fronteira: Fendas de Enxofre ↔ Pântano de Cinzas",
+      "required_level": 8,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-002",
+      "to": "REG-008",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 161.2,
+      "route_name": "Estrada de Fronteira: Fendas de Enxofre ↔ Terra Férrea",
+      "required_level": 18,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-003",
+      "to": "REG-001",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 84.9,
+      "route_name": "Estrada de Fronteira: Desfiladeiro de Magma ↔ Planície Cinzenta de Veyrath",
+      "required_level": 1,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-003",
+      "to": "REG-005",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 156.5,
+      "route_name": "Estrada de Fronteira: Desfiladeiro de Magma ↔ Picos de Obsidiana",
+      "required_level": 10,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-004",
+      "to": "REG-001",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 126.5,
+      "route_name": "Estrada de Fronteira: Pântano de Cinzas ↔ Planície Cinzenta de Veyrath",
+      "required_level": 1,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-004",
+      "to": "REG-002",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 128.1,
+      "route_name": "Estrada de Fronteira: Pântano de Cinzas ↔ Fendas de Enxofre",
+      "required_level": 3,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-004",
+      "to": "REG-007",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 102.0,
+      "route_name": "Estrada de Fronteira: Pântano de Cinzas ↔ Cratera Abissal de Ferro",
+      "required_level": 15,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-004",
+      "to": "REG-008",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 116.6,
+      "route_name": "Estrada de Fronteira: Pântano de Cinzas ↔ Terra Férrea",
+      "required_level": 18,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-005",
+      "to": "REG-001",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 152.6,
+      "route_name": "Estrada de Fronteira: Picos de Obsidiana ↔ Planície Cinzenta de Veyrath",
+      "required_level": 1,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-005",
+      "to": "REG-003",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 156.5,
+      "route_name": "Estrada de Fronteira: Picos de Obsidiana ↔ Desfiladeiro de Magma",
+      "required_level": 5,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-005",
+      "to": "REG-006",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 133.4,
+      "route_name": "Estrada de Fronteira: Picos de Obsidiana ↔ Deserto Fuliginoso",
+      "required_level": 13,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-006",
+      "to": "REG-005",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 133.4,
+      "route_name": "Estrada de Fronteira: Deserto Fuliginoso ↔ Picos de Obsidiana",
+      "required_level": 10,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-006",
+      "to": "REG-007",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 120.4,
+      "route_name": "Estrada de Fronteira: Deserto Fuliginoso ↔ Cratera Abissal de Ferro",
+      "required_level": 15,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-006",
+      "to": "REG-009",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 128.1,
+      "route_name": "Estrada de Fronteira: Deserto Fuliginoso ↔ Garganta Calcinada",
+      "required_level": 20,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-007",
+      "to": "REG-004",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 102.0,
+      "route_name": "Estrada de Fronteira: Cratera Abissal de Ferro ↔ Pântano de Cinzas",
+      "required_level": 8,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-007",
+      "to": "REG-006",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 120.4,
+      "route_name": "Estrada de Fronteira: Cratera Abissal de Ferro ↔ Deserto Fuliginoso",
+      "required_level": 13,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-007",
+      "to": "REG-008",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 126.5,
+      "route_name": "Estrada de Fronteira: Cratera Abissal de Ferro ↔ Terra Férrea",
+      "required_level": 18,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-007",
+      "to": "REG-009",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 72.8,
+      "route_name": "Estrada de Fronteira: Cratera Abissal de Ferro ↔ Garganta Calcinada",
+      "required_level": 20,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-008",
+      "to": "REG-002",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 161.2,
+      "route_name": "Estrada de Fronteira: Terra Férrea ↔ Fendas de Enxofre",
+      "required_level": 3,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-008",
+      "to": "REG-004",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 116.6,
+      "route_name": "Estrada de Fronteira: Terra Férrea ↔ Pântano de Cinzas",
+      "required_level": 8,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-008",
+      "to": "REG-007",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 126.5,
+      "route_name": "Estrada de Fronteira: Terra Férrea ↔ Cratera Abissal de Ferro",
+      "required_level": 15,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-008",
+      "to": "REG-010",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 102.0,
+      "route_name": "Estrada de Fronteira: Terra Férrea ↔ Voo de Cinzas",
+      "required_level": 23,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-009",
+      "to": "REG-006",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 128.1,
+      "route_name": "Estrada de Fronteira: Garganta Calcinada ↔ Deserto Fuliginoso",
+      "required_level": 13,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-009",
+      "to": "REG-007",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 72.8,
+      "route_name": "Estrada de Fronteira: Garganta Calcinada ↔ Cratera Abissal de Ferro",
+      "required_level": 15,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-009",
+      "to": "REG-010",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 120.4,
+      "route_name": "Estrada de Fronteira: Garganta Calcinada ↔ Voo de Cinzas",
+      "required_level": 23,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-010",
+      "to": "REG-008",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 102.0,
+      "route_name": "Estrada de Fronteira: Voo de Cinzas ↔ Terra Férrea",
+      "required_level": 18,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-010",
+      "to": "REG-009",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 120.4,
+      "route_name": "Estrada de Fronteira: Voo de Cinzas ↔ Garganta Calcinada",
+      "required_level": 20,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-011",
+      "to": "REG-012",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 121.7,
+      "route_name": "Estrada de Fronteira: Bosque Sussurrante ↔ Pântano Espectral",
+      "required_level": 4,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-011",
+      "to": "REG-013",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 111.8,
+      "route_name": "Estrada de Fronteira: Bosque Sussurrante ↔ Clareira das Runas",
+      "required_level": 6,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-011",
+      "to": "REG-016",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 189.7,
+      "route_name": "Estrada de Fronteira: Bosque Sussurrante ↔ Cume das Névoas",
+      "required_level": 14,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-012",
+      "to": "REG-011",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 121.7,
+      "route_name": "Estrada de Fronteira: Pântano Espectral ↔ Bosque Sussurrante",
+      "required_level": 1,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-012",
+      "to": "REG-014",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 121.7,
+      "route_name": "Estrada de Fronteira: Pântano Espectral ↔ Raízes Antigas",
+      "required_level": 9,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-012",
+      "to": "REG-015",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 134.2,
+      "route_name": "Estrada de Fronteira: Pântano Espectral ↔ Vale dos Salgueiros Negros",
+      "required_level": 12,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-013",
+      "to": "REG-011",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 111.8,
+      "route_name": "Estrada de Fronteira: Clareira das Runas ↔ Bosque Sussurrante",
+      "required_level": 1,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-013",
+      "to": "REG-014",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 120.4,
+      "route_name": "Estrada de Fronteira: Clareira das Runas ↔ Raízes Antigas",
+      "required_level": 9,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-013",
+      "to": "REG-016",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 106.3,
+      "route_name": "Estrada de Fronteira: Clareira das Runas ↔ Cume das Névoas",
+      "required_level": 14,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-013",
+      "to": "REG-019",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 150.3,
+      "route_name": "Estrada de Fronteira: Clareira das Runas ↔ Fenda Esmeralda",
+      "required_level": 22,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-014",
+      "to": "REG-012",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 121.7,
+      "route_name": "Estrada de Fronteira: Raízes Antigas ↔ Pântano Espectral",
+      "required_level": 4,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-014",
+      "to": "REG-013",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 120.4,
+      "route_name": "Estrada de Fronteira: Raízes Antigas ↔ Clareira das Runas",
+      "required_level": 6,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-014",
+      "to": "REG-015",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 116.6,
+      "route_name": "Estrada de Fronteira: Raízes Antigas ↔ Vale dos Salgueiros Negros",
+      "required_level": 12,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-014",
+      "to": "REG-018",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 120.4,
+      "route_name": "Estrada de Fronteira: Raízes Antigas ↔ Selva das Sombras",
+      "required_level": 19,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-015",
+      "to": "REG-012",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 134.2,
+      "route_name": "Estrada de Fronteira: Vale dos Salgueiros Negros ↔ Pântano Espectral",
+      "required_level": 4,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-015",
+      "to": "REG-014",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 116.6,
+      "route_name": "Estrada de Fronteira: Vale dos Salgueiros Negros ↔ Raízes Antigas",
+      "required_level": 9,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-015",
+      "to": "REG-017",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 140.0,
+      "route_name": "Estrada de Fronteira: Vale dos Salgueiros Negros ↔ Pântano de Sangue",
+      "required_level": 17,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-016",
+      "to": "REG-011",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 189.7,
+      "route_name": "Estrada de Fronteira: Cume das Névoas ↔ Bosque Sussurrante",
+      "required_level": 1,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-016",
+      "to": "REG-013",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 106.3,
+      "route_name": "Estrada de Fronteira: Cume das Névoas ↔ Clareira das Runas",
+      "required_level": 6,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-016",
+      "to": "REG-019",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 106.3,
+      "route_name": "Estrada de Fronteira: Cume das Névoas ↔ Fenda Esmeralda",
+      "required_level": 22,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-017",
+      "to": "REG-015",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 140.0,
+      "route_name": "Estrada de Fronteira: Pântano de Sangue ↔ Vale dos Salgueiros Negros",
+      "required_level": 12,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-017",
+      "to": "REG-018",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 117.0,
+      "route_name": "Estrada de Fronteira: Pântano de Sangue ↔ Selva das Sombras",
+      "required_level": 19,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-018",
+      "to": "REG-014",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 120.4,
+      "route_name": "Estrada de Fronteira: Selva das Sombras ↔ Raízes Antigas",
+      "required_level": 9,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-018",
+      "to": "REG-017",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 117.0,
+      "route_name": "Estrada de Fronteira: Selva das Sombras ↔ Pântano de Sangue",
+      "required_level": 17,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-018",
+      "to": "REG-019",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 126.5,
+      "route_name": "Estrada de Fronteira: Selva das Sombras ↔ Fenda Esmeralda",
+      "required_level": 22,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-018",
+      "to": "REG-020",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 70.7,
+      "route_name": "Estrada de Fronteira: Selva das Sombras ↔ Coração da Floresta Abissal",
+      "required_level": 25,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-019",
+      "to": "REG-013",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 150.3,
+      "route_name": "Estrada de Fronteira: Fenda Esmeralda ↔ Clareira das Runas",
+      "required_level": 6,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-019",
+      "to": "REG-016",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 106.3,
+      "route_name": "Estrada de Fronteira: Fenda Esmeralda ↔ Cume das Névoas",
+      "required_level": 14,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-019",
+      "to": "REG-018",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 126.5,
+      "route_name": "Estrada de Fronteira: Fenda Esmeralda ↔ Selva das Sombras",
+      "required_level": 19,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-019",
+      "to": "REG-020",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 133.4,
+      "route_name": "Estrada de Fronteira: Fenda Esmeralda ↔ Coração da Floresta Abissal",
+      "required_level": 25,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-020",
+      "to": "REG-018",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 70.7,
+      "route_name": "Estrada de Fronteira: Coração da Floresta Abissal ↔ Selva das Sombras",
+      "required_level": 19,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-020",
+      "to": "REG-019",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 133.4,
+      "route_name": "Estrada de Fronteira: Coração da Floresta Abissal ↔ Fenda Esmeralda",
+      "required_level": 22,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-021",
+      "to": "REG-022",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 120.4,
+      "route_name": "Estrada de Fronteira: Dunas de Areia Negra ↔ Cânion dos Ventos Áridos",
+      "required_level": 4,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-021",
+      "to": "REG-023",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 102.0,
+      "route_name": "Estrada de Fronteira: Dunas de Areia Negra ↔ Oásis da Serpente",
+      "required_level": 7,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-022",
+      "to": "REG-021",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 120.4,
+      "route_name": "Estrada de Fronteira: Cânion dos Ventos Áridos ↔ Dunas de Areia Negra",
+      "required_level": 1,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-022",
+      "to": "REG-024",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 111.8,
+      "route_name": "Estrada de Fronteira: Cânion dos Ventos Áridos ↔ Platô Escaldante",
+      "required_level": 10,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-022",
+      "to": "REG-025",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 131.5,
+      "route_name": "Estrada de Fronteira: Cânion dos Ventos Áridos ↔ Vale dos Monólitos",
+      "required_level": 13,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-023",
+      "to": "REG-021",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 102.0,
+      "route_name": "Estrada de Fronteira: Oásis da Serpente ↔ Dunas de Areia Negra",
+      "required_level": 1,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-023",
+      "to": "REG-025",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 121.7,
+      "route_name": "Estrada de Fronteira: Oásis da Serpente ↔ Vale dos Monólitos",
+      "required_level": 13,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-023",
+      "to": "REG-027",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 120.4,
+      "route_name": "Estrada de Fronteira: Oásis da Serpente ↔ Cidadela Vermelha",
+      "required_level": 18,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-024",
+      "to": "REG-022",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 111.8,
+      "route_name": "Estrada de Fronteira: Platô Escaldante ↔ Cânion dos Ventos Áridos",
+      "required_level": 4,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-024",
+      "to": "REG-026",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 130.4,
+      "route_name": "Estrada de Fronteira: Platô Escaldante ↔ Fenda de Sal",
+      "required_level": 15,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-025",
+      "to": "REG-022",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 131.5,
+      "route_name": "Estrada de Fronteira: Vale dos Monólitos ↔ Cânion dos Ventos Áridos",
+      "required_level": 4,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-025",
+      "to": "REG-023",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 121.7,
+      "route_name": "Estrada de Fronteira: Vale dos Monólitos ↔ Oásis da Serpente",
+      "required_level": 7,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-025",
+      "to": "REG-026",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 141.4,
+      "route_name": "Estrada de Fronteira: Vale dos Monólitos ↔ Fenda de Sal",
+      "required_level": 15,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-025",
+      "to": "REG-028",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 111.8,
+      "route_name": "Estrada de Fronteira: Vale dos Monólitos ↔ Labirinto de Cânions",
+      "required_level": 20,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-026",
+      "to": "REG-024",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 130.4,
+      "route_name": "Estrada de Fronteira: Fenda de Sal ↔ Platô Escaldante",
+      "required_level": 10,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-026",
+      "to": "REG-025",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 141.4,
+      "route_name": "Estrada de Fronteira: Fenda de Sal ↔ Vale dos Monólitos",
+      "required_level": 13,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-026",
+      "to": "REG-029",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 120.0,
+      "route_name": "Estrada de Fronteira: Fenda de Sal ↔ Deserto Silencioso",
+      "required_level": 23,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-027",
+      "to": "REG-023",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 120.4,
+      "route_name": "Estrada de Fronteira: Cidadela Vermelha ↔ Oásis da Serpente",
+      "required_level": 7,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-027",
+      "to": "REG-028",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 130.4,
+      "route_name": "Estrada de Fronteira: Cidadela Vermelha ↔ Labirinto de Cânions",
+      "required_level": 20,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-027",
+      "to": "REG-030",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 120.4,
+      "route_name": "Estrada de Fronteira: Cidadela Vermelha ↔ Garganta do Fogo Profundo",
+      "required_level": 26,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-028",
+      "to": "REG-025",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 111.8,
+      "route_name": "Estrada de Fronteira: Labirinto de Cânions ↔ Vale dos Monólitos",
+      "required_level": 13,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-028",
+      "to": "REG-027",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 130.4,
+      "route_name": "Estrada de Fronteira: Labirinto de Cânions ↔ Cidadela Vermelha",
+      "required_level": 18,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-028",
+      "to": "REG-029",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 123.7,
+      "route_name": "Estrada de Fronteira: Labirinto de Cânions ↔ Deserto Silencioso",
+      "required_level": 23,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-028",
+      "to": "REG-030",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 80.6,
+      "route_name": "Estrada de Fronteira: Labirinto de Cânions ↔ Garganta do Fogo Profundo",
+      "required_level": 26,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-029",
+      "to": "REG-026",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 120.0,
+      "route_name": "Estrada de Fronteira: Deserto Silencioso ↔ Fenda de Sal",
+      "required_level": 15,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-029",
+      "to": "REG-028",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 123.7,
+      "route_name": "Estrada de Fronteira: Deserto Silencioso ↔ Labirinto de Cânions",
+      "required_level": 20,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-029",
+      "to": "REG-030",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 164.9,
+      "route_name": "Estrada de Fronteira: Deserto Silencioso ↔ Garganta do Fogo Profundo",
+      "required_level": 26,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-030",
+      "to": "REG-027",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 120.4,
+      "route_name": "Estrada de Fronteira: Garganta do Fogo Profundo ↔ Cidadela Vermelha",
+      "required_level": 18,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-030",
+      "to": "REG-028",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 80.6,
+      "route_name": "Estrada de Fronteira: Garganta do Fogo Profundo ↔ Labirinto de Cânions",
+      "required_level": 20,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-030",
+      "to": "REG-029",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 164.9,
+      "route_name": "Estrada de Fronteira: Garganta do Fogo Profundo ↔ Deserto Silencioso",
+      "required_level": 23,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-031",
+      "to": "REG-032",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 130.4,
+      "route_name": "Estrada de Fronteira: Baía dos Afogados ↔ Penhascos Espectrais",
+      "required_level": 4,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-031",
+      "to": "REG-033",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 110.5,
+      "route_name": "Estrada de Fronteira: Baía dos Afogados ↔ Recife Abissal",
+      "required_level": 7,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-032",
+      "to": "REG-031",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 130.4,
+      "route_name": "Estrada de Fronteira: Penhascos Espectrais ↔ Baía dos Afogados",
+      "required_level": 1,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-032",
+      "to": "REG-034",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 111.8,
+      "route_name": "Estrada de Fronteira: Penhascos Espectrais ↔ Costa das Névoas Frias",
+      "required_level": 10,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-032",
+      "to": "REG-035",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 121.7,
+      "route_name": "Estrada de Fronteira: Penhascos Espectrais ↔ Fjord dos Condenados",
+      "required_level": 13,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-033",
+      "to": "REG-031",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 110.5,
+      "route_name": "Estrada de Fronteira: Recife Abissal ↔ Baía dos Afogados",
+      "required_level": 1,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-033",
+      "to": "REG-035",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 120.0,
+      "route_name": "Estrada de Fronteira: Recife Abissal ↔ Fjord dos Condenados",
+      "required_level": 13,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-033",
+      "to": "REG-037",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 134.2,
+      "route_name": "Estrada de Fronteira: Recife Abissal ↔ Estuário dos Sussurros",
+      "required_level": 19,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-034",
+      "to": "REG-032",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 111.8,
+      "route_name": "Estrada de Fronteira: Costa das Névoas Frias ↔ Penhascos Espectrais",
+      "required_level": 4,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-034",
+      "to": "REG-036",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 110.5,
+      "route_name": "Estrada de Fronteira: Costa das Névoas Frias ↔ Geleira Sussurrante",
+      "required_level": 16,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-035",
+      "to": "REG-032",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 121.7,
+      "route_name": "Estrada de Fronteira: Fjord dos Condenados ↔ Penhascos Espectrais",
+      "required_level": 4,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-035",
+      "to": "REG-033",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 120.0,
+      "route_name": "Estrada de Fronteira: Fjord dos Condenados ↔ Recife Abissal",
+      "required_level": 7,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-035",
+      "to": "REG-036",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 120.4,
+      "route_name": "Estrada de Fronteira: Fjord dos Condenados ↔ Geleira Sussurrante",
+      "required_level": 16,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-035",
+      "to": "REG-037",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 134.2,
+      "route_name": "Estrada de Fronteira: Fjord dos Condenados ↔ Estuário dos Sussurros",
+      "required_level": 19,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-036",
+      "to": "REG-034",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 110.5,
+      "route_name": "Estrada de Fronteira: Geleira Sussurrante ↔ Costa das Névoas Frias",
+      "required_level": 10,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-036",
+      "to": "REG-035",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 120.4,
+      "route_name": "Estrada de Fronteira: Geleira Sussurrante ↔ Fjord dos Condenados",
+      "required_level": 13,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-036",
+      "to": "REG-038",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 125.3,
+      "route_name": "Estrada de Fronteira: Geleira Sussurrante ↔ Maré Eterna",
+      "required_level": 22,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-037",
+      "to": "REG-033",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 134.2,
+      "route_name": "Estrada de Fronteira: Estuário dos Sussurros ↔ Recife Abissal",
+      "required_level": 7,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-037",
+      "to": "REG-035",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 134.2,
+      "route_name": "Estrada de Fronteira: Estuário dos Sussurros ↔ Fjord dos Condenados",
+      "required_level": 13,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-037",
+      "to": "REG-038",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 120.0,
+      "route_name": "Estrada de Fronteira: Estuário dos Sussurros ↔ Maré Eterna",
+      "required_level": 22,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-037",
+      "to": "REG-039",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 80.6,
+      "route_name": "Estrada de Fronteira: Estuário dos Sussurros ↔ Fossa Oceânica",
+      "required_level": 25,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-038",
+      "to": "REG-036",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 125.3,
+      "route_name": "Estrada de Fronteira: Maré Eterna ↔ Geleira Sussurrante",
+      "required_level": 16,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-038",
+      "to": "REG-037",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 120.0,
+      "route_name": "Estrada de Fronteira: Maré Eterna ↔ Estuário dos Sussurros",
+      "required_level": 19,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-038",
+      "to": "REG-040",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 80.6,
+      "route_name": "Estrada de Fronteira: Maré Eterna ↔ Fim do Abismo",
+      "required_level": 28,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-039",
+      "to": "REG-037",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 80.6,
+      "route_name": "Estrada de Fronteira: Fossa Oceânica ↔ Estuário dos Sussurros",
+      "required_level": 19,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-039",
+      "to": "REG-040",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 140.0,
+      "route_name": "Estrada de Fronteira: Fossa Oceânica ↔ Fim do Abismo",
+      "required_level": 28,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-040",
+      "to": "REG-038",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 80.6,
+      "route_name": "Estrada de Fronteira: Fim do Abismo ↔ Maré Eterna",
+      "required_level": 22,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-040",
+      "to": "REG-039",
+      "type": "terrestrial",
+      "bidirectional": true,
+      "distance_km": 140.0,
+      "route_name": "Estrada de Fronteira: Fim do Abismo ↔ Fossa Oceânica",
+      "required_level": 25,
+      "transit_difficulty": "medium"
+    },
+    {
+      "from": "REG-001",
+      "to": "REG-011",
+      "type": "maritime",
+      "bidirectional": true,
+      "distance_km": 400.0,
+      "route_name": "Rota do Mar da Cicatriz: Planície Cinzenta de Veyrath ↔ Bosque Sussurrante",
+      "required_level": 1,
+      "transit_difficulty": "high_nautical"
+    },
+    {
+      "from": "REG-001",
+      "to": "REG-021",
+      "type": "maritime",
+      "bidirectional": true,
+      "distance_km": 304.6,
+      "route_name": "Rota do Mar da Cicatriz: Planície Cinzenta de Veyrath ↔ Dunas de Areia Negra",
+      "required_level": 1,
+      "transit_difficulty": "high_nautical"
+    },
+    {
+      "from": "REG-001",
+      "to": "REG-031",
+      "type": "maritime",
+      "bidirectional": true,
+      "distance_km": 488.3,
+      "route_name": "Rota do Mar da Cicatriz: Planície Cinzenta de Veyrath ↔ Baía dos Afogados",
+      "required_level": 1,
+      "transit_difficulty": "high_nautical"
+    },
+    {
+      "from": "REG-002",
+      "to": "REG-031",
+      "type": "maritime",
+      "bidirectional": true,
+      "distance_km": 410.4,
+      "route_name": "Rota do Mar da Cicatriz: Fendas de Enxofre ↔ Baía dos Afogados",
+      "required_level": 1,
+      "transit_difficulty": "high_nautical"
+    },
+    {
+      "from": "REG-011",
+      "to": "REG-001",
+      "type": "maritime",
+      "bidirectional": true,
+      "distance_km": 400.0,
+      "route_name": "Rota do Mar da Cicatriz: Bosque Sussurrante ↔ Planície Cinzenta de Veyrath",
+      "required_level": 1,
+      "transit_difficulty": "high_nautical"
+    },
+    {
+      "from": "REG-011",
+      "to": "REG-031",
+      "type": "maritime",
+      "bidirectional": true,
+      "distance_km": 280.0,
+      "route_name": "Rota do Mar da Cicatriz: Bosque Sussurrante ↔ Baía dos Afogados",
+      "required_level": 1,
+      "transit_difficulty": "high_nautical"
+    },
+    {
+      "from": "REG-021",
+      "to": "REG-001",
+      "type": "maritime",
+      "bidirectional": true,
+      "distance_km": 304.6,
+      "route_name": "Rota do Mar da Cicatriz: Dunas de Areia Negra ↔ Planície Cinzenta de Veyrath",
+      "required_level": 1,
+      "transit_difficulty": "high_nautical"
+    },
+    {
+      "from": "REG-021",
+      "to": "REG-031",
+      "type": "maritime",
+      "bidirectional": true,
+      "distance_km": 280.0,
+      "route_name": "Rota do Mar da Cicatriz: Dunas de Areia Negra ↔ Baía dos Afogados",
+      "required_level": 1,
+      "transit_difficulty": "high_nautical"
+    },
+    {
+      "from": "REG-031",
+      "to": "REG-001",
+      "type": "maritime",
+      "bidirectional": true,
+      "distance_km": 488.3,
+      "route_name": "Rota do Mar da Cicatriz: Baía dos Afogados ↔ Planície Cinzenta de Veyrath",
+      "required_level": 1,
+      "transit_difficulty": "high_nautical"
+    },
+    {
+      "from": "REG-031",
+      "to": "REG-002",
+      "type": "maritime",
+      "bidirectional": true,
+      "distance_km": 410.4,
+      "route_name": "Rota do Mar da Cicatriz: Baía dos Afogados ↔ Fendas de Enxofre",
+      "required_level": 3,
+      "transit_difficulty": "high_nautical"
+    },
+    {
+      "from": "REG-031",
+      "to": "REG-011",
+      "type": "maritime",
+      "bidirectional": true,
+      "distance_km": 280.0,
+      "route_name": "Rota do Mar da Cicatriz: Baía dos Afogados ↔ Bosque Sussurrante",
+      "required_level": 1,
+      "transit_difficulty": "high_nautical"
+    },
+    {
+      "from": "REG-031",
+      "to": "REG-021",
+      "type": "maritime",
+      "bidirectional": true,
+      "distance_km": 280.0,
+      "route_name": "Rota do Mar da Cicatriz: Baía dos Afogados ↔ Dunas de Areia Negra",
+      "required_level": 1,
+      "transit_difficulty": "high_nautical"
+    },
+    {
+      "from": "REG-001",
+      "to": "DIM-HELL-FORGE",
+      "type": "dimensional",
+      "bidirectional": true,
+      "distance_km": 0.0,
+      "route_name": "Conduíte Dimensional: Planície Cinzenta de Veyrath → Hell Forge (portal_reg-001_hell_forge)",
+      "required_level": 1,
+      "transit_difficulty": "instant_teleport"
+    },
+    {
+      "from": "DIM-HELL-FORGE",
+      "to": "REG-001",
+      "type": "dimensional",
+      "bidirectional": true,
+      "distance_km": 0.0,
+      "route_name": "Conduíte de Ressurgimento / Retorno: Hell Forge → Planície Cinzenta de Veyrath",
+      "required_level": 1,
+      "transit_difficulty": "instant_teleport"
+    },
+    {
+      "from": "REG-011",
+      "to": "DIM-HELL-FORGE",
+      "type": "dimensional",
+      "bidirectional": true,
+      "distance_km": 0.0,
+      "route_name": "Conduíte Dimensional: Bosque Sussurrante → Hell Forge (portal_reg-011_hell_forge)",
+      "required_level": 1,
+      "transit_difficulty": "instant_teleport"
+    },
+    {
+      "from": "DIM-HELL-FORGE",
+      "to": "REG-011",
+      "type": "dimensional",
+      "bidirectional": true,
+      "distance_km": 0.0,
+      "route_name": "Conduíte de Ressurgimento / Retorno: Hell Forge → Bosque Sussurrante",
+      "required_level": 1,
+      "transit_difficulty": "instant_teleport"
+    },
+    {
+      "from": "REG-021",
+      "to": "DIM-HELL-FORGE",
+      "type": "dimensional",
+      "bidirectional": true,
+      "distance_km": 0.0,
+      "route_name": "Conduíte Dimensional: Dunas de Areia Negra → Hell Forge (portal_reg-021_hell_forge)",
+      "required_level": 1,
+      "transit_difficulty": "instant_teleport"
+    },
+    {
+      "from": "DIM-HELL-FORGE",
+      "to": "REG-021",
+      "type": "dimensional",
+      "bidirectional": true,
+      "distance_km": 0.0,
+      "route_name": "Conduíte de Ressurgimento / Retorno: Hell Forge → Dunas de Areia Negra",
+      "required_level": 1,
+      "transit_difficulty": "instant_teleport"
+    },
+    {
+      "from": "REG-031",
+      "to": "DIM-HELL-FORGE",
+      "type": "dimensional",
+      "bidirectional": true,
+      "distance_km": 0.0,
+      "route_name": "Conduíte Dimensional: Baía dos Afogados → Hell Forge (portal_reg-031_hell_forge)",
+      "required_level": 1,
+      "transit_difficulty": "instant_teleport"
+    },
+    {
+      "from": "DIM-HELL-FORGE",
+      "to": "REG-031",
+      "type": "dimensional",
+      "bidirectional": true,
+      "distance_km": 0.0,
+      "route_name": "Conduíte de Ressurgimento / Retorno: Hell Forge → Baía dos Afogados",
+      "required_level": 1,
+      "transit_difficulty": "instant_teleport"
+    },
+    {
+      "from": "REG-010",
+      "to": "DIM-HELL-FORGE",
+      "type": "dimensional",
+      "bidirectional": true,
+      "distance_km": 0.0,
+      "route_name": "Conduíte Dimensional: Voo de Cinzas → Hell Forge (portal_reg-010_abyssal_forge)",
+      "required_level": 1,
+      "transit_difficulty": "instant_teleport"
+    },
+    {
+      "from": "DIM-HELL-FORGE",
+      "to": "REG-010",
+      "type": "dimensional",
+      "bidirectional": true,
+      "distance_km": 0.0,
+      "route_name": "Conduíte de Ressurgimento / Retorno: Hell Forge → Voo de Cinzas",
+      "required_level": 1,
+      "transit_difficulty": "instant_teleport"
+    },
+    {
+      "from": "REG-020",
+      "to": "DIM-HELL-FORGE",
+      "type": "dimensional",
+      "bidirectional": true,
+      "distance_km": 0.0,
+      "route_name": "Conduíte Dimensional: Coração da Floresta Abissal → Hell Forge (portal_reg-020_abyssal_forge)",
+      "required_level": 1,
+      "transit_difficulty": "instant_teleport"
+    },
+    {
+      "from": "DIM-HELL-FORGE",
+      "to": "REG-020",
+      "type": "dimensional",
+      "bidirectional": true,
+      "distance_km": 0.0,
+      "route_name": "Conduíte de Ressurgimento / Retorno: Hell Forge → Coração da Floresta Abissal",
+      "required_level": 1,
+      "transit_difficulty": "instant_teleport"
+    },
+    {
+      "from": "REG-030",
+      "to": "DIM-HELL-FORGE",
+      "type": "dimensional",
+      "bidirectional": true,
+      "distance_km": 0.0,
+      "route_name": "Conduíte Dimensional: Garganta do Fogo Profundo → Hell Forge (portal_reg-030_abyssal_forge)",
+      "required_level": 1,
+      "transit_difficulty": "instant_teleport"
+    },
+    {
+      "from": "DIM-HELL-FORGE",
+      "to": "REG-030",
+      "type": "dimensional",
+      "bidirectional": true,
+      "distance_km": 0.0,
+      "route_name": "Conduíte de Ressurgimento / Retorno: Hell Forge → Garganta do Fogo Profundo",
+      "required_level": 1,
+      "transit_difficulty": "instant_teleport"
+    },
+    {
+      "from": "REG-040",
+      "to": "DIM-HELL-FORGE",
+      "type": "dimensional",
+      "bidirectional": true,
+      "distance_km": 0.0,
+      "route_name": "Conduíte Dimensional: Fim do Abismo → Hell Forge (portal_reg-040_abyssal_forge)",
+      "required_level": 1,
+      "transit_difficulty": "instant_teleport"
+    },
+    {
+      "from": "DIM-HELL-FORGE",
+      "to": "REG-040",
+      "type": "dimensional",
+      "bidirectional": true,
+      "distance_km": 0.0,
+      "route_name": "Conduíte de Ressurgimento / Retorno: Hell Forge → Fim do Abismo",
+      "required_level": 1,
+      "transit_difficulty": "instant_teleport"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ClassData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/class_data.gd" id="1_class"]
+
+[resource]
+script = ExtResource("1_class")
+id = &"CLASS-054"
+display_name = "Classe CLASS-054 (pendente de design)"
+group_id = &"CLASS-GROUP-06"
+is_prototype = false
+pending_fields = PackedStringArray("display_name", "identity", "attributes", "abilities", "specializations", "skill_tree", "progression", "unlocks", "animations", "vfx")
+ability_ids = PackedStringArray("ABILITY-001")
+description = "Registro editorial de capacidade estruturado e pronto para receber conteÃºdo; nome, papel, armas, atributos, habilidades e progressÃ£o PENDENTES de design (CLASSES.md)."

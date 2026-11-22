@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="EquipmentData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/equipment_data.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+id = &"EQ-005"
+display_name = "Elmo de Cinzas"
+description = "Proteção para a cabeça forjada com ligas de ferro e cinzas comprimidas."
+category = &"equipment"
+slot = &"head"
+equipment_type = &"armor_head"
+rarity = &"common"
+stats = {
+"defense": 8,
+"max_health": 25
+}
+use_effect = {}
+value = 40
+max_stack = 1

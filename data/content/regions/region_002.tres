@@ -1,0 +1,123 @@
+[gd_resource type="Resource" script_class="RegionData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/region_data.gd" id="1_region"]
+
+[resource]
+script = ExtResource("1_region")
+id = &"REG-002"
+display_name = "Coroa Partida"
+continent_id = &"CONT-01"
+description = "Região Fendas de Enxofre no continente CONT-01. Bioma sulfur_fissures, nível recomendado 5-15."
+biome = "sulfur_fissures"
+level_range = Vector2i(5, 15)
+connections = PackedStringArray("REG-001", "REG-004")
+boundaries = {
+"border_barrier": true,
+"center": Vector3(0, 0, 0),
+"radius": 120.0
+}
+lighting_profile = {
+"ambient_color": "#2c1d24",
+"fog_color": "#382329",
+"fog_density": 0.008,
+"fog_enabled": true,
+"sun_color": "#e8a478",
+"sun_energy": 1.3
+}
+scene_path = "res://scenes/world/regions/coroa_partida.tscn"
+status = "full_production"
+points_of_interest = [{
+"description": "Assentamento e zona segura da região Fendas de Enxofre.",
+"discovery_xp": 100,
+"id": "poi_reg-002_city",
+"name": "Acampamento dos Fundidores",
+"position": Vector3(0, 0, 0),
+"type": "city"
+}, {
+"description": "Entrada da masmorra Fossa Fumegante (nível recomendado 5+).",
+"discovery_xp": 80,
+"id": "poi_reg-002_dung",
+"name": "Fossa Fumegante",
+"position": Vector3(-50, 0, -40),
+"type": "dungeon"
+}, {
+"description": "Ponto de observação e marco de exploração de Fendas de Enxofre.",
+"discovery_xp": 60,
+"id": "poi_reg-002_landmark",
+"name": "Marco de Fendas de Enxofre",
+"position": Vector3(45, 3, 30),
+"type": "exploration"
+}, {
+"description": "Recinto de combate onde habita o Chefe BOSS-002.",
+"discovery_xp": 150,
+"id": "poi_reg-002_boss_arena",
+"name": "Arena de BOSS-002",
+"position": Vector3(0, 0, -60),
+"type": "boss_arena"
+}, {
+"description": "Portal arcano conectado à rede de viagem rápida.",
+"discovery_xp": 50,
+"id": "poi_reg-002_portal",
+"name": "Portal de Fendas de Enxofre",
+"position": Vector3(30, 0, 20),
+"type": "portal"
+}]
+gates = [{
+"gate_id": "gate_north",
+"position": Vector3(0, 0, -95),
+"radius": 5.0,
+"target_region": "REG-001",
+"target_spawn": "gate_south"
+}, {
+"gate_id": "gate_south",
+"position": Vector3(0, 0, 95),
+"radius": 5.0,
+"target_region": "REG-004",
+"target_spawn": "gate_north"
+}]
+portals = [{
+"is_intercontinental": true,
+"portal_id": "portal_reg-002_hub",
+"position": Vector3(30, 0, 20),
+"target_region": "hell_forge",
+"target_spawn": "default"
+}]
+enemy_spawns = [{
+"count": 2,
+"demon_id": "DEMON-006",
+"position": Vector3(35, 0, -45),
+"radius": 6.0,
+"spawn_id": "spawn_demon-006"
+}, {
+"count": 2,
+"demon_id": "DEMON-007",
+"position": Vector3(-40, 0, 60),
+"radius": 6.0,
+"spawn_id": "spawn_demon-007"
+}, {
+"count": 2,
+"demon_id": "DEMON-008",
+"position": Vector3(-70, 0, -15),
+"radius": 6.0,
+"spawn_id": "spawn_demon-008"
+}, {
+"count": 4,
+"demon_id": "DEMON-009",
+"position": Vector3(20, 0, 65),
+"radius": 6.0,
+"spawn_id": "spawn_demon-009"
+}, {
+"count": 2,
+"demon_id": "DEMON-010",
+"position": Vector3(-30, 0, -75),
+"radius": 6.0,
+"spawn_id": "spawn_demon-010"
+}]
+boss_encounter_id = &"BOSS-002"
+boss_arena = {
+"arena_name": "Arena de BOSS-002",
+"hazards": PackedStringArray(),
+"position": Vector3(0, 0, -60),
+"radius": 18.0
+}
+pending_assets = PackedStringArray()

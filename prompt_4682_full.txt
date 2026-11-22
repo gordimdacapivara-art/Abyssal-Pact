@@ -1,0 +1,401 @@
+<USER_REQUEST>
+# PROMPT — COMPLEMENTAÇÃO TÉCNICA DOS 230 DEMÔNIOS DE ABYSSAL PACT
+
+## 1. OBJETIVO PRINCIPAL
+
+Analise toda a documentação existente dos **230 demônios de Abyssal Pact** e complete todas as informações técnicas que estiverem ausentes ou incompletas.
+
+O objetivo NÃO é criar outros demônios, substituir os existentes ou reformular suas identidades. O objetivo é transformar os 230 demônios já documentados em criaturas com especificações completas para produção, modelagem 3D, animação, programação, combate e implementação no jogo.
+
+**REGRA FUNDAMENTAL: PRESERVAR O MATERIAL ORIGINAL.**
+
+Antes de desenvolver qualquer informação:
+- Leia todos os prompts e documentos disponíveis.
+- Identifique os 230 demônios individualmente.
+- Preserve nomes, classificações, conceitos, aparências, habilidades, histórias e características já estabelecidas.
+- Não altere informações existentes sem autorização.
+- Não invente informações e afirme que elas estavam nos documentos originais.
+- Quando algo estiver incompleto, complemente respeitando a identidade original.
+- Quando houver contradições entre documentos, registre-as e indique qual informação precisa de confirmação.
+
+## 2. ESTRUTURA ORIGINAL QUE DEVE SER PRESERVADA
+
+Mantenha a divisão original dos 230 demônios:
+
+| Categoria | Quantidade |
+|---|---:|
+| Demônios inferiores | 100 |
+| Demônios superiores | 90 |
+| Demônios supremos | 30 |
+| Demônios primordiais | 10 |
+| **TOTAL** | **230** |
+
+Preserve também a progressão já definida:
+
+- Early Game: 50 demônios.
+- Mid Game: 95 demônios.
+- End Game: 85 demônios.
+
+Não altere a categoria, a progressão ou a classificação de encontro de nenhuma criatura sem justificativa documentada.
+
+## 3. OS 15 CAMPOS TÉCNICOS OBRIGATÓRIOS
+
+Analise cada demônio separadamente e complete os seguintes campos:
+
+### 01 — Identificação
+- Nome oficial.
+- ID único.
+- Título ou apelido, caso exista.
+- Categoria demoníaca.
+- Classificação de perigo.
+- Nível ou faixa de progressão.
+
+### 02 — Família e subespécie
+- Família biológica ou sobrenatural.
+- Subespécie.
+- Linhagem demoníaca.
+- Relação com outras espécies.
+- Características que diferenciam essa criatura das demais.
+
+### 03 — Continente e região
+- Continente de origem.
+- Região específica.
+- Localização habitual.
+- Territórios dominados.
+- Possíveis regiões de aparição secundária.
+
+Não invente nomes de continentes ou regiões como se fossem oficiais. Utilize a geografia já estabelecida nos documentos.
+
+### 04 — Bioma e habitat
+- Bioma principal.
+- Condições ambientais.
+- Tipo de terreno.
+- Habitat natural.
+- Estrutura do local onde vive.
+- Condições necessárias para sua aparição.
+
+### 05 — Anatomia completa
+Descreva detalhadamente:
+- Cabeça e formato do crânio.
+- Olhos e pupilas.
+- Boca, dentes e mandíbula.
+- Chifres, espinhos e protuberâncias.
+- Tronco e estrutura corporal.
+- Braços, mãos e garras.
+- Pernas e pés.
+- Cauda, asas ou membros adicionais.
+- Estrutura muscular ou óssea.
+- Características sobrenaturais.
+- Diferenças anatômicas entre machos, fêmeas ou variantes, caso existam.
+
+A anatomia deve ser suficientemente detalhada para orientar um artista 3D.
+
+### 06 — Dimensões e proporções
+Defina:
+- Altura.
+- Largura.
+- Comprimento.
+- Envergadura, quando aplicável.
+- Peso estimado.
+- Proporções corporais.
+- Escala em relação ao jogador.
+- Escala em relação a outras criaturas.
+
+Utilize medidas coerentes com a função e o tamanho da criatura no jogo.
+
+### 07 — Paleta de cores HEX
+Defina uma paleta individual para cada demônio.
+
+Inclua:
+- Cor principal.
+- Cor secundária.
+- Cor das sombras.
+- Cor dos detalhes.
+- Cor dos olhos.
+- Cor de elementos sobrenaturais.
+- Cores de emissões luminosas, quando aplicável.
+
+Forneça os códigos HEX exatos, acompanhados dos nomes das cores.
+
+Não utilize uma única paleta genérica para toda uma categoria.
+
+### 08 — Materiais e texturas
+Especifique:
+- Textura da pele.
+- Textura dos músculos.
+- Material dos chifres.
+- Material das garras.
+- Material das escamas.
+- Material das asas.
+- Material da armadura ou acessórios.
+- Rugosidade.
+- Reflexividade.
+- Transparência.
+- Emissividade.
+- Marcas, cicatrizes e detalhes superficiais.
+
+Indique quais materiais precisam de shaders especiais.
+
+### 09 — Modelo 3D e acessórios
+Desenvolva a especificação visual para modelagem:
+- Silhueta geral.
+- Topologia e distribuição de detalhes.
+- Partes separadas do modelo.
+- Elementos removíveis.
+- Armaduras e equipamentos.
+- Armas naturais ou artificiais.
+- Acessórios.
+- Elementos luminosos.
+- Detalhes que precisam de modelagem independente.
+- Nível de detalhe recomendado para o jogo.
+
+O modelo deve possuir identidade visual própria.
+
+### 10 — Animações e rig
+Especifique:
+- Animação de espera (Idle).
+- Caminhada.
+- Corrida.
+- Ataque básico.
+- Ataques especiais.
+- Defesa.
+- Esquiva.
+- Recebimento de dano.
+- Atordoamento.
+- Morte.
+- Animações de interação.
+- Animações de habilidades especiais.
+
+Para criaturas voadoras, aquáticas ou de múltiplos membros, especifique animações adicionais.
+
+Defina também:
+- Estrutura do esqueleto.
+- Quantidade e organização dos ossos.
+- Controles de animação.
+- Movimentos secundários.
+- Física de caudas, cabelos, asas e acessórios.
+
+### 11 — IA e comportamento
+Descreva:
+- Comportamento em repouso.
+- Percepção do jogador.
+- Distância de detecção.
+- Comportamento territorial.
+- Agressividade.
+- Reação a outros monstros.
+- Reação a grupos de jogadores.
+- Comportamento durante o combate.
+- Comportamento ao perder um combate.
+- Comportamento fora de combate.
+- Condições de fuga ou perseguição.
+
+A IA deve respeitar a categoria, a inteligência e a personalidade de cada demônio.
+
+### 12 — Habilidades e ataques
+Para cada habilidade, defina:
+- Nome.
+- Descrição visual.
+- Funcionamento.
+- Tipo de dano.
+- Alcance.
+- Área de efeito.
+- Tempo de recarga.
+- Animação necessária.
+- Efeito visual.
+- Efeito sonoro.
+- Condições de utilização.
+- Possíveis interações com o ambiente.
+
+Preserve as habilidades originais. Crie habilidades adicionais somente quando houver lacunas que impeçam a implementação.
+
+### 13 — Resistências e fraquezas
+Defina:
+- Resistência física.
+- Resistência mágica.
+- Resistência elemental.
+- Vulnerabilidades.
+- Imunidades justificadas.
+- Efeitos de controle aos quais é suscetível.
+- Interações com tipos de dano.
+- Condições especiais que alteram suas resistências.
+
+Evite criaturas invulneráveis sem justificativa de design.
+
+### 14 — Drops e materiais
+Especifique:
+- Itens comuns.
+- Itens incomuns.
+- Itens raros.
+- Materiais de fabricação.
+- Componentes demoníacos.
+- Materiais de aprimoramento.
+- Recompensas especiais.
+- Condições de obtenção.
+- Probabilidades de drop, quando aplicável.
+
+Os drops devem combinar com a anatomia, a origem e a importância da criatura.
+
+### 15 — Variantes e raridade
+Defina:
+- Raridade da criatura.
+- Variantes visuais.
+- Variantes de tamanho.
+- Variantes de atributos.
+- Variantes regionais.
+- Versões especiais.
+- Evoluções, caso existam.
+- Condições de aparição.
+
+Não crie variantes que contradigam a história ou a identidade original.
+
+## 4. PADRÃO DE QUALIDADE
+
+Cada demônio deve possuir uma ficha individual.
+
+Não use descrições genéricas como:
+- "Possui pele escura."
+- "É muito forte."
+- "Ataca os jogadores."
+- "Tem resistência mágica."
+
+Substitua descrições vagas por especificações concretas, visuais e implementáveis.
+
+Cada criatura deve ser reconhecível pela silhueta, anatomia, paleta de cores, comportamento e conjunto de habilidades.
+
+As informações devem ser úteis para:
+- Artistas conceituais.
+- Modeladores 3D.
+- Animadores.
+- Programadores.
+- Designers de combate.
+- Designers de sistemas.
+- Desenvolvedores de efeitos visuais e sonoros.
+
+## 5. SISTEMA DE AUDITORIA
+
+Antes de complementar qualquer demônio, faça uma auditoria dos 15 campos.
+
+Utilize três estados:
+
+- PRESENTE: informação já existe e está suficientemente detalhada.
+- PARCIAL: informação existe, mas precisa ser complementada.
+- AUSENTE: informação não foi encontrada.
+
+Não reescreva campos classificados como PRESENTE sem necessidade.
+
+Para cada demônio, apresente uma tabela de auditoria:
+
+| Campo | Estado | Ação |
+|---|---|---|
+| Identificação | Presente/Parcial/Ausente | Preservar/Completar/Criar |
+| Família | Presente/Parcial/Ausente | Preservar/Completar/Criar |
+| Continente | Presente/Parcial/Ausente | Preservar/Completar/Criar |
+| Bioma | Presente/Parcial/Ausente | Preservar/Completar/Criar |
+| Anatomia | Presente/Parcial/Ausente | Preservar/Completar/Criar |
+| Dimensões | Presente/Parcial/Ausente | Preservar/Completar/Criar |
+| Paleta HEX | Presente/Parcial/Ausente | Preservar/Completar/Criar |
+| Materiais | Presente/Parcial/Ausente | Preservar/Completar/Criar |
+| Modelo 3D | Presente/Parcial/Ausente | Preservar/Completar/Criar |
+| Animações | Presente/Parcial/Ausente | Preservar/Completar/Criar |
+| IA | Presente/Parcial/Ausente | Preservar/Completar/Criar |
+| Habilidades | Presente/Parcial/Ausente | Preservar/Completar/Criar |
+| Resistências | Presente/Parcial/Ausente | Preservar/Completar/Criar |
+| Drops | Presente/Parcial/Ausente | Preservar/Completar/Criar |
+| Variantes | Presente/Parcial/Ausente | Preservar/Completar/Criar |
+
+## 6. ORGANIZAÇÃO DA EXECUÇÃO
+
+Execute o trabalho em etapas para evitar perda de informações.
+
+**ETAPA 1 — LEITURA E AUDITORIA**
+- Localize todos os documentos originais.
+- Identifique os 230 demônios.
+- Faça a auditoria dos 15 campos.
+- Identifique informações contraditórias.
+- Gere um relatório de lacunas.
+
+**ETAPA 2 — COMPLEMENTAÇÃO VISUAL**
+- Anatomia.
+- Dimensões.
+- Paletas HEX.
+- Materiais.
+- Texturas.
+- Modelo 3D.
+- Acessórios.
+
+**ETAPA 3 — COMPLEMENTAÇÃO DE ANIMAÇÃO**
+- Rig.
+- Esqueleto.
+- Animações.
+- Movimentos secundários.
+- Interações físicas.
+
+**ETAPA 4 — COMPLEMENTAÇÃO DE GAMEPLAY**
+- IA.
+- Comportamento.
+- Habilidades.
+- Ataques.
+- Resistências.
+- Fraquezas.
+
+**ETAPA 5 — COMPLEMENTAÇÃO DE RECOMPENSAS**
+- Drops.
+- Materiais.
+- Raridade.
+- Variantes.
+
+**ETAPA 6 — REVISÃO FINAL**
+- Confira os 230 demônios.
+- Verifique os 15 campos de cada um.
+- Identifique campos ainda incompletos.
+- Confira a consistência entre aparência, habilidades, bioma e categoria.
+- Preserve a progressão Early, Mid e End Game.
+- Gere um relatório final.
+
+## 7. ORGANIZAÇÃO DOS ARQUIVOS
+
+Organize a documentação em:
+
+- `Demons/Inferior/`
+- `Demons/Superior/`
+- `Demons/Supreme/`
+- `Demons/Primordial/`
+- `Demons/Audit/`
+- `Demons/Technical_Reference/`
+
+Cada demônio deve ter seu próprio documento, identificado por um ID único.
+
+Crie também um índice geral contendo:
+- ID.
+- Nome.
+- Categoria.
+- Continente.
+- Região.
+- Progressão.
+- Estado da ficha técnica.
+- Quantidade de campos completos.
+
+Não sobrescreva os documentos originais. Crie versões complementadas e mantenha o histórico das alterações.
+
+## 8. REGRAS FINAIS OBRIGATÓRIAS
+
+1. Trabalhe exclusivamente com os 230 demônios originais.
+2. Não crie uma nova lista de demônios.
+3. Não exclua nenhuma criatura.
+4. Não altere nomes ou conceitos já estabelecidos.
+5. Não substitua habilidades originais.
+6. Não invente informações e atribua sua autoria aos documentos anteriores.
+7. Complemente apenas o que estiver ausente ou incompleto.
+8. Mantenha consistência entre todas as criaturas.
+9. Não pule demônios para acelerar o processo.
+10. Não considere uma ficha concluída enquanto houver campos técnicos obrigatórios pendentes.
+
+**RESULTADO ESPERADO:**
+
+Os mesmos 230 demônios de Abyssal Pact, preservados em sua identidade original, mas com documentação técnica completa, consistente e pronta para orientar a produção dos modelos 3D, animações, IA, habilidades, combate, efeitos e sistemas de recompensas do jogo.
+
+Comece pela auditoria dos documentos existentes. Só depois inicie a complementação. Não avance fingindo que documentos ou informações não disponíveis foram analisados.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-11-21T17:40:44-03:00.
+</ADDITIONAL_METADATA>

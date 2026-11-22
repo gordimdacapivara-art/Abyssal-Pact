@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="AbilityData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/ability_data.gd" id="1_ability"]
+
+[resource]
+script = ExtResource("1_ability")
+id = &"ABIL-ARC-11"
+display_name = "Sifão de Véu"
+kind = &"passive"
+class_id = &"CLASS-001"
+description = "Passiva demonstrável do protótipo: canaliza véu abissal, acelerando a regeneração de mana. Efeito aplicado ao equipar no slot de passiva."
+pending = false
+cost_resource = &"mana"
+passive_effects = {
+"resource_regeneration_bonus": 0.5
+}

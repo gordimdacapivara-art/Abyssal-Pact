@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ContinentData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/continent_data.gd" id="1_cont"]
+
+[resource]
+script = ExtResource("1_cont")
+id = &"CONT-02"
+display_name = "Sylvaran"
+description = "Continente vegetal de florestas ancestrais sombrias, raízes colossais e pântanos espectrais. Copas imensas bloqueiam o sol, abrigando espinhos e névoas tóxicas."
+theme = "spectral_ancient_forest"
+region_ids = PackedStringArray("REG-011", "REG-012", "REG-013", "REG-014", "REG-015", "REG-016", "REG-017", "REG-018", "REG-019", "REG-020")
+capital_region_id = &"REG-011"
+climate = "humid_emerald_mist"
+pending_assets = PackedStringArray("model_glb_sylvaran_colossal_trees", "model_glb_thorn_gate", "audio_ambient_whispering_woods")

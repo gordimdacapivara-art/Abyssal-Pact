@@ -1,0 +1,5452 @@
+{
+  "metadata": {
+    "title": "ABYSSAL PACT — World Map Geographic Data",
+    "system_version": "2.0.0",
+    "cartographer": "Principal Cartographer of ABYSSAL PACT",
+    "coordinate_space": "Normalized [0.0, 1.0] Cartographic Grid",
+    "axis_orientation": "X: West (0.0) -> East (1.0), Y: North (0.0) -> South (1.0)",
+    "central_point": [
+      0.5,
+      0.5
+    ],
+    "total_continents": 4,
+    "total_regions": 40,
+    "regions_per_continent": 10,
+    "central_ocean": "Mar da Cicatriz",
+    "independent_dimension": "Hell Forge (Respawn Hub & Dimensional Nexus)"
+  },
+  "continents": {
+    "CONT-01": {
+      "id": "CONT-01",
+      "name": "Veyrath",
+      "quadrant": "Northwest (NW)",
+      "theme": "Imperial, montanhoso, calcinado e vulcânico",
+      "climate": "Árido e cáustico; cinzas e rios de lava",
+      "capital_region_id": "REG-001",
+      "capital_settlement": "Baluarte das Cinzas",
+      "normalized_bbox": [
+        0.05,
+        0.05,
+        0.46,
+        0.46
+      ],
+      "center": [
+        0.25,
+        0.25
+      ],
+      "relative_area_pct": 23.5,
+      "region_ids": [
+        "REG-001",
+        "REG-002",
+        "REG-003",
+        "REG-004",
+        "REG-005",
+        "REG-006",
+        "REG-007",
+        "REG-008",
+        "REG-009",
+        "REG-010"
+      ],
+      "geography_profile": {
+        "shape": "Maciço continental triangular escarpado, com espinhaço ocidental de obsidiana e depressão calcinada central inclinando-se para o Mar da Cicatriz.",
+        "coastlines": "Costas sul e leste recortadas por falésias de basalto e deltas de cinzas vulcânicas; costa oeste bloqueada por dentes de pedra intransponíveis.",
+        "mountain_ranges": "Cordilheira das Agulhas de Obsidiana (oeste), Serra Calcinada (norte).",
+        "plains": "Planícies de cinzas e terra férrea endurecida.",
+        "forests": "Bosques petrificados e árvores de carvão nas encostas baixas.",
+        "rivers": "Rios de magma fundido (Rio Calcinado, Fenda dos Fundidores) drenando para a costa.",
+        "lakes": "Lagoas sulfurosas e bacias de escória fundida.",
+        "deserts": "Deserto Fuliginoso na faixa interior ocidental.",
+        "volcanoes": "Caldeira Central de Veyrath (Voo de Cinzas) e cones menores ativos.",
+        "glaciers": "Inexistentes; calor geotérmico perene.",
+        "seas": "Mar da Cicatriz a sudeste; Mar do Vazio a noroeste."
+      }
+    },
+    "CONT-02": {
+      "id": "CONT-02",
+      "name": "Sylvaran",
+      "quadrant": "Northeast (NE)",
+      "theme": "Floresta ancestral, pântanos espectrais e ilhas suspensas",
+      "climate": "Subtropical úmido; névoas espectrais perenes e brumas arcanas",
+      "capital_region_id": "REG-011",
+      "capital_settlement": "Bosque das Almas",
+      "normalized_bbox": [
+        0.54,
+        0.05,
+        0.95,
+        0.46
+      ],
+      "center": [
+        0.75,
+        0.25
+      ],
+      "relative_area_pct": 26.0,
+      "region_ids": [
+        "REG-011",
+        "REG-012",
+        "REG-013",
+        "REG-014",
+        "REG-015",
+        "REG-016",
+        "REG-017",
+        "REG-018",
+        "REG-019",
+        "REG-020"
+      ],
+      "geography_profile": {
+        "shape": "Vasta bacia florestal semicircular, com terras baixas alagadas a sul e maciço arquipélago arbóreo suspenso ao norte.",
+        "coastlines": "Litoral sudoeste plano e lamoso (Estuário dos Salgueiros); costa leste ladeada por falésias recobertas de musgo.",
+        "mountain_ranges": "Cumes das Brumas ao noroeste; colinas das Raízes Antigas no centro-norte.",
+        "plains": "Clareiras rúnicas e clareiras de musgo luminescente.",
+        "forests": "Dossel ancestral gigantesco (Árvores-Mundo primordiais), selvas de sombras perenes.",
+        "rivers": "Rio das Almas e Canais Espectrais alimentados pela umidade do dossel.",
+        "lakes": "Lago Rúnico e charcos de sangue vegetal.",
+        "deserts": "Inexistentes; saturação vegetal máxima.",
+        "volcanoes": "Inexistentes; relevo moldado por crescimento biológico abissal e arcanismo.",
+        "glaciers": "Inexistentes; neblina condensada e orvalho místico constante.",
+        "seas": "Mar da Cicatriz a sudoeste; Mar Espectral ao nordeste."
+      }
+    },
+    "CONT-03": {
+      "id": "CONT-03",
+      "name": "Khar-Duum",
+      "quadrant": "Southwest (SW)",
+      "theme": "Cânions áridos, desertos de areia negra e estruturas subterrâneas",
+      "climate": "Desértico tórrido; tempestades de areia, ventos causticantes e calor infernal",
+      "capital_region_id": "REG-021",
+      "capital_settlement": "Fortaleza de Basalto",
+      "normalized_bbox": [
+        0.05,
+        0.54,
+        0.46,
+        0.95
+      ],
+      "center": [
+        0.25,
+        0.75
+      ],
+      "relative_area_pct": 25.5,
+      "region_ids": [
+        "REG-021",
+        "REG-022",
+        "REG-023",
+        "REG-024",
+        "REG-025",
+        "REG-026",
+        "REG-027",
+        "REG-028",
+        "REG-029",
+        "REG-030"
+      ],
+      "geography_profile": {
+        "shape": "Planalto maciço esculpido por erosão eólica e fendas tectônicas, descendo em dunas para a costa nordeste.",
+        "coastlines": "Praias escuras de sílica vulcânica e areia negra com recifes de ferro oxidado voltados ao Mar da Cicatriz.",
+        "mountain_ranges": "Escarpa Vermelha e Cordilheira dos Titãs ao sul e oeste.",
+        "plains": "Planícies de sal branco estéril e leitos de lagos secos.",
+        "forests": "Inexistentes; raros bosques de cactos de ferro e acácias calcinadas.",
+        "rivers": "Rios secos (wadis) de fluxo estacional e canais de magma subterrâneo.",
+        "lakes": "Oásis subterrâneos alimentados por aquíferos de águas amargas.",
+        "deserts": "Erg de Areias Negras, Deserto Silencioso e Ravinas de Poeira.",
+        "volcanoes": "Fissura do Fogo Profundo (sul) e respiradouros magmáticos menores.",
+        "glaciers": "Inexistentes; temperaturas de superfície extremas.",
+        "seas": "Mar da Cicatriz a nordeste; Mar Silencioso a sudoeste."
+      }
+    },
+    "CONT-04": {
+      "id": "CONT-04",
+      "name": "Nhal'Kora",
+      "quadrant": "Southeast (SE)",
+      "theme": "Litoral boreal, plataformas glaciais, fjords e fossas oceânicas abissais",
+      "climate": "Polar e oceânico glacial; nevascas cortantes, marés violentas e fendas gélidas",
+      "capital_region_id": "REG-031",
+      "capital_settlement": "Cidadela dos Afogados",
+      "normalized_bbox": [
+        0.54,
+        0.54,
+        0.95,
+        0.95
+      ],
+      "center": [
+        0.75,
+        0.75
+      ],
+      "relative_area_pct": 25.0,
+      "region_ids": [
+        "REG-031",
+        "REG-032",
+        "REG-033",
+        "REG-034",
+        "REG-035",
+        "REG-036",
+        "REG-037",
+        "REG-038",
+        "REG-039",
+        "REG-040"
+      ],
+      "geography_profile": {
+        "shape": "Arco costeiro fragmentado penetrado por profundos fjords, geleiras continentais e plataformas marinhas abissais.",
+        "coastlines": "Falésias de gelo azul, baías repletas de naufrágios e praias de cascalho negro banhadas por marés perpétuas.",
+        "mountain_ranges": "Cordilheira dos Sussurros Gélidos e Montanhas de Cristal.",
+        "plains": "Tundras costeiras de permafrost e estuários gélidos.",
+        "forests": "Bosques boreais de pinheiros carcomidos pelo salitre e gelo negro.",
+        "rivers": "Canais de degelo glacial e estuários com correntes marinhas revoltas.",
+        "lakes": "Fiordes profundos e bacias marítimas de água salgada semifluida.",
+        "deserts": "Desertos brancos de gelo perpétuo e banquisas polares.",
+        "volcanoes": "Fontes termais subglaciais geradoras de nevoeiros densos.",
+        "glaciers": "Geleira Sussurrante e calotas polares continentais permanentes.",
+        "seas": "Mar da Cicatriz a noroeste; Mar dos Condenados a sudeste."
+      }
+    }
+  },
+  "oceans": {
+    "central": {
+      "id": "OCEAN-01",
+      "name": "Mar da Cicatriz",
+      "type": "central_ocean",
+      "theme": "Abismo oceânico central, vórtice de correntes abissais e via náutica intercontinental",
+      "normalized_center": [
+        0.5,
+        0.5
+      ],
+      "normalized_bbox": [
+        0.42,
+        0.42,
+        0.58,
+        0.58
+      ],
+      "polygon": [
+        [
+          0.46,
+          0.38
+        ],
+        [
+          0.54,
+          0.38
+        ],
+        [
+          0.58,
+          0.44
+        ],
+        [
+          0.58,
+          0.56
+        ],
+        [
+          0.54,
+          0.62
+        ],
+        [
+          0.46,
+          0.62
+        ],
+        [
+          0.42,
+          0.56
+        ],
+        [
+          0.42,
+          0.44
+        ]
+      ],
+      "depth_m": 8500,
+      "currents": "Vórtice ciclônico central confluindo para a Fenda da Cicatriz",
+      "nautical_lanes": [
+        {
+          "from": "REG-001",
+          "to": "REG-011",
+          "name": "Rota do Estreito Setentrional",
+          "distance_km": 140,
+          "danger": "Médio (névoas cáusticas)"
+        },
+        {
+          "from": "REG-001",
+          "to": "REG-021",
+          "name": "Canal Ocidental da Escória",
+          "distance_km": 150,
+          "danger": "Alto (tempestades de sílica)"
+        },
+        {
+          "from": "REG-011",
+          "to": "REG-031",
+          "name": "Travessia das Brumas Orientais",
+          "distance_km": 160,
+          "danger": "Médio (marés espectrais)"
+        },
+        {
+          "from": "REG-021",
+          "to": "REG-031",
+          "name": "Passagem Meridional dos Naufrágios",
+          "distance_km": 145,
+          "danger": "Alto (recifes e correntes submersas)"
+        },
+        {
+          "from": "REG-002",
+          "to": "REG-031",
+          "name": "Rota Transoceânica da Cicatriz",
+          "distance_km": 280,
+          "danger": "Extremo (águas profundas do Abismo)"
+        }
+      ]
+    },
+    "peripheral": [
+      {
+        "id": "SEA-01",
+        "name": "Mar do Vazio",
+        "quadrant": "NW Exterior",
+        "theme": "Águas gélidas de cinzas flutuantes"
+      },
+      {
+        "id": "SEA-02",
+        "name": "Mar Espectral",
+        "quadrant": "NE Exterior",
+        "theme": "Águas de nevoeiro espesso e bruma arcana"
+      },
+      {
+        "id": "SEA-03",
+        "name": "Mar Silencioso",
+        "quadrant": "SW Exterior",
+        "theme": "Águas rasas de sal e calmaria mortal"
+      },
+      {
+        "id": "SEA-04",
+        "name": "Mar dos Condenados",
+        "quadrant": "SE Exterior",
+        "theme": "Águas tempestuosas com icebergs negros"
+      }
+    ]
+  },
+  "dimensions": {
+    "hell_forge": {
+      "id": "DIM-HELL-FORGE",
+      "name": "Hell Forge",
+      "type": "dimensional_plane",
+      "theme": "Dimensão independente de fogo ancestral, forja cósmica e hub obrigatório de ressurgimento",
+      "role": "Hub central, nexo de portais e destino obrigatório de ressurgimento",
+      "coordinates": "Dimensional / Extracartográfico (sem posição física no plano 2D)",
+      "access_mechanisms": [
+        {
+          "source_region": "REG-001",
+          "portal_id": "portal_reg-001_hell_forge",
+          "type": "permanent_conduit",
+          "location": "Baluarte das Cinzas"
+        },
+        {
+          "source_region": "REG-011",
+          "portal_id": "portal_reg-011_hell_forge",
+          "type": "permanent_conduit",
+          "location": "Bosque das Almas"
+        },
+        {
+          "source_region": "REG-021",
+          "portal_id": "portal_reg-021_hell_forge",
+          "type": "permanent_conduit",
+          "location": "Fortaleza de Basalto"
+        },
+        {
+          "source_region": "REG-031",
+          "portal_id": "portal_reg-031_hell_forge",
+          "type": "permanent_conduit",
+          "location": "Cidadela dos Afogados"
+        },
+        {
+          "source_region": "REG-010",
+          "portal_id": "portal_reg-010_abyssal_forge",
+          "type": "high_tier_rift",
+          "location": "Santuário da Cinza"
+        },
+        {
+          "source_region": "REG-020",
+          "portal_id": "portal_reg-020_abyssal_forge",
+          "type": "high_tier_rift",
+          "location": "Santuário da Seiva"
+        },
+        {
+          "source_region": "REG-030",
+          "portal_id": "portal_reg-030_abyssal_forge",
+          "type": "high_tier_rift",
+          "location": "Fortaleza Subterrânea"
+        },
+        {
+          "source_region": "REG-040",
+          "portal_id": "portal_reg-040_abyssal_forge",
+          "type": "high_tier_rift",
+          "location": "Santuário Abissal"
+        }
+      ]
+    }
+  },
+  "regions": {
+    "REG-001": {
+      "id": "REG-001",
+      "name": "Planície Cinzenta de Veyrath",
+      "continent_id": "CONT-01",
+      "continent_name": "Veyrath",
+      "biome": "ash_plains",
+      "level_range": [
+        1,
+        5
+      ],
+      "status": "full_production",
+      "capital_settlement": "Baluarte das Cinzas",
+      "dungeon": "Catacumbas de Basalto",
+      "associated_boss": "BOSS-001",
+      "description": "Extensa planície aluvial recoberta por camadas milenares de cinzas vulcânicas. Sede do Baluarte das Cinzas e ponto focal do império ancestral de Veyrath.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.24,
+          0.36
+        ],
+        "normalized_bbox": [
+          0.18,
+          0.3,
+          0.32,
+          0.44
+        ],
+        "polygon_vertices": [
+          [
+            0.2,
+            0.3
+          ],
+          [
+            0.3,
+            0.3
+          ],
+          [
+            0.32,
+            0.38
+          ],
+          [
+            0.28,
+            0.44
+          ],
+          [
+            0.18,
+            0.42
+          ],
+          [
+            0.17,
+            0.35
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 120,
+        "max": 310,
+        "average": 185
+      },
+      "terrain": {
+        "primary_material": "Solo compactado de cinza cinzenta, fendas de magma menores, monólitos de basalto negro e paliçadas imperiais.",
+        "natural_boundaries": {
+          "north": "Borda pantanosa de cinzas de REG-004 e colinas de escória.",
+          "south": "Costa rochosa do Canal Ocidental e declive para o desfiladeiro de REG-003.",
+          "east": "Fissuras de enxofre e cristas amarelas de REG-002 descendo para o Mar da Cicatriz.",
+          "west": "Encostas íngremes e agulhas de basalto da cordilheira de REG-005."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-001_to_reg-002",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-002",
+          "target_region_name": "Fendas de Enxofre",
+          "display_name": "Passo de Fronteira: Planície Cinzenta de Veyrath ↔ Fendas de Enxofre"
+        },
+        {
+          "id": "gate_reg-001_to_reg-003",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-003",
+          "target_region_name": "Desfiladeiro de Magma",
+          "display_name": "Passo de Fronteira: Planície Cinzenta de Veyrath ↔ Desfiladeiro de Magma"
+        },
+        {
+          "id": "gate_reg-001_to_reg-004",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-004",
+          "target_region_name": "Pântano de Cinzas",
+          "display_name": "Passo de Fronteira: Planície Cinzenta de Veyrath ↔ Pântano de Cinzas"
+        },
+        {
+          "id": "gate_reg-001_to_reg-005",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-005",
+          "target_region_name": "Picos de Obsidiana",
+          "display_name": "Passo de Fronteira: Planície Cinzenta de Veyrath ↔ Picos de Obsidiana"
+        },
+        {
+          "id": "harbor_reg-001_to_reg-011",
+          "type": "maritime_harbor",
+          "target_region_id": "REG-011",
+          "target_region_name": "Bosque Sussurrante",
+          "display_name": "Cais do Mar da Cicatriz: Planície Cinzenta de Veyrath ↔ Bosque Sussurrante"
+        },
+        {
+          "id": "harbor_reg-001_to_reg-021",
+          "type": "maritime_harbor",
+          "target_region_id": "REG-021",
+          "target_region_name": "Dunas de Areia Negra",
+          "display_name": "Cais do Mar da Cicatriz: Planície Cinzenta de Veyrath ↔ Dunas de Areia Negra"
+        },
+        {
+          "id": "harbor_reg-001_to_reg-031",
+          "type": "maritime_harbor",
+          "target_region_id": "REG-031",
+          "target_region_name": "Baía dos Afogados",
+          "display_name": "Cais do Mar da Cicatriz: Planície Cinzenta de Veyrath ↔ Baía dos Afogados"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Baluarte das Cinzas",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Catacumbas de Basalto",
+          "recommended_level_min": 1
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Planície Cinzenta de Veyrath",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-001",
+          "name": "Arena do Chefe BOSS-001",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-002",
+          "REG-003",
+          "REG-004",
+          "REG-005"
+        ],
+        "maritime_routes": [
+          "REG-011",
+          "REG-021",
+          "REG-031"
+        ],
+        "dimensional_portals": [
+          {
+            "source_region": "REG-001",
+            "portal_id": "portal_reg-001_hell_forge",
+            "type": "permanent_conduit",
+            "location": "Baluarte das Cinzas"
+          }
+        ]
+      }
+    },
+    "REG-002": {
+      "id": "REG-002",
+      "name": "Fendas de Enxofre",
+      "continent_id": "CONT-01",
+      "continent_name": "Veyrath",
+      "biome": "sulfur_crags",
+      "level_range": [
+        3,
+        7
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Posto de Enxofre",
+      "dungeon": "Minas de Pirita",
+      "associated_boss": "BOSS-002",
+      "description": "Território fraturado por fumarolas ativas, depósitos maciços de enxofre cristalino e vapores tóxicos que margeiam as águas do Mar da Cicatriz.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.36,
+          0.34
+        ],
+        "normalized_bbox": [
+          0.3,
+          0.27,
+          0.44,
+          0.42
+        ],
+        "polygon_vertices": [
+          [
+            0.3,
+            0.3
+          ],
+          [
+            0.38,
+            0.27
+          ],
+          [
+            0.44,
+            0.34
+          ],
+          [
+            0.42,
+            0.42
+          ],
+          [
+            0.34,
+            0.41
+          ],
+          [
+            0.31,
+            0.36
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 40,
+        "max": 220,
+        "average": 110
+      },
+      "terrain": {
+        "primary_material": "Rochas sedimentares amarelas e avermelhadas, piscinas ácidas fumegantes, fendas de desgaseificação e pontes de ferro fundido.",
+        "natural_boundaries": {
+          "north": "Planaltos de terra férrea de REG-008 com cristas de minério.",
+          "south": "Falésias marítimas de pirita voltadas para o Mar da Cicatriz.",
+          "east": "Águas costeiras do Mar da Cicatriz.",
+          "west": "Planície Cinzenta de REG-001."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-002_to_reg-001",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-001",
+          "target_region_name": "Planície Cinzenta de Veyrath",
+          "display_name": "Passo de Fronteira: Fendas de Enxofre ↔ Planície Cinzenta de Veyrath"
+        },
+        {
+          "id": "gate_reg-002_to_reg-004",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-004",
+          "target_region_name": "Pântano de Cinzas",
+          "display_name": "Passo de Fronteira: Fendas de Enxofre ↔ Pântano de Cinzas"
+        },
+        {
+          "id": "gate_reg-002_to_reg-008",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-008",
+          "target_region_name": "Terra Férrea",
+          "display_name": "Passo de Fronteira: Fendas de Enxofre ↔ Terra Férrea"
+        },
+        {
+          "id": "harbor_reg-002_to_reg-031",
+          "type": "maritime_harbor",
+          "target_region_id": "REG-031",
+          "target_region_name": "Baía dos Afogados",
+          "display_name": "Cais do Mar da Cicatriz: Fendas de Enxofre ↔ Baía dos Afogados"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Posto de Enxofre",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Minas de Pirita",
+          "recommended_level_min": 3
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Fendas de Enxofre",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-002",
+          "name": "Arena do Chefe BOSS-002",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-001",
+          "REG-004",
+          "REG-008"
+        ],
+        "maritime_routes": [
+          "REG-031"
+        ],
+        "dimensional_portals": []
+      }
+    },
+    "REG-003": {
+      "id": "REG-003",
+      "name": "Desfiladeiro de Magma",
+      "continent_id": "CONT-01",
+      "continent_name": "Veyrath",
+      "biome": "magma_gorge",
+      "level_range": [
+        5,
+        10
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Acampamento da Forja",
+      "dungeon": "Cavernas Candentes",
+      "associated_boss": "BOSS-003",
+      "description": "Garganta tectônica profunda rasgada por uma torrente de lava incandescente. Local de extração piroclástica e forjas primitivas.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.18,
+          0.42
+        ],
+        "normalized_bbox": [
+          0.1,
+          0.37,
+          0.24,
+          0.46
+        ],
+        "polygon_vertices": [
+          [
+            0.18,
+            0.37
+          ],
+          [
+            0.24,
+            0.39
+          ],
+          [
+            0.23,
+            0.46
+          ],
+          [
+            0.14,
+            0.46
+          ],
+          [
+            0.1,
+            0.43
+          ],
+          [
+            0.12,
+            0.38
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 80,
+        "max": 480,
+        "average": 260
+      },
+      "terrain": {
+        "primary_material": "Paredões verticais de andesito, rios de rocha derretida, pontes de pedra negra e cavernas incandescentes.",
+        "natural_boundaries": {
+          "north": "Transição suave para a Planície Cinzenta de REG-001.",
+          "south": "Penhascos costeiros do Canal Ocidental que separa Veyrath de Khar-Duum.",
+          "east": "Baluarte das Cinzas de REG-001.",
+          "west": "Bases maciças das Agulhas de Obsidiana de REG-005."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-003_to_reg-001",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-001",
+          "target_region_name": "Planície Cinzenta de Veyrath",
+          "display_name": "Passo de Fronteira: Desfiladeiro de Magma ↔ Planície Cinzenta de Veyrath"
+        },
+        {
+          "id": "gate_reg-003_to_reg-005",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-005",
+          "target_region_name": "Picos de Obsidiana",
+          "display_name": "Passo de Fronteira: Desfiladeiro de Magma ↔ Picos de Obsidiana"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Acampamento da Forja",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Cavernas Candentes",
+          "recommended_level_min": 5
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Desfiladeiro de Magma",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-003",
+          "name": "Arena do Chefe BOSS-003",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-001",
+          "REG-005"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-004": {
+      "id": "REG-004",
+      "name": "Pântano de Cinzas",
+      "continent_id": "CONT-01",
+      "continent_name": "Veyrath",
+      "biome": "ash_mire",
+      "level_range": [
+        8,
+        12
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Aldeia Queimada",
+      "dungeon": "Fosso Lamacento",
+      "associated_boss": "BOSS-004",
+      "description": "Depressão lacustre onde o escoamento hídrico das montanhas mistura-se a cinzas finas, criando um atoleiro movediço de lama quente e vapor.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.28,
+          0.24
+        ],
+        "normalized_bbox": [
+          0.22,
+          0.18,
+          0.36,
+          0.3
+        ],
+        "polygon_vertices": [
+          [
+            0.24,
+            0.19
+          ],
+          [
+            0.34,
+            0.18
+          ],
+          [
+            0.36,
+            0.26
+          ],
+          [
+            0.3,
+            0.3
+          ],
+          [
+            0.22,
+            0.28
+          ],
+          [
+            0.22,
+            0.22
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 15,
+        "max": 90,
+        "average": 45
+      },
+      "terrain": {
+        "primary_material": "Lama cinzenta borbulhante, troncos petrificados submersos, juncos calcinados e passarelas precárias de madeira reforçada.",
+        "natural_boundaries": {
+          "north": "Escarpa sul da Cratera Abissal de Ferro de REG-007.",
+          "south": "Planície Cinzenta de REG-001 e Fendas de Enxofre de REG-002.",
+          "east": "Camadas sedimentares de Terra Férrea de REG-008.",
+          "west": "Colinas de cinzas transicionando para o deserto fuliginoso de REG-006."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-004_to_reg-001",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-001",
+          "target_region_name": "Planície Cinzenta de Veyrath",
+          "display_name": "Passo de Fronteira: Pântano de Cinzas ↔ Planície Cinzenta de Veyrath"
+        },
+        {
+          "id": "gate_reg-004_to_reg-002",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-002",
+          "target_region_name": "Fendas de Enxofre",
+          "display_name": "Passo de Fronteira: Pântano de Cinzas ↔ Fendas de Enxofre"
+        },
+        {
+          "id": "gate_reg-004_to_reg-007",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-007",
+          "target_region_name": "Cratera Abissal de Ferro",
+          "display_name": "Passo de Fronteira: Pântano de Cinzas ↔ Cratera Abissal de Ferro"
+        },
+        {
+          "id": "gate_reg-004_to_reg-008",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-008",
+          "target_region_name": "Terra Férrea",
+          "display_name": "Passo de Fronteira: Pântano de Cinzas ↔ Terra Férrea"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Aldeia Queimada",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Fosso Lamacento",
+          "recommended_level_min": 8
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Pântano de Cinzas",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-004",
+          "name": "Arena do Chefe BOSS-004",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-001",
+          "REG-002",
+          "REG-007",
+          "REG-008"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-005": {
+      "id": "REG-005",
+      "name": "Picos de Obsidiana",
+      "continent_id": "CONT-01",
+      "continent_name": "Veyrath",
+      "biome": "obsidian_peaks",
+      "level_range": [
+        10,
+        15
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Posto das Agulhas",
+      "dungeon": "Câmara das Lâminas",
+      "associated_boss": "BOSS-005",
+      "description": "Cadeia montanhosa de vidro vulcânico negro com arestas afiadas como lâminas. As agulhas barram os ventos marítimos do oeste.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.11,
+          0.28
+        ],
+        "normalized_bbox": [
+          0.05,
+          0.2,
+          0.18,
+          0.38
+        ],
+        "polygon_vertices": [
+          [
+            0.1,
+            0.2
+          ],
+          [
+            0.17,
+            0.23
+          ],
+          [
+            0.18,
+            0.34
+          ],
+          [
+            0.13,
+            0.38
+          ],
+          [
+            0.06,
+            0.36
+          ],
+          [
+            0.05,
+            0.26
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 350,
+        "max": 1420,
+        "average": 890
+      },
+      "terrain": {
+        "primary_material": "Arestas cortantes de vidro vulcânico, desfiladeiros estreitos, neblina de sílica suspensa e cavernas de lâminas refletoras.",
+        "natural_boundaries": {
+          "north": "Dunas escuras de sílica do Deserto Fuliginoso de REG-006.",
+          "south": "Desfiladeiro de Magma de REG-003.",
+          "east": "Planície Cinzenta de REG-001.",
+          "west": "Costas inóspitas voltadas para o oceano externo ocidental."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-005_to_reg-001",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-001",
+          "target_region_name": "Planície Cinzenta de Veyrath",
+          "display_name": "Passo de Fronteira: Picos de Obsidiana ↔ Planície Cinzenta de Veyrath"
+        },
+        {
+          "id": "gate_reg-005_to_reg-003",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-003",
+          "target_region_name": "Desfiladeiro de Magma",
+          "display_name": "Passo de Fronteira: Picos de Obsidiana ↔ Desfiladeiro de Magma"
+        },
+        {
+          "id": "gate_reg-005_to_reg-006",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-006",
+          "target_region_name": "Deserto Fuliginoso",
+          "display_name": "Passo de Fronteira: Picos de Obsidiana ↔ Deserto Fuliginoso"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Posto das Agulhas",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Câmara das Lâminas",
+          "recommended_level_min": 10
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Picos de Obsidiana",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-005",
+          "name": "Arena do Chefe BOSS-005",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-001",
+          "REG-003",
+          "REG-006"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-006": {
+      "id": "REG-006",
+      "name": "Deserto Fuliginoso",
+      "continent_id": "CONT-01",
+      "continent_name": "Veyrath",
+      "biome": "soot_desert",
+      "level_range": [
+        13,
+        17
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Refúgio de Sílica",
+      "dungeon": "Túmulo dos Ventos",
+      "associated_boss": "BOSS-006",
+      "description": "Extensas dunas de fuligem e cinza fina varridas por rajadas térmicas constantes que apagam qualquer rastro de caravanas.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.14,
+          0.15
+        ],
+        "normalized_bbox": [
+          0.06,
+          0.08,
+          0.22,
+          0.22
+        ],
+        "polygon_vertices": [
+          [
+            0.12,
+            0.08
+          ],
+          [
+            0.2,
+            0.1
+          ],
+          [
+            0.21,
+            0.18
+          ],
+          [
+            0.16,
+            0.22
+          ],
+          [
+            0.08,
+            0.21
+          ],
+          [
+            0.06,
+            0.13
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 180,
+        "max": 520,
+        "average": 310
+      },
+      "terrain": {
+        "primary_material": "Dunas ondulantes de fuligem preta, formações rochosas esqueléticas e tempestades de poeira sufocante.",
+        "natural_boundaries": {
+          "north": "Contrafortes rochosos da Garganta Calcinada de REG-009.",
+          "south": "Picos de Obsidiana de REG-005.",
+          "east": "Borda ocidental da Cratera de Ferro de REG-007.",
+          "west": "Escarpa litoral do noroeste."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-006_to_reg-005",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-005",
+          "target_region_name": "Picos de Obsidiana",
+          "display_name": "Passo de Fronteira: Deserto Fuliginoso ↔ Picos de Obsidiana"
+        },
+        {
+          "id": "gate_reg-006_to_reg-007",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-007",
+          "target_region_name": "Cratera Abissal de Ferro",
+          "display_name": "Passo de Fronteira: Deserto Fuliginoso ↔ Cratera Abissal de Ferro"
+        },
+        {
+          "id": "gate_reg-006_to_reg-009",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-009",
+          "target_region_name": "Garganta Calcinada",
+          "display_name": "Passo de Fronteira: Deserto Fuliginoso ↔ Garganta Calcinada"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Refúgio de Sílica",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Túmulo dos Ventos",
+          "recommended_level_min": 13
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Deserto Fuliginoso",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-006",
+          "name": "Arena do Chefe BOSS-006",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-005",
+          "REG-007",
+          "REG-009"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-007": {
+      "id": "REG-007",
+      "name": "Cratera Abissal de Ferro",
+      "continent_id": "CONT-01",
+      "continent_name": "Veyrath",
+      "biome": "iron_crater",
+      "level_range": [
+        15,
+        20
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Guarnição de Chumbo",
+      "dungeon": "Complexo de Ferro Profundo",
+      "associated_boss": "BOSS-007",
+      "description": "Depressão circular colossal de origem meteórica ou demoníaca, rica em veios de ferro abissal e cercada por muralhas naturais de basalto.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.26,
+          0.14
+        ],
+        "normalized_bbox": [
+          0.2,
+          0.08,
+          0.33,
+          0.2
+        ],
+        "polygon_vertices": [
+          [
+            0.24,
+            0.08
+          ],
+          [
+            0.31,
+            0.09
+          ],
+          [
+            0.33,
+            0.17
+          ],
+          [
+            0.28,
+            0.2
+          ],
+          [
+            0.2,
+            0.17
+          ],
+          [
+            0.2,
+            0.11
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": -60,
+        "max": 410,
+        "average": 120
+      },
+      "terrain": {
+        "primary_material": "Terraceamento artificial imperial, minas profundas escavadas na rocha ferruginosa, guindastes e fundições ancestrais.",
+        "natural_boundaries": {
+          "north": "Cordilheira da Garganta Calcinada de REG-009.",
+          "south": "Pântano de Cinzas de REG-004.",
+          "east": "Planalto de Terra Férrea de REG-008.",
+          "west": "Deserto Fuliginoso de REG-006."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-007_to_reg-004",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-004",
+          "target_region_name": "Pântano de Cinzas",
+          "display_name": "Passo de Fronteira: Cratera Abissal de Ferro ↔ Pântano de Cinzas"
+        },
+        {
+          "id": "gate_reg-007_to_reg-006",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-006",
+          "target_region_name": "Deserto Fuliginoso",
+          "display_name": "Passo de Fronteira: Cratera Abissal de Ferro ↔ Deserto Fuliginoso"
+        },
+        {
+          "id": "gate_reg-007_to_reg-008",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-008",
+          "target_region_name": "Terra Férrea",
+          "display_name": "Passo de Fronteira: Cratera Abissal de Ferro ↔ Terra Férrea"
+        },
+        {
+          "id": "gate_reg-007_to_reg-009",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-009",
+          "target_region_name": "Garganta Calcinada",
+          "display_name": "Passo de Fronteira: Cratera Abissal de Ferro ↔ Garganta Calcinada"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Guarnição de Chumbo",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Complexo de Ferro Profundo",
+          "recommended_level_min": 15
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Cratera Abissal de Ferro",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-007",
+          "name": "Arena do Chefe BOSS-007",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-004",
+          "REG-006",
+          "REG-008",
+          "REG-009"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-008": {
+      "id": "REG-008",
+      "name": "Terra Férrea",
+      "continent_id": "CONT-01",
+      "continent_name": "Veyrath",
+      "biome": "scorched_earth",
+      "level_range": [
+        18,
+        22
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Fortim de Ferro",
+      "dungeon": "Mina dos Condenados",
+      "associated_boss": "BOSS-008",
+      "description": "Planalto ressecado com crostas minerais densas e solo vitrificado por antigas explosões celestes. Zona militarizada do império de Veyrath.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.38,
+          0.18
+        ],
+        "normalized_bbox": [
+          0.32,
+          0.1,
+          0.45,
+          0.27
+        ],
+        "polygon_vertices": [
+          [
+            0.36,
+            0.1
+          ],
+          [
+            0.44,
+            0.12
+          ],
+          [
+            0.45,
+            0.22
+          ],
+          [
+            0.4,
+            0.27
+          ],
+          [
+            0.32,
+            0.23
+          ],
+          [
+            0.33,
+            0.15
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 110,
+        "max": 620,
+        "average": 340
+      },
+      "terrain": {
+        "primary_material": "Solo duro cor de ferrugem, fortificações imperiais de pedra negra, trincheiras e monólitos de sinalização.",
+        "natural_boundaries": {
+          "north": "Rampa de cinzas do cone vulcânico de REG-010.",
+          "south": "Fendas de Enxofre de REG-002.",
+          "east": "Falésias marítimas que descem para o Estreito Setentrional.",
+          "west": "Cratera Abissal de Ferro de REG-007 e Pântano de Cinzas de REG-004."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-008_to_reg-002",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-002",
+          "target_region_name": "Fendas de Enxofre",
+          "display_name": "Passo de Fronteira: Terra Férrea ↔ Fendas de Enxofre"
+        },
+        {
+          "id": "gate_reg-008_to_reg-004",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-004",
+          "target_region_name": "Pântano de Cinzas",
+          "display_name": "Passo de Fronteira: Terra Férrea ↔ Pântano de Cinzas"
+        },
+        {
+          "id": "gate_reg-008_to_reg-007",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-007",
+          "target_region_name": "Cratera Abissal de Ferro",
+          "display_name": "Passo de Fronteira: Terra Férrea ↔ Cratera Abissal de Ferro"
+        },
+        {
+          "id": "gate_reg-008_to_reg-010",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-010",
+          "target_region_name": "Voo de Cinzas",
+          "display_name": "Passo de Fronteira: Terra Férrea ↔ Voo de Cinzas"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Fortim de Ferro",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Mina dos Condenados",
+          "recommended_level_min": 18
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Terra Férrea",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-008",
+          "name": "Arena do Chefe BOSS-008",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-002",
+          "REG-004",
+          "REG-007",
+          "REG-010"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-009": {
+      "id": "REG-009",
+      "name": "Garganta Calcinada",
+      "continent_id": "CONT-01",
+      "continent_name": "Veyrath",
+      "biome": "burnt_canyon",
+      "level_range": [
+        20,
+        25
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Posto do Abismo",
+      "dungeon": "Cripta dos Condenados",
+      "associated_boss": null,
+      "description": "Cânion profundo e sombrio rasgado entre as montanhas setentrionais, canalizando correntes de ar fervente provenientes da grande caldeira.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.24,
+          0.07
+        ],
+        "normalized_bbox": [
+          0.16,
+          0.05,
+          0.3,
+          0.12
+        ],
+        "polygon_vertices": [
+          [
+            0.18,
+            0.05
+          ],
+          [
+            0.28,
+            0.05
+          ],
+          [
+            0.3,
+            0.1
+          ],
+          [
+            0.26,
+            0.12
+          ],
+          [
+            0.17,
+            0.11
+          ],
+          [
+            0.16,
+            0.07
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 380,
+        "max": 1150,
+        "average": 720
+      },
+      "terrain": {
+        "primary_material": "Paredes de rocha calcinada, cascalho escorregadio, pontes em arco destruídas e túmulos esculpidos na pedra.",
+        "natural_boundaries": {
+          "north": "Costa setentrional inóspita do continente.",
+          "south": "Deserto Fuliginoso de REG-006 e Cratera de Ferro de REG-007.",
+          "east": "Santuário e encostas da Caldeira de REG-010.",
+          "west": "Encostas setentrionais da cordilheira ocidental."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-009_to_reg-006",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-006",
+          "target_region_name": "Deserto Fuliginoso",
+          "display_name": "Passo de Fronteira: Garganta Calcinada ↔ Deserto Fuliginoso"
+        },
+        {
+          "id": "gate_reg-009_to_reg-007",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-007",
+          "target_region_name": "Cratera Abissal de Ferro",
+          "display_name": "Passo de Fronteira: Garganta Calcinada ↔ Cratera Abissal de Ferro"
+        },
+        {
+          "id": "gate_reg-009_to_reg-010",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-010",
+          "target_region_name": "Voo de Cinzas",
+          "display_name": "Passo de Fronteira: Garganta Calcinada ↔ Voo de Cinzas"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Posto do Abismo",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Cripta dos Condenados",
+          "recommended_level_min": 20
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Garganta Calcinada",
+          "discovery_xp": 60
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-006",
+          "REG-007",
+          "REG-010"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-010": {
+      "id": "REG-010",
+      "name": "Voo de Cinzas",
+      "continent_id": "CONT-01",
+      "continent_name": "Veyrath",
+      "biome": "caldera_edge",
+      "level_range": [
+        23,
+        28
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Santuário da Cinza",
+      "dungeon": "Santuário do Fogo Profundo",
+      "associated_boss": null,
+      "description": "O cume e a borda da monumental Caldeira de Veyrath. Ventos uivantes espalham plumas de cinzas incandescentes por todo o quadrante norte.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.36,
+          0.08
+        ],
+        "normalized_bbox": [
+          0.29,
+          0.05,
+          0.44,
+          0.14
+        ],
+        "polygon_vertices": [
+          [
+            0.32,
+            0.05
+          ],
+          [
+            0.42,
+            0.05
+          ],
+          [
+            0.44,
+            0.12
+          ],
+          [
+            0.38,
+            0.14
+          ],
+          [
+            0.3,
+            0.12
+          ],
+          [
+            0.29,
+            0.07
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 800,
+        "max": 2650,
+        "average": 1720
+      },
+      "terrain": {
+        "primary_material": "Escarpa de cratera vulcânica ativa, lago de lava central, fumarolas de alta pressão e altares rituais esculpidos em basalto.",
+        "natural_boundaries": {
+          "north": "Borda externa da cratera descendo em precipício para o mar glacial do norte.",
+          "south": "Terras endurecidas de REG-008.",
+          "east": "Queda marítima em direção ao Estreito Setentrional.",
+          "west": "Garganta Calcinada de REG-009."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-010_to_reg-008",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-008",
+          "target_region_name": "Terra Férrea",
+          "display_name": "Passo de Fronteira: Voo de Cinzas ↔ Terra Férrea"
+        },
+        {
+          "id": "gate_reg-010_to_reg-009",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-009",
+          "target_region_name": "Garganta Calcinada",
+          "display_name": "Passo de Fronteira: Voo de Cinzas ↔ Garganta Calcinada"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Santuário da Cinza",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Santuário do Fogo Profundo",
+          "recommended_level_min": 23
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Voo de Cinzas",
+          "discovery_xp": 60
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-008",
+          "REG-009"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": [
+          {
+            "source_region": "REG-010",
+            "portal_id": "portal_reg-010_abyssal_forge",
+            "type": "high_tier_rift",
+            "location": "Santuário da Cinza"
+          }
+        ]
+      }
+    },
+    "REG-011": {
+      "id": "REG-011",
+      "name": "Bosque Sussurrante",
+      "continent_id": "CONT-02",
+      "continent_name": "Sylvaran",
+      "biome": "whispering_woods",
+      "level_range": [
+        1,
+        6
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Bosque das Almas",
+      "dungeon": "Raízes Esquecidas",
+      "associated_boss": "BOSS-009",
+      "description": "Florestas ancestrais de carvalhos e teixos colossais cujas folhas emitem sussurros incompreensíveis ao sabor do vento do Mar da Cicatriz. Abriga a capital espiritual Bosque das Almas.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.64,
+          0.36
+        ],
+        "normalized_bbox": [
+          0.56,
+          0.28,
+          0.7,
+          0.43
+        ],
+        "polygon_vertices": [
+          [
+            0.58,
+            0.3
+          ],
+          [
+            0.68,
+            0.29
+          ],
+          [
+            0.7,
+            0.37
+          ],
+          [
+            0.66,
+            0.43
+          ],
+          [
+            0.57,
+            0.41
+          ],
+          [
+            0.56,
+            0.34
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 30,
+        "max": 180,
+        "average": 85
+      },
+      "terrain": {
+        "primary_material": "Húmus denso recoberto de musgo prateado, clareiras sagradas, menires envoltos em líquen e pontes vivas de cipó trançado.",
+        "natural_boundaries": {
+          "north": "Clareira das Runas de REG-013 e cumes de névoa de REG-016.",
+          "south": "Costa pantanosa voltada para o Mar da Cicatriz.",
+          "east": "Pântano Espectral de REG-012.",
+          "west": "Canal do Estreito Setentrional que separa Sylvaran de Veyrath."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-011_to_reg-012",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-012",
+          "target_region_name": "Pântano Espectral",
+          "display_name": "Passo de Fronteira: Bosque Sussurrante ↔ Pântano Espectral"
+        },
+        {
+          "id": "gate_reg-011_to_reg-013",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-013",
+          "target_region_name": "Clareira das Runas",
+          "display_name": "Passo de Fronteira: Bosque Sussurrante ↔ Clareira das Runas"
+        },
+        {
+          "id": "gate_reg-011_to_reg-016",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-016",
+          "target_region_name": "Cume das Névoas",
+          "display_name": "Passo de Fronteira: Bosque Sussurrante ↔ Cume das Névoas"
+        },
+        {
+          "id": "harbor_reg-011_to_reg-001",
+          "type": "maritime_harbor",
+          "target_region_id": "REG-001",
+          "target_region_name": "Planície Cinzenta de Veyrath",
+          "display_name": "Cais do Mar da Cicatriz: Bosque Sussurrante ↔ Planície Cinzenta de Veyrath"
+        },
+        {
+          "id": "harbor_reg-011_to_reg-031",
+          "type": "maritime_harbor",
+          "target_region_id": "REG-031",
+          "target_region_name": "Baía dos Afogados",
+          "display_name": "Cais do Mar da Cicatriz: Bosque Sussurrante ↔ Baía dos Afogados"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Bosque das Almas",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Raízes Esquecidas",
+          "recommended_level_min": 1
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Bosque Sussurrante",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-009",
+          "name": "Arena do Chefe BOSS-009",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-012",
+          "REG-013",
+          "REG-016"
+        ],
+        "maritime_routes": [
+          "REG-001",
+          "REG-031"
+        ],
+        "dimensional_portals": [
+          {
+            "source_region": "REG-011",
+            "portal_id": "portal_reg-011_hell_forge",
+            "type": "permanent_conduit",
+            "location": "Bosque das Almas"
+          }
+        ]
+      }
+    },
+    "REG-012": {
+      "id": "REG-012",
+      "name": "Pântano Espectral",
+      "continent_id": "CONT-02",
+      "continent_name": "Sylvaran",
+      "biome": "spectral_fen",
+      "level_range": [
+        4,
+        8
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Refúgio da Bruma",
+      "dungeon": "Galeria dos Afogados",
+      "associated_boss": "BOSS-010",
+      "description": "Vasto paul alagadiço de águas escuras e espelhos d'água luminescentes onde vagueiam aparições e fogos-fátuos de almas perdidas.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.76,
+          0.38
+        ],
+        "normalized_bbox": [
+          0.69,
+          0.31,
+          0.84,
+          0.45
+        ],
+        "polygon_vertices": [
+          [
+            0.7,
+            0.32
+          ],
+          [
+            0.8,
+            0.31
+          ],
+          [
+            0.84,
+            0.38
+          ],
+          [
+            0.81,
+            0.45
+          ],
+          [
+            0.71,
+            0.44
+          ],
+          [
+            0.69,
+            0.37
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 5,
+        "max": 60,
+        "average": 22
+      },
+      "terrain": {
+        "primary_material": "Águas paradas rasas, tapetes de macrófitas bioluminescentes, salgueiros arqueados e túmulos aquáticos de pedra cinzenta.",
+        "natural_boundaries": {
+          "north": "Elevações de Raízes Antigas de REG-014.",
+          "south": "Litoral leste do Mar da Cicatriz.",
+          "east": "Vale dos Salgueiros Negros de REG-015.",
+          "west": "Bosque Sussurrante de REG-011."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-012_to_reg-011",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-011",
+          "target_region_name": "Bosque Sussurrante",
+          "display_name": "Passo de Fronteira: Pântano Espectral ↔ Bosque Sussurrante"
+        },
+        {
+          "id": "gate_reg-012_to_reg-014",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-014",
+          "target_region_name": "Raízes Antigas",
+          "display_name": "Passo de Fronteira: Pântano Espectral ↔ Raízes Antigas"
+        },
+        {
+          "id": "gate_reg-012_to_reg-015",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-015",
+          "target_region_name": "Vale dos Salgueiros Negros",
+          "display_name": "Passo de Fronteira: Pântano Espectral ↔ Vale dos Salgueiros Negros"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Refúgio da Bruma",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Galeria dos Afogados",
+          "recommended_level_min": 4
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Pântano Espectral",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-010",
+          "name": "Arena do Chefe BOSS-010",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-011",
+          "REG-014",
+          "REG-015"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-013": {
+      "id": "REG-013",
+      "name": "Clareira das Runas",
+      "continent_id": "CONT-02",
+      "continent_name": "Sylvaran",
+      "biome": "rune_glade",
+      "level_range": [
+        6,
+        10
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Posto Rúnico",
+      "dungeon": "Cripta dos Símbolos",
+      "associated_boss": "BOSS-011",
+      "description": "Clareira circular sagrada pontilhada por gigantescos dólmens e pedras talhadas com glifos que pulsam em tons de esmeralda e violeta.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.66,
+          0.25
+        ],
+        "normalized_bbox": [
+          0.58,
+          0.18,
+          0.72,
+          0.3
+        ],
+        "polygon_vertices": [
+          [
+            0.6,
+            0.19
+          ],
+          [
+            0.7,
+            0.18
+          ],
+          [
+            0.72,
+            0.26
+          ],
+          [
+            0.67,
+            0.3
+          ],
+          [
+            0.59,
+            0.28
+          ],
+          [
+            0.58,
+            0.22
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 90,
+        "max": 310,
+        "average": 175
+      },
+      "terrain": {
+        "primary_material": "Pradarias verdes pontilhadas de flores fluorescentes, círculos megalíticos, altares arcanos e terraços de pedra viva.",
+        "natural_boundaries": {
+          "north": "Cânion verdejante da Fenda Esmeralda de REG-019.",
+          "south": "Bosque Sussurrante de REG-011.",
+          "east": "Labirinto lenhoso de Raízes Antigas de REG-014.",
+          "west": "Escarpa do Cume das Névoas de REG-016."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-013_to_reg-011",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-011",
+          "target_region_name": "Bosque Sussurrante",
+          "display_name": "Passo de Fronteira: Clareira das Runas ↔ Bosque Sussurrante"
+        },
+        {
+          "id": "gate_reg-013_to_reg-014",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-014",
+          "target_region_name": "Raízes Antigas",
+          "display_name": "Passo de Fronteira: Clareira das Runas ↔ Raízes Antigas"
+        },
+        {
+          "id": "gate_reg-013_to_reg-016",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-016",
+          "target_region_name": "Cume das Névoas",
+          "display_name": "Passo de Fronteira: Clareira das Runas ↔ Cume das Névoas"
+        },
+        {
+          "id": "gate_reg-013_to_reg-019",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-019",
+          "target_region_name": "Fenda Esmeralda",
+          "display_name": "Passo de Fronteira: Clareira das Runas ↔ Fenda Esmeralda"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Posto Rúnico",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Cripta dos Símbolos",
+          "recommended_level_min": 6
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Clareira das Runas",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-011",
+          "name": "Arena do Chefe BOSS-011",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-011",
+          "REG-014",
+          "REG-016",
+          "REG-019"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-014": {
+      "id": "REG-014",
+      "name": "Raízes Antigas",
+      "continent_id": "CONT-02",
+      "continent_name": "Sylvaran",
+      "biome": "ancient_roots",
+      "level_range": [
+        9,
+        13
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Vila do Tronco Oco",
+      "dungeon": "Labirinto das Raízes",
+      "associated_boss": "BOSS-012",
+      "description": "Maciço labirinto de raízes titânicas de dezenas de metros de diâmetro que emergem do solo formando arcos, túneis e pontes naturais.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.78,
+          0.26
+        ],
+        "normalized_bbox": [
+          0.71,
+          0.18,
+          0.85,
+          0.32
+        ],
+        "polygon_vertices": [
+          [
+            0.73,
+            0.19
+          ],
+          [
+            0.82,
+            0.18
+          ],
+          [
+            0.85,
+            0.27
+          ],
+          [
+            0.81,
+            0.32
+          ],
+          [
+            0.72,
+            0.3
+          ],
+          [
+            0.71,
+            0.23
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 70,
+        "max": 260,
+        "average": 140
+      },
+      "terrain": {
+        "primary_material": "Raízes lenhosas gigantescas cobertas de musgo espesso, cavernas no interior de troncos ocos, solo húmico úmido e orquídeas parasitas.",
+        "natural_boundaries": {
+          "north": "Dossel fechado da Selva das Sombras de REG-018.",
+          "south": "Pântano Espectral de REG-012.",
+          "east": "Salgueiros e brejos de REG-015.",
+          "west": "Clareira das Runas de REG-013."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-014_to_reg-012",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-012",
+          "target_region_name": "Pântano Espectral",
+          "display_name": "Passo de Fronteira: Raízes Antigas ↔ Pântano Espectral"
+        },
+        {
+          "id": "gate_reg-014_to_reg-013",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-013",
+          "target_region_name": "Clareira das Runas",
+          "display_name": "Passo de Fronteira: Raízes Antigas ↔ Clareira das Runas"
+        },
+        {
+          "id": "gate_reg-014_to_reg-015",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-015",
+          "target_region_name": "Vale dos Salgueiros Negros",
+          "display_name": "Passo de Fronteira: Raízes Antigas ↔ Vale dos Salgueiros Negros"
+        },
+        {
+          "id": "gate_reg-014_to_reg-018",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-018",
+          "target_region_name": "Selva das Sombras",
+          "display_name": "Passo de Fronteira: Raízes Antigas ↔ Selva das Sombras"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Vila do Tronco Oco",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Labirinto das Raízes",
+          "recommended_level_min": 9
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Raízes Antigas",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-012",
+          "name": "Arena do Chefe BOSS-012",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-012",
+          "REG-013",
+          "REG-015",
+          "REG-018"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-015": {
+      "id": "REG-015",
+      "name": "Vale dos Salgueiros Negros",
+      "continent_id": "CONT-02",
+      "continent_name": "Sylvaran",
+      "biome": "black_willows",
+      "level_range": [
+        12,
+        16
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Acampamento Fúnebre",
+      "dungeon": "Túmulo das Lágrimas",
+      "associated_boss": "BOSS-013",
+      "description": "Vale úmido dominado por salgueiros de seiva escura e folhagem negra que goteja seiva corrosiva em ribeirões silenciosos.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.88,
+          0.32
+        ],
+        "normalized_bbox": [
+          0.82,
+          0.24,
+          0.94,
+          0.4
+        ],
+        "polygon_vertices": [
+          [
+            0.84,
+            0.25
+          ],
+          [
+            0.92,
+            0.25
+          ],
+          [
+            0.94,
+            0.35
+          ],
+          [
+            0.9,
+            0.4
+          ],
+          [
+            0.83,
+            0.38
+          ],
+          [
+            0.82,
+            0.3
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 20,
+        "max": 140,
+        "average": 65
+      },
+      "terrain": {
+        "primary_material": "Cursos d'água lentos de cor púrpura escura, vegetação gótica sombria, túmulos de pedra e pontes suspensas decadentes.",
+        "natural_boundaries": {
+          "north": "Pântano de Sangue de REG-017.",
+          "south": "Falésias marítimas orientais voltadas para o oceano exterior.",
+          "east": "Costa oriental de Sylvaran.",
+          "west": "Raízes Antigas de REG-014 e Pântano Espectral de REG-012."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-015_to_reg-012",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-012",
+          "target_region_name": "Pântano Espectral",
+          "display_name": "Passo de Fronteira: Vale dos Salgueiros Negros ↔ Pântano Espectral"
+        },
+        {
+          "id": "gate_reg-015_to_reg-014",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-014",
+          "target_region_name": "Raízes Antigas",
+          "display_name": "Passo de Fronteira: Vale dos Salgueiros Negros ↔ Raízes Antigas"
+        },
+        {
+          "id": "gate_reg-015_to_reg-017",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-017",
+          "target_region_name": "Pântano de Sangue",
+          "display_name": "Passo de Fronteira: Vale dos Salgueiros Negros ↔ Pântano de Sangue"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Acampamento Fúnebre",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Túmulo das Lágrimas",
+          "recommended_level_min": 12
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Vale dos Salgueiros Negros",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-013",
+          "name": "Arena do Chefe BOSS-013",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-012",
+          "REG-014",
+          "REG-017"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-016": {
+      "id": "REG-016",
+      "name": "Cume das Névoas",
+      "continent_id": "CONT-02",
+      "continent_name": "Sylvaran",
+      "biome": "misty_ridge",
+      "level_range": [
+        14,
+        18
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Mirante das Brumas",
+      "dungeon": "Salão Enevoado",
+      "associated_boss": "BOSS-014",
+      "description": "Cordilheira alta recortada por pontes de rocha suspensa e arquipélagos de ilhas flutuantes envoltas em bruma perpétua.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.58,
+          0.18
+        ],
+        "normalized_bbox": [
+          0.54,
+          0.1,
+          0.65,
+          0.27
+        ],
+        "polygon_vertices": [
+          [
+            0.56,
+            0.11
+          ],
+          [
+            0.64,
+            0.11
+          ],
+          [
+            0.65,
+            0.2
+          ],
+          [
+            0.61,
+            0.27
+          ],
+          [
+            0.55,
+            0.25
+          ],
+          [
+            0.54,
+            0.17
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 300,
+        "max": 1180,
+        "average": 680
+      },
+      "terrain": {
+        "primary_material": "Ilhas flutuantes ancoradas por cipós gigantescos, abismos cobertos de névoa, plataformas rúnicas voadoras e vento úmido perene.",
+        "natural_boundaries": {
+          "north": "Fenda Esmeralda de REG-019.",
+          "south": "Bosque Sussurrante de REG-011.",
+          "east": "Clareira das Runas de REG-013.",
+          "west": "Canal marítimo setentrional."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-016_to_reg-011",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-011",
+          "target_region_name": "Bosque Sussurrante",
+          "display_name": "Passo de Fronteira: Cume das Névoas ↔ Bosque Sussurrante"
+        },
+        {
+          "id": "gate_reg-016_to_reg-013",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-013",
+          "target_region_name": "Clareira das Runas",
+          "display_name": "Passo de Fronteira: Cume das Névoas ↔ Clareira das Runas"
+        },
+        {
+          "id": "gate_reg-016_to_reg-019",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-019",
+          "target_region_name": "Fenda Esmeralda",
+          "display_name": "Passo de Fronteira: Cume das Névoas ↔ Fenda Esmeralda"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Mirante das Brumas",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Salão Enevoado",
+          "recommended_level_min": 14
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Cume das Névoas",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-014",
+          "name": "Arena do Chefe BOSS-014",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-011",
+          "REG-013",
+          "REG-019"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-017": {
+      "id": "REG-017",
+      "name": "Pântano de Sangue",
+      "continent_id": "CONT-02",
+      "continent_name": "Sylvaran",
+      "biome": "blood_mire",
+      "level_range": [
+        17,
+        21
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Fortaleza Rubra",
+      "dungeon": "Fosso dos Sacrifícios",
+      "associated_boss": "BOSS-015",
+      "description": "Terreno alagadiço de águas carmesins ricas em ferro orgânico e algas predadoras que drenam seiva das árvores moribundas da orla oriental.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.88,
+          0.18
+        ],
+        "normalized_bbox": [
+          0.82,
+          0.1,
+          0.94,
+          0.25
+        ],
+        "polygon_vertices": [
+          [
+            0.85,
+            0.1
+          ],
+          [
+            0.93,
+            0.11
+          ],
+          [
+            0.94,
+            0.2
+          ],
+          [
+            0.89,
+            0.25
+          ],
+          [
+            0.83,
+            0.23
+          ],
+          [
+            0.82,
+            0.15
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 10,
+        "max": 85,
+        "average": 35
+      },
+      "terrain": {
+        "primary_material": "Lodo vermelho denso, flores carnívoras de grande porte, raízes afiadas como espinhos e totens druídicos ensanguentados.",
+        "natural_boundaries": {
+          "north": "Floresta fechada da Selva das Sombras de REG-018.",
+          "south": "Vale dos Salgueiros Negros de REG-015.",
+          "east": "Costas rochosas do mar oriental.",
+          "west": "Borda da Selva das Sombras de REG-018."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-017_to_reg-015",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-015",
+          "target_region_name": "Vale dos Salgueiros Negros",
+          "display_name": "Passo de Fronteira: Pântano de Sangue ↔ Vale dos Salgueiros Negros"
+        },
+        {
+          "id": "gate_reg-017_to_reg-018",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-018",
+          "target_region_name": "Selva das Sombras",
+          "display_name": "Passo de Fronteira: Pântano de Sangue ↔ Selva das Sombras"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Fortaleza Rubra",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Fosso dos Sacrifícios",
+          "recommended_level_min": 17
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Pântano de Sangue",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-015",
+          "name": "Arena do Chefe BOSS-015",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-015",
+          "REG-018"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-018": {
+      "id": "REG-018",
+      "name": "Selva das Sombras",
+      "continent_id": "CONT-02",
+      "continent_name": "Sylvaran",
+      "biome": "shadow_jungle",
+      "level_range": [
+        19,
+        23
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Posto do Dossel",
+      "dungeon": "Antro das Vinhas Negras",
+      "associated_boss": "BOSS-016",
+      "description": "Selva hiperdensa cujo dossel a 100 metros de altura bloqueia integralmente a luz solar. O solo vive em penumbra eterna povoada por criaturas sombrias.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.77,
+          0.14
+        ],
+        "normalized_bbox": [
+          0.7,
+          0.08,
+          0.85,
+          0.21
+        ],
+        "polygon_vertices": [
+          [
+            0.72,
+            0.08
+          ],
+          [
+            0.82,
+            0.08
+          ],
+          [
+            0.85,
+            0.16
+          ],
+          [
+            0.8,
+            0.21
+          ],
+          [
+            0.71,
+            0.19
+          ],
+          [
+            0.7,
+            0.13
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 80,
+        "max": 360,
+        "average": 190
+      },
+      "terrain": {
+        "primary_material": "Sub-bosque escuro iluminado por cogumelos luminescentes, cipós estranguladores, trilhas de raízes e arcos góticos vegetais.",
+        "natural_boundaries": {
+          "north": "Plataforma central do Coração da Floresta Abissal de REG-020.",
+          "south": "Raízes Antigas de REG-014 e Pântano de Sangue de REG-017.",
+          "east": "Pântano de Sangue de REG-017.",
+          "west": "Fenda Esmeralda de REG-019."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-018_to_reg-014",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-014",
+          "target_region_name": "Raízes Antigas",
+          "display_name": "Passo de Fronteira: Selva das Sombras ↔ Raízes Antigas"
+        },
+        {
+          "id": "gate_reg-018_to_reg-017",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-017",
+          "target_region_name": "Pântano de Sangue",
+          "display_name": "Passo de Fronteira: Selva das Sombras ↔ Pântano de Sangue"
+        },
+        {
+          "id": "gate_reg-018_to_reg-019",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-019",
+          "target_region_name": "Fenda Esmeralda",
+          "display_name": "Passo de Fronteira: Selva das Sombras ↔ Fenda Esmeralda"
+        },
+        {
+          "id": "gate_reg-018_to_reg-020",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-020",
+          "target_region_name": "Coração da Floresta Abissal",
+          "display_name": "Passo de Fronteira: Selva das Sombras ↔ Coração da Floresta Abissal"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Posto do Dossel",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Antro das Vinhas Negras",
+          "recommended_level_min": 19
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Selva das Sombras",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-016",
+          "name": "Arena do Chefe BOSS-016",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-014",
+          "REG-017",
+          "REG-019",
+          "REG-020"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-019": {
+      "id": "REG-019",
+      "name": "Fenda Esmeralda",
+      "continent_id": "CONT-02",
+      "continent_name": "Sylvaran",
+      "biome": "emerald_fissure",
+      "level_range": [
+        22,
+        26
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Vila Esmeralda",
+      "dungeon": "Cavernas dos Cristais Verdes",
+      "associated_boss": null,
+      "description": "Fenda tectônica atravessada por veios de cristal verde ressonante e cascatas de seiva pura. Corredor místico de acesso ao santuário boreal.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.65,
+          0.1
+        ],
+        "normalized_bbox": [
+          0.58,
+          0.05,
+          0.72,
+          0.16
+        ],
+        "polygon_vertices": [
+          [
+            0.6,
+            0.05
+          ],
+          [
+            0.7,
+            0.05
+          ],
+          [
+            0.72,
+            0.13
+          ],
+          [
+            0.67,
+            0.16
+          ],
+          [
+            0.59,
+            0.15
+          ],
+          [
+            0.58,
+            0.09
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 140,
+        "max": 680,
+        "average": 390
+      },
+      "terrain": {
+        "primary_material": "Paredões com geodos gigantes de cristal verde, pontes de madeira élfica ancestral, cavernas cintilantes e riachos de água mineral pura.",
+        "natural_boundaries": {
+          "north": "Declive em direção ao oceano polar setentrional.",
+          "south": "Clareira das Runas de REG-013 e Cume das Névoas de REG-016.",
+          "east": "Selva das Sombras de REG-018 e Coração da Floresta de REG-020.",
+          "west": "Contrafortes ocidentais do Cume das Névoas."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-019_to_reg-013",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-013",
+          "target_region_name": "Clareira das Runas",
+          "display_name": "Passo de Fronteira: Fenda Esmeralda ↔ Clareira das Runas"
+        },
+        {
+          "id": "gate_reg-019_to_reg-016",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-016",
+          "target_region_name": "Cume das Névoas",
+          "display_name": "Passo de Fronteira: Fenda Esmeralda ↔ Cume das Névoas"
+        },
+        {
+          "id": "gate_reg-019_to_reg-018",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-018",
+          "target_region_name": "Selva das Sombras",
+          "display_name": "Passo de Fronteira: Fenda Esmeralda ↔ Selva das Sombras"
+        },
+        {
+          "id": "gate_reg-019_to_reg-020",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-020",
+          "target_region_name": "Coração da Floresta Abissal",
+          "display_name": "Passo de Fronteira: Fenda Esmeralda ↔ Coração da Floresta Abissal"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Vila Esmeralda",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Cavernas dos Cristais Verdes",
+          "recommended_level_min": 22
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Fenda Esmeralda",
+          "discovery_xp": 60
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-013",
+          "REG-016",
+          "REG-018",
+          "REG-020"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-020": {
+      "id": "REG-020",
+      "name": "Coração da Floresta Abissal",
+      "continent_id": "CONT-02",
+      "continent_name": "Sylvaran",
+      "biome": "abyssal_heart",
+      "level_range": [
+        25,
+        30
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Santuário da Seiva",
+      "dungeon": "Santuário Corrompido",
+      "associated_boss": null,
+      "description": "O núcleo vital e místico de Sylvaran: a gigantesca Árvore-Mãe que ancora as ilhas flutuantes superiores e abriga a Fenda Abissal de Seiva Negra.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.78,
+          0.07
+        ],
+        "normalized_bbox": [
+          0.7,
+          0.05,
+          0.88,
+          0.12
+        ],
+        "polygon_vertices": [
+          [
+            0.73,
+            0.05
+          ],
+          [
+            0.85,
+            0.05
+          ],
+          [
+            0.87,
+            0.11
+          ],
+          [
+            0.81,
+            0.12
+          ],
+          [
+            0.72,
+            0.11
+          ],
+          [
+            0.71,
+            0.07
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 250,
+        "max": 1600,
+        "average": 840
+      },
+      "terrain": {
+        "primary_material": "Troncos titânicos, ilhas aéreas suspensas por feixes de luz mágica, cascatas de seiva bioluminescente e santuários arcanos intocados.",
+        "natural_boundaries": {
+          "north": "Falésias boreais e céu aberto sobre o oceano polar.",
+          "south": "Selva das Sombras de REG-018.",
+          "east": "Extremo nordeste costeiro de Sylvaran.",
+          "west": "Fenda Esmeralda de REG-019."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-020_to_reg-018",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-018",
+          "target_region_name": "Selva das Sombras",
+          "display_name": "Passo de Fronteira: Coração da Floresta Abissal ↔ Selva das Sombras"
+        },
+        {
+          "id": "gate_reg-020_to_reg-019",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-019",
+          "target_region_name": "Fenda Esmeralda",
+          "display_name": "Passo de Fronteira: Coração da Floresta Abissal ↔ Fenda Esmeralda"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Santuário da Seiva",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Santuário Corrompido",
+          "recommended_level_min": 25
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Coração da Floresta Abissal",
+          "discovery_xp": 60
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-018",
+          "REG-019"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": [
+          {
+            "source_region": "REG-020",
+            "portal_id": "portal_reg-020_abyssal_forge",
+            "type": "high_tier_rift",
+            "location": "Santuário da Seiva"
+          }
+        ]
+      }
+    },
+    "REG-021": {
+      "id": "REG-021",
+      "name": "Dunas de Areia Negra",
+      "continent_id": "CONT-03",
+      "continent_name": "Khar-Duum",
+      "biome": "black_sand_dunes",
+      "level_range": [
+        1,
+        6
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Fortaleza de Basalto",
+      "dungeon": "Templo Soterrado",
+      "associated_boss": "BOSS-017",
+      "description": "Erg colossal de dunas de magnetita e sílica negra estendendo-se ao longo da costa do Mar da Cicatriz. Abriga a maciça Fortaleza de Basalto.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.36,
+          0.64
+        ],
+        "normalized_bbox": [
+          0.28,
+          0.56,
+          0.44,
+          0.71
+        ],
+        "polygon_vertices": [
+          [
+            0.31,
+            0.57
+          ],
+          [
+            0.41,
+            0.56
+          ],
+          [
+            0.44,
+            0.65
+          ],
+          [
+            0.39,
+            0.71
+          ],
+          [
+            0.3,
+            0.69
+          ],
+          [
+            0.28,
+            0.62
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 20,
+        "max": 190,
+        "average": 75
+      },
+      "terrain": {
+        "primary_material": "Areia fina negra magnética, cristas eólicas afiadas, pilares de basalto esculpidos por ventos e caravanas fortificadas.",
+        "natural_boundaries": {
+          "north": "Litoral sul do Canal Ocidental e águas do Mar da Cicatriz.",
+          "south": "Oásis da Serpente de REG-023.",
+          "east": "Costa do Mar da Cicatriz com piers de atracação da Fortaleza.",
+          "west": "Cânion dos Ventos Áridos de REG-022."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-021_to_reg-022",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-022",
+          "target_region_name": "Cânion dos Ventos Áridos",
+          "display_name": "Passo de Fronteira: Dunas de Areia Negra ↔ Cânion dos Ventos Áridos"
+        },
+        {
+          "id": "gate_reg-021_to_reg-023",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-023",
+          "target_region_name": "Oásis da Serpente",
+          "display_name": "Passo de Fronteira: Dunas de Areia Negra ↔ Oásis da Serpente"
+        },
+        {
+          "id": "harbor_reg-021_to_reg-001",
+          "type": "maritime_harbor",
+          "target_region_id": "REG-001",
+          "target_region_name": "Planície Cinzenta de Veyrath",
+          "display_name": "Cais do Mar da Cicatriz: Dunas de Areia Negra ↔ Planície Cinzenta de Veyrath"
+        },
+        {
+          "id": "harbor_reg-021_to_reg-031",
+          "type": "maritime_harbor",
+          "target_region_id": "REG-031",
+          "target_region_name": "Baía dos Afogados",
+          "display_name": "Cais do Mar da Cicatriz: Dunas de Areia Negra ↔ Baía dos Afogados"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Fortaleza de Basalto",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Templo Soterrado",
+          "recommended_level_min": 1
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Dunas de Areia Negra",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-017",
+          "name": "Arena do Chefe BOSS-017",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-022",
+          "REG-023"
+        ],
+        "maritime_routes": [
+          "REG-001",
+          "REG-031"
+        ],
+        "dimensional_portals": [
+          {
+            "source_region": "REG-021",
+            "portal_id": "portal_reg-021_hell_forge",
+            "type": "permanent_conduit",
+            "location": "Fortaleza de Basalto"
+          }
+        ]
+      }
+    },
+    "REG-022": {
+      "id": "REG-022",
+      "name": "Cânion dos Ventos Áridos",
+      "continent_id": "CONT-03",
+      "continent_name": "Khar-Duum",
+      "biome": "dry_canyon",
+      "level_range": [
+        4,
+        8
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Posto das Gargantas",
+      "dungeon": "Fenda dos Uivos",
+      "associated_boss": "BOSS-018",
+      "description": "Rede de gargantas profundas de arenito vermelho e ocre onde as correntes térmicas produzem silvos e uivos perpétuos entre os paredões.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.24,
+          0.63
+        ],
+        "normalized_bbox": [
+          0.16,
+          0.56,
+          0.3,
+          0.7
+        ],
+        "polygon_vertices": [
+          [
+            0.18,
+            0.57
+          ],
+          [
+            0.28,
+            0.56
+          ],
+          [
+            0.3,
+            0.65
+          ],
+          [
+            0.26,
+            0.7
+          ],
+          [
+            0.17,
+            0.68
+          ],
+          [
+            0.16,
+            0.61
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 110,
+        "max": 480,
+        "average": 290
+      },
+      "terrain": {
+        "primary_material": "Leitos secos fluviais, desfiladeiros estreitos com sombras profundas, arcos naturais de pedra e postos de vigia escavados.",
+        "natural_boundaries": {
+          "north": "Canal marítimo ocidental.",
+          "south": "Vale dos Monólitos de REG-025.",
+          "east": "Dunas de Areia Negra de REG-021.",
+          "west": "Platô Escaldante de REG-024."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-022_to_reg-021",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-021",
+          "target_region_name": "Dunas de Areia Negra",
+          "display_name": "Passo de Fronteira: Cânion dos Ventos Áridos ↔ Dunas de Areia Negra"
+        },
+        {
+          "id": "gate_reg-022_to_reg-024",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-024",
+          "target_region_name": "Platô Escaldante",
+          "display_name": "Passo de Fronteira: Cânion dos Ventos Áridos ↔ Platô Escaldante"
+        },
+        {
+          "id": "gate_reg-022_to_reg-025",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-025",
+          "target_region_name": "Vale dos Monólitos",
+          "display_name": "Passo de Fronteira: Cânion dos Ventos Áridos ↔ Vale dos Monólitos"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Posto das Gargantas",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Fenda dos Uivos",
+          "recommended_level_min": 4
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Cânion dos Ventos Áridos",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-018",
+          "name": "Arena do Chefe BOSS-018",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-021",
+          "REG-024",
+          "REG-025"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-023": {
+      "id": "REG-023",
+      "name": "Oásis da Serpente",
+      "continent_id": "CONT-03",
+      "continent_name": "Khar-Duum",
+      "biome": "serpent_oasis",
+      "level_range": [
+        7,
+        11
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Vila da Miragem",
+      "dungeon": "Poço dos Antigos",
+      "associated_boss": "BOSS-019",
+      "description": "Oásis sinuoso em formato de serpente alimentado por um lençol freático termal. Ponto vital de comércio e descanso antes do deserto profundo.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.38,
+          0.74
+        ],
+        "normalized_bbox": [
+          0.31,
+          0.68,
+          0.45,
+          0.81
+        ],
+        "polygon_vertices": [
+          [
+            0.33,
+            0.69
+          ],
+          [
+            0.42,
+            0.68
+          ],
+          [
+            0.45,
+            0.76
+          ],
+          [
+            0.41,
+            0.81
+          ],
+          [
+            0.32,
+            0.79
+          ],
+          [
+            0.31,
+            0.73
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 15,
+        "max": 120,
+        "average": 45
+      },
+      "terrain": {
+        "primary_material": "Palmeiras carmesins raras, lagoas de águas termais azul-turquesa, tendas de nômades, mesquitas em ruínas e solos salobros.",
+        "natural_boundaries": {
+          "north": "Dunas de Areia Negra de REG-021.",
+          "south": "Escarpa vermelha de REG-027.",
+          "east": "Costa rochosa do Mar da Cicatriz.",
+          "west": "Vale dos Monólitos de REG-025."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-023_to_reg-021",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-021",
+          "target_region_name": "Dunas de Areia Negra",
+          "display_name": "Passo de Fronteira: Oásis da Serpente ↔ Dunas de Areia Negra"
+        },
+        {
+          "id": "gate_reg-023_to_reg-025",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-025",
+          "target_region_name": "Vale dos Monólitos",
+          "display_name": "Passo de Fronteira: Oásis da Serpente ↔ Vale dos Monólitos"
+        },
+        {
+          "id": "gate_reg-023_to_reg-027",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-027",
+          "target_region_name": "Cidadela Vermelha",
+          "display_name": "Passo de Fronteira: Oásis da Serpente ↔ Cidadela Vermelha"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Vila da Miragem",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Poço dos Antigos",
+          "recommended_level_min": 7
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Oásis da Serpente",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-019",
+          "name": "Arena do Chefe BOSS-019",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-021",
+          "REG-025",
+          "REG-027"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-024": {
+      "id": "REG-024",
+      "name": "Platô Escaldante",
+      "continent_id": "CONT-03",
+      "continent_name": "Khar-Duum",
+      "biome": "sunscorched_plateau",
+      "level_range": [
+        10,
+        14
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Refúgio da Rocha",
+      "dungeon": "Mina de Enxofre Solar",
+      "associated_boss": "BOSS-020",
+      "description": "Planalto elevado de rocha nua exposto a insolação brutal sem qualquer cobertura de vegetação. O ar vibra em miragens perpétuas.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.13,
+          0.65
+        ],
+        "normalized_bbox": [
+          0.05,
+          0.57,
+          0.19,
+          0.73
+        ],
+        "polygon_vertices": [
+          [
+            0.08,
+            0.58
+          ],
+          [
+            0.17,
+            0.57
+          ],
+          [
+            0.19,
+            0.67
+          ],
+          [
+            0.15,
+            0.73
+          ],
+          [
+            0.06,
+            0.71
+          ],
+          [
+            0.05,
+            0.63
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 380,
+        "max": 920,
+        "average": 610
+      },
+      "terrain": {
+        "primary_material": "Basalto fraturado pelo calor, pedregulhos soltos, poços de piche endurecido e abrigos sob lajes de pedra escorada.",
+        "natural_boundaries": {
+          "north": "Costas escarpadas do oceano ocidental.",
+          "south": "Fenda de Sal de REG-026.",
+          "east": "Cânion dos Ventos Áridos de REG-022.",
+          "west": "Penhascos intransponíveis do extremo ocidente."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-024_to_reg-022",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-022",
+          "target_region_name": "Cânion dos Ventos Áridos",
+          "display_name": "Passo de Fronteira: Platô Escaldante ↔ Cânion dos Ventos Áridos"
+        },
+        {
+          "id": "gate_reg-024_to_reg-026",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-026",
+          "target_region_name": "Fenda de Sal",
+          "display_name": "Passo de Fronteira: Platô Escaldante ↔ Fenda de Sal"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Refúgio da Rocha",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Mina de Enxofre Solar",
+          "recommended_level_min": 10
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Platô Escaldante",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-020",
+          "name": "Arena do Chefe BOSS-020",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-022",
+          "REG-026"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-025": {
+      "id": "REG-025",
+      "name": "Vale dos Monólitos",
+      "continent_id": "CONT-03",
+      "continent_name": "Khar-Duum",
+      "biome": "monolith_valley",
+      "level_range": [
+        13,
+        17
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Acampamento das Estelas",
+      "dungeon": "Cripta dos Gigantes",
+      "associated_boss": "BOSS-021",
+      "description": "Planície desértica coberta por centenas de monólitos ciclópicos erguidos por titãs pré-humanos, cobertos por inscrições que zumbem com a brisa.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.26,
+          0.76
+        ],
+        "normalized_bbox": [
+          0.18,
+          0.69,
+          0.33,
+          0.83
+        ],
+        "polygon_vertices": [
+          [
+            0.2,
+            0.7
+          ],
+          [
+            0.3,
+            0.69
+          ],
+          [
+            0.33,
+            0.78
+          ],
+          [
+            0.28,
+            0.83
+          ],
+          [
+            0.19,
+            0.81
+          ],
+          [
+            0.18,
+            0.74
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 140,
+        "max": 420,
+        "average": 260
+      },
+      "terrain": {
+        "primary_material": "Areia alaranjada, megálitos verticais de granito negro, sepulturas saqueadas e caminhos de caravana bem demarcados.",
+        "natural_boundaries": {
+          "north": "Cânion dos Ventos de REG-022.",
+          "south": "Labirinto de Cânions de REG-028.",
+          "east": "Oásis da Serpente de REG-023.",
+          "west": "Fenda de Sal de REG-026."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-025_to_reg-022",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-022",
+          "target_region_name": "Cânion dos Ventos Áridos",
+          "display_name": "Passo de Fronteira: Vale dos Monólitos ↔ Cânion dos Ventos Áridos"
+        },
+        {
+          "id": "gate_reg-025_to_reg-023",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-023",
+          "target_region_name": "Oásis da Serpente",
+          "display_name": "Passo de Fronteira: Vale dos Monólitos ↔ Oásis da Serpente"
+        },
+        {
+          "id": "gate_reg-025_to_reg-026",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-026",
+          "target_region_name": "Fenda de Sal",
+          "display_name": "Passo de Fronteira: Vale dos Monólitos ↔ Fenda de Sal"
+        },
+        {
+          "id": "gate_reg-025_to_reg-028",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-028",
+          "target_region_name": "Labirinto de Cânions",
+          "display_name": "Passo de Fronteira: Vale dos Monólitos ↔ Labirinto de Cânions"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Acampamento das Estelas",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Cripta dos Gigantes",
+          "recommended_level_min": 13
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Vale dos Monólitos",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-021",
+          "name": "Arena do Chefe BOSS-021",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-022",
+          "REG-023",
+          "REG-026",
+          "REG-028"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-026": {
+      "id": "REG-026",
+      "name": "Fenda de Sal",
+      "continent_id": "CONT-03",
+      "continent_name": "Khar-Duum",
+      "biome": "salt_flats",
+      "level_range": [
+        15,
+        19
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Posto do Sal Branco",
+      "dungeon": "Catacumbas Cristalinas",
+      "associated_boss": "BOSS-022",
+      "description": "Extensa bacia de sal branco ofuscante resultante da dessecação de um mar antigo. Cristais afiados cobrem respiradouros geotérmicos mortais.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.12,
+          0.78
+        ],
+        "normalized_bbox": [
+          0.05,
+          0.71,
+          0.19,
+          0.86
+        ],
+        "polygon_vertices": [
+          [
+            0.07,
+            0.72
+          ],
+          [
+            0.17,
+            0.71
+          ],
+          [
+            0.19,
+            0.8
+          ],
+          [
+            0.14,
+            0.86
+          ],
+          [
+            0.06,
+            0.84
+          ],
+          [
+            0.05,
+            0.77
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": -20,
+        "max": 110,
+        "average": 30
+      },
+      "terrain": {
+        "primary_material": "Crosta brilhante de sal puro, fendas profundas com salmoura cáustica, colunas de sal gema e ruínas de antigas salinas.",
+        "natural_boundaries": {
+          "north": "Platô Escaldante de REG-024.",
+          "south": "Deserto Silencioso de REG-029.",
+          "east": "Vale dos Monólitos de REG-025.",
+          "west": "Borda montanhosa ocidental."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-026_to_reg-024",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-024",
+          "target_region_name": "Platô Escaldante",
+          "display_name": "Passo de Fronteira: Fenda de Sal ↔ Platô Escaldante"
+        },
+        {
+          "id": "gate_reg-026_to_reg-025",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-025",
+          "target_region_name": "Vale dos Monólitos",
+          "display_name": "Passo de Fronteira: Fenda de Sal ↔ Vale dos Monólitos"
+        },
+        {
+          "id": "gate_reg-026_to_reg-029",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-029",
+          "target_region_name": "Deserto Silencioso",
+          "display_name": "Passo de Fronteira: Fenda de Sal ↔ Deserto Silencioso"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Posto do Sal Branco",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Catacumbas Cristalinas",
+          "recommended_level_min": 15
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Fenda de Sal",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-022",
+          "name": "Arena do Chefe BOSS-022",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-024",
+          "REG-025",
+          "REG-029"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-027": {
+      "id": "REG-027",
+      "name": "Cidadela Vermelha",
+      "continent_id": "CONT-03",
+      "continent_name": "Khar-Duum",
+      "biome": "red_citadel",
+      "level_range": [
+        18,
+        22
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Baluarte Vermelho",
+      "dungeon": "Masmorras da Forja",
+      "associated_boss": "BOSS-023",
+      "description": "Bastião militar e religioso esculpido diretamente nas entranhas de uma montanha de pedra carmesim. Protege as passagens subterrâneas do sul.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.37,
+          0.86
+        ],
+        "normalized_bbox": [
+          0.3,
+          0.8,
+          0.45,
+          0.93
+        ],
+        "polygon_vertices": [
+          [
+            0.33,
+            0.81
+          ],
+          [
+            0.42,
+            0.8
+          ],
+          [
+            0.45,
+            0.89
+          ],
+          [
+            0.39,
+            0.93
+          ],
+          [
+            0.31,
+            0.91
+          ],
+          [
+            0.3,
+            0.85
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 210,
+        "max": 890,
+        "average": 480
+      },
+      "terrain": {
+        "primary_material": "Fortificações colossais de arenito vermelho, fossos secos, portões monumentais de bronze escuro e forjas subterrâneas ativas.",
+        "natural_boundaries": {
+          "north": "Oásis da Serpente de REG-023.",
+          "south": "Fissura vulcânica de REG-030.",
+          "east": "Falésias marítimas do Estreito Meridional que separa Khar-Duum de Nhal'Kora.",
+          "west": "Labirinto de Cânions de REG-028."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-027_to_reg-023",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-023",
+          "target_region_name": "Oásis da Serpente",
+          "display_name": "Passo de Fronteira: Cidadela Vermelha ↔ Oásis da Serpente"
+        },
+        {
+          "id": "gate_reg-027_to_reg-028",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-028",
+          "target_region_name": "Labirinto de Cânions",
+          "display_name": "Passo de Fronteira: Cidadela Vermelha ↔ Labirinto de Cânions"
+        },
+        {
+          "id": "gate_reg-027_to_reg-030",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-030",
+          "target_region_name": "Garganta do Fogo Profundo",
+          "display_name": "Passo de Fronteira: Cidadela Vermelha ↔ Garganta do Fogo Profundo"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Baluarte Vermelho",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Masmorras da Forja",
+          "recommended_level_min": 18
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Cidadela Vermelha",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-023",
+          "name": "Arena do Chefe BOSS-023",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-023",
+          "REG-028",
+          "REG-030"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-028": {
+      "id": "REG-028",
+      "name": "Labirinto de Cânions",
+      "continent_id": "CONT-03",
+      "continent_name": "Khar-Duum",
+      "biome": "canyon_labyrinth",
+      "level_range": [
+        20,
+        24
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Posto da Poeira",
+      "dungeon": "Gruta das Sombras Quentes",
+      "associated_boss": null,
+      "description": "Gargantas sinuosas entrecruzadas formando um dédalo natural inexpugnável onde correntes de ar fervente e poeira sufocante desorientam viajantes.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.24,
+          0.87
+        ],
+        "normalized_bbox": [
+          0.17,
+          0.81,
+          0.31,
+          0.93
+        ],
+        "polygon_vertices": [
+          [
+            0.19,
+            0.82
+          ],
+          [
+            0.29,
+            0.81
+          ],
+          [
+            0.31,
+            0.89
+          ],
+          [
+            0.26,
+            0.93
+          ],
+          [
+            0.18,
+            0.91
+          ],
+          [
+            0.17,
+            0.85
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 90,
+        "max": 520,
+        "average": 280
+      },
+      "terrain": {
+        "primary_material": "Paredões labirínticos com saliências estreitas, cavernas de bandidos e eremitas, escombros de desmoronamentos e poços de areia movediça.",
+        "natural_boundaries": {
+          "north": "Vale dos Monólitos de REG-025.",
+          "south": "Garganta do Fogo Profundo de REG-030.",
+          "east": "Cidadela Vermelha de REG-027.",
+          "west": "Deserto Silencioso de REG-029."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-028_to_reg-025",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-025",
+          "target_region_name": "Vale dos Monólitos",
+          "display_name": "Passo de Fronteira: Labirinto de Cânions ↔ Vale dos Monólitos"
+        },
+        {
+          "id": "gate_reg-028_to_reg-027",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-027",
+          "target_region_name": "Cidadela Vermelha",
+          "display_name": "Passo de Fronteira: Labirinto de Cânions ↔ Cidadela Vermelha"
+        },
+        {
+          "id": "gate_reg-028_to_reg-029",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-029",
+          "target_region_name": "Deserto Silencioso",
+          "display_name": "Passo de Fronteira: Labirinto de Cânions ↔ Deserto Silencioso"
+        },
+        {
+          "id": "gate_reg-028_to_reg-030",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-030",
+          "target_region_name": "Garganta do Fogo Profundo",
+          "display_name": "Passo de Fronteira: Labirinto de Cânions ↔ Garganta do Fogo Profundo"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Posto da Poeira",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Gruta das Sombras Quentes",
+          "recommended_level_min": 20
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Labirinto de Cânions",
+          "discovery_xp": 60
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-025",
+          "REG-027",
+          "REG-029",
+          "REG-030"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-029": {
+      "id": "REG-029",
+      "name": "Deserto Silencioso",
+      "continent_id": "CONT-03",
+      "continent_name": "Khar-Duum",
+      "biome": "silent_waste",
+      "level_range": [
+        23,
+        27
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Acampamento Ermo",
+      "dungeon": "Tumba do Vento Perdido",
+      "associated_boss": null,
+      "description": "Território de silêncio sobrenatural no extremo sudoeste onde nem pássaros nem insetos sobrevivem. Dunas petrificadas guardam tumbas esquecidas.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.12,
+          0.9
+        ],
+        "normalized_bbox": [
+          0.05,
+          0.83,
+          0.19,
+          0.95
+        ],
+        "polygon_vertices": [
+          [
+            0.07,
+            0.84
+          ],
+          [
+            0.17,
+            0.83
+          ],
+          [
+            0.19,
+            0.91
+          ],
+          [
+            0.14,
+            0.95
+          ],
+          [
+            0.06,
+            0.94
+          ],
+          [
+            0.05,
+            0.88
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 180,
+        "max": 610,
+        "average": 360
+      },
+      "terrain": {
+        "primary_material": "Dunas de areia ocre petrificada, esqueletos de feras pré-históricas desidratadas, tótens de proteção arruinados e ar imóvel.",
+        "natural_boundaries": {
+          "north": "Fenda de Sal de REG-026.",
+          "south": "Borda austral do mundo conhecido.",
+          "east": "Labirinto de Cânions de REG-028 e Garganta do Fogo de REG-030.",
+          "west": "Costas desoladas do oceano ocidental."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-029_to_reg-026",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-026",
+          "target_region_name": "Fenda de Sal",
+          "display_name": "Passo de Fronteira: Deserto Silencioso ↔ Fenda de Sal"
+        },
+        {
+          "id": "gate_reg-029_to_reg-028",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-028",
+          "target_region_name": "Labirinto de Cânions",
+          "display_name": "Passo de Fronteira: Deserto Silencioso ↔ Labirinto de Cânions"
+        },
+        {
+          "id": "gate_reg-029_to_reg-030",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-030",
+          "target_region_name": "Garganta do Fogo Profundo",
+          "display_name": "Passo de Fronteira: Deserto Silencioso ↔ Garganta do Fogo Profundo"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Acampamento Ermo",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Tumba do Vento Perdido",
+          "recommended_level_min": 23
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Deserto Silencioso",
+          "discovery_xp": 60
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-026",
+          "REG-028",
+          "REG-030"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-030": {
+      "id": "REG-030",
+      "name": "Garganta do Fogo Profundo",
+      "continent_id": "CONT-03",
+      "continent_name": "Khar-Duum",
+      "biome": "deepfire_gorge",
+      "level_range": [
+        26,
+        32
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Fortaleza Subterrânea",
+      "dungeon": "Altar das Profundezas",
+      "associated_boss": null,
+      "description": "Fissura continental extrema que penetra no manto terrestre, expondo câmaras de magma primordiais e forjas titânicas há muito abandonadas.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.28,
+          0.94
+        ],
+        "normalized_bbox": [
+          0.2,
+          0.89,
+          0.36,
+          0.96
+        ],
+        "polygon_vertices": [
+          [
+            0.22,
+            0.9
+          ],
+          [
+            0.34,
+            0.89
+          ],
+          [
+            0.36,
+            0.95
+          ],
+          [
+            0.29,
+            0.96
+          ],
+          [
+            0.21,
+            0.95
+          ],
+          [
+            0.2,
+            0.92
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": -150,
+        "max": 850,
+        "average": 310
+      },
+      "terrain": {
+        "primary_material": "Câmaras subterrâneas gigantescas, pontes de ferro sobre rios de magma puro, maquinário colossal de forja arcaica e ar sufocante de cinzas.",
+        "natural_boundaries": {
+          "north": "Cidadela Vermelha de REG-027 e Labirinto de Cânions de REG-028.",
+          "south": "Limite austral do mapa e abismo igneo.",
+          "east": "Cidadela Vermelha de REG-027.",
+          "west": "Deserto Silencioso de REG-029."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-030_to_reg-027",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-027",
+          "target_region_name": "Cidadela Vermelha",
+          "display_name": "Passo de Fronteira: Garganta do Fogo Profundo ↔ Cidadela Vermelha"
+        },
+        {
+          "id": "gate_reg-030_to_reg-028",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-028",
+          "target_region_name": "Labirinto de Cânions",
+          "display_name": "Passo de Fronteira: Garganta do Fogo Profundo ↔ Labirinto de Cânions"
+        },
+        {
+          "id": "gate_reg-030_to_reg-029",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-029",
+          "target_region_name": "Deserto Silencioso",
+          "display_name": "Passo de Fronteira: Garganta do Fogo Profundo ↔ Deserto Silencioso"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Fortaleza Subterrânea",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Altar das Profundezas",
+          "recommended_level_min": 26
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Garganta do Fogo Profundo",
+          "discovery_xp": 60
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-027",
+          "REG-028",
+          "REG-029"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": [
+          {
+            "source_region": "REG-030",
+            "portal_id": "portal_reg-030_abyssal_forge",
+            "type": "high_tier_rift",
+            "location": "Fortaleza Subterrânea"
+          }
+        ]
+      }
+    },
+    "REG-031": {
+      "id": "REG-031",
+      "name": "Baía dos Afogados",
+      "continent_id": "CONT-04",
+      "continent_name": "Nhal'Kora",
+      "biome": "drowned_bay",
+      "level_range": [
+        1,
+        6
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Cidadela dos Afogados",
+      "dungeon": "Naufrágio do Leviatã",
+      "associated_boss": "BOSS-024",
+      "description": "Baía protegida cercada por falésias de basalto e pontilhada por cascos de navios afundados ao longo de séculos. Sede da Cidadela dos Afogados e porto do Mar da Cicatriz.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.64,
+          0.64
+        ],
+        "normalized_bbox": [
+          0.56,
+          0.56,
+          0.71,
+          0.71
+        ],
+        "polygon_vertices": [
+          [
+            0.58,
+            0.57
+          ],
+          [
+            0.69,
+            0.56
+          ],
+          [
+            0.71,
+            0.65
+          ],
+          [
+            0.67,
+            0.71
+          ],
+          [
+            0.57,
+            0.69
+          ],
+          [
+            0.56,
+            0.62
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 0,
+        "max": 110,
+        "average": 40
+      },
+      "terrain": {
+        "primary_material": "Litoral de cascalho negro, piers de madeira apodrecida ancorados em pedra, cascos de galeões encalhados e marés calmas de tom anil.",
+        "natural_boundaries": {
+          "north": "Costa voltada para o Canal do Leste e Mar da Cicatriz.",
+          "south": "Recifes negros de REG-033.",
+          "east": "Penhascos Espectrais de REG-032.",
+          "west": "Canal do Estreito Meridional que separa Nhal'Kora de Khar-Duum."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-031_to_reg-032",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-032",
+          "target_region_name": "Penhascos Espectrais",
+          "display_name": "Passo de Fronteira: Baía dos Afogados ↔ Penhascos Espectrais"
+        },
+        {
+          "id": "gate_reg-031_to_reg-033",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-033",
+          "target_region_name": "Recife Abissal",
+          "display_name": "Passo de Fronteira: Baía dos Afogados ↔ Recife Abissal"
+        },
+        {
+          "id": "harbor_reg-031_to_reg-001",
+          "type": "maritime_harbor",
+          "target_region_id": "REG-001",
+          "target_region_name": "Planície Cinzenta de Veyrath",
+          "display_name": "Cais do Mar da Cicatriz: Baía dos Afogados ↔ Planície Cinzenta de Veyrath"
+        },
+        {
+          "id": "harbor_reg-031_to_reg-002",
+          "type": "maritime_harbor",
+          "target_region_id": "REG-002",
+          "target_region_name": "Fendas de Enxofre",
+          "display_name": "Cais do Mar da Cicatriz: Baía dos Afogados ↔ Fendas de Enxofre"
+        },
+        {
+          "id": "harbor_reg-031_to_reg-011",
+          "type": "maritime_harbor",
+          "target_region_id": "REG-011",
+          "target_region_name": "Bosque Sussurrante",
+          "display_name": "Cais do Mar da Cicatriz: Baía dos Afogados ↔ Bosque Sussurrante"
+        },
+        {
+          "id": "harbor_reg-031_to_reg-021",
+          "type": "maritime_harbor",
+          "target_region_id": "REG-021",
+          "target_region_name": "Dunas de Areia Negra",
+          "display_name": "Cais do Mar da Cicatriz: Baía dos Afogados ↔ Dunas de Areia Negra"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Cidadela dos Afogados",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Naufrágio do Leviatã",
+          "recommended_level_min": 1
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Baía dos Afogados",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-024",
+          "name": "Arena do Chefe BOSS-024",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-032",
+          "REG-033"
+        ],
+        "maritime_routes": [
+          "REG-001",
+          "REG-002",
+          "REG-011",
+          "REG-021"
+        ],
+        "dimensional_portals": [
+          {
+            "source_region": "REG-031",
+            "portal_id": "portal_reg-031_hell_forge",
+            "type": "permanent_conduit",
+            "location": "Cidadela dos Afogados"
+          }
+        ]
+      }
+    },
+    "REG-032": {
+      "id": "REG-032",
+      "name": "Penhascos Espectrais",
+      "continent_id": "CONT-04",
+      "continent_name": "Nhal'Kora",
+      "biome": "ghostly_cliffs",
+      "level_range": [
+        4,
+        8
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Posto do Farol",
+      "dungeon": "Catacumbas da Falésia",
+      "associated_boss": "BOSS-025",
+      "description": "Falésias verticais de rocha negra contra as quais o oceano quebra com violência inaudita. No topo ergue-se o secular Farol da Luz Fria.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.77,
+          0.63
+        ],
+        "normalized_bbox": [
+          0.7,
+          0.56,
+          0.84,
+          0.7
+        ],
+        "polygon_vertices": [
+          [
+            0.72,
+            0.57
+          ],
+          [
+            0.82,
+            0.56
+          ],
+          [
+            0.84,
+            0.65
+          ],
+          [
+            0.8,
+            0.7
+          ],
+          [
+            0.71,
+            0.68
+          ],
+          [
+            0.7,
+            0.61
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 80,
+        "max": 520,
+        "average": 290
+      },
+      "terrain": {
+        "primary_material": "Promontórios ventosos e rochosos, escadarias talhadas na rocha à beira do abismo, faróis antigos e catacumbas costeiras.",
+        "natural_boundaries": {
+          "north": "Costa oriental do Mar da Cicatriz.",
+          "south": "Fjord dos Condenados de REG-035.",
+          "east": "Costa das Névoas Frias de REG-034.",
+          "west": "Baía dos Afogados de REG-031."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-032_to_reg-031",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-031",
+          "target_region_name": "Baía dos Afogados",
+          "display_name": "Passo de Fronteira: Penhascos Espectrais ↔ Baía dos Afogados"
+        },
+        {
+          "id": "gate_reg-032_to_reg-034",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-034",
+          "target_region_name": "Costa das Névoas Frias",
+          "display_name": "Passo de Fronteira: Penhascos Espectrais ↔ Costa das Névoas Frias"
+        },
+        {
+          "id": "gate_reg-032_to_reg-035",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-035",
+          "target_region_name": "Fjord dos Condenados",
+          "display_name": "Passo de Fronteira: Penhascos Espectrais ↔ Fjord dos Condenados"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Posto do Farol",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Catacumbas da Falésia",
+          "recommended_level_min": 4
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Penhascos Espectrais",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-025",
+          "name": "Arena do Chefe BOSS-025",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-031",
+          "REG-034",
+          "REG-035"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-033": {
+      "id": "REG-033",
+      "name": "Recife Abissal",
+      "continent_id": "CONT-04",
+      "continent_name": "Nhal'Kora",
+      "biome": "abyssal_reef",
+      "level_range": [
+        7,
+        11
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Aldeia das Marés",
+      "dungeon": "Fenda de Coral Negro",
+      "associated_boss": "BOSS-026",
+      "description": "Barreira litorânea de coral negro pontiagudo e lagunas rasas onde as marés mudam com violência repentina puxadas pela atração abissal.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.63,
+          0.75
+        ],
+        "normalized_bbox": [
+          0.56,
+          0.68,
+          0.7,
+          0.82
+        ],
+        "polygon_vertices": [
+          [
+            0.58,
+            0.69
+          ],
+          [
+            0.68,
+            0.68
+          ],
+          [
+            0.7,
+            0.77
+          ],
+          [
+            0.66,
+            0.82
+          ],
+          [
+            0.57,
+            0.8
+          ],
+          [
+            0.56,
+            0.73
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": -15,
+        "max": 65,
+        "average": 20
+      },
+      "terrain": {
+        "primary_material": "Corais pontiagudos de tom obsidiano, poças de maré habitadas por anêmonas venenosas, passadiços sobre estacas e aldeias de pescadores.",
+        "natural_boundaries": {
+          "north": "Baía dos Afogados de REG-031.",
+          "south": "Estuário dos Sussurros de REG-037.",
+          "east": "Fjord dos Condenados de REG-035.",
+          "west": "Águas do Estreito Meridional."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-033_to_reg-031",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-031",
+          "target_region_name": "Baía dos Afogados",
+          "display_name": "Passo de Fronteira: Recife Abissal ↔ Baía dos Afogados"
+        },
+        {
+          "id": "gate_reg-033_to_reg-035",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-035",
+          "target_region_name": "Fjord dos Condenados",
+          "display_name": "Passo de Fronteira: Recife Abissal ↔ Fjord dos Condenados"
+        },
+        {
+          "id": "gate_reg-033_to_reg-037",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-037",
+          "target_region_name": "Estuário dos Sussurros",
+          "display_name": "Passo de Fronteira: Recife Abissal ↔ Estuário dos Sussurros"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Aldeia das Marés",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Fenda de Coral Negro",
+          "recommended_level_min": 7
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Recife Abissal",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-026",
+          "name": "Arena do Chefe BOSS-026",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-031",
+          "REG-035",
+          "REG-037"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-034": {
+      "id": "REG-034",
+      "name": "Costa das Névoas Frias",
+      "continent_id": "CONT-04",
+      "continent_name": "Nhal'Kora",
+      "biome": "cold_coast",
+      "level_range": [
+        10,
+        14
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Vila do Quebra-Mar",
+      "dungeon": "Grota dos Ventos Glaciais",
+      "associated_boss": "BOSS-027",
+      "description": "Litoral boreal fustigado por neblinas marítimas geladas com fragmentos de cristais de gelo que rasgam a pele de viajantes despreparados.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.88,
+          0.65
+        ],
+        "normalized_bbox": [
+          0.81,
+          0.57,
+          0.94,
+          0.73
+        ],
+        "polygon_vertices": [
+          [
+            0.83,
+            0.58
+          ],
+          [
+            0.92,
+            0.57
+          ],
+          [
+            0.94,
+            0.67
+          ],
+          [
+            0.9,
+            0.73
+          ],
+          [
+            0.82,
+            0.71
+          ],
+          [
+            0.81,
+            0.63
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 10,
+        "max": 220,
+        "average": 95
+      },
+      "terrain": {
+        "primary_material": "Praias de areia gélida e gelo moído, espigões de pedra contra o mar tempestuoso, vilarejos de caçadores de leviatãs e cavernas marinhas congeladas.",
+        "natural_boundaries": {
+          "north": "Oceano boreal exterior.",
+          "south": "Geleira Sussurrante de REG-036.",
+          "east": "Oceano glacial oriental.",
+          "west": "Penhascos Espectrais de REG-032."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-034_to_reg-032",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-032",
+          "target_region_name": "Penhascos Espectrais",
+          "display_name": "Passo de Fronteira: Costa das Névoas Frias ↔ Penhascos Espectrais"
+        },
+        {
+          "id": "gate_reg-034_to_reg-036",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-036",
+          "target_region_name": "Geleira Sussurrante",
+          "display_name": "Passo de Fronteira: Costa das Névoas Frias ↔ Geleira Sussurrante"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Vila do Quebra-Mar",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Grota dos Ventos Glaciais",
+          "recommended_level_min": 10
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Costa das Névoas Frias",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-027",
+          "name": "Arena do Chefe BOSS-027",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-032",
+          "REG-036"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-035": {
+      "id": "REG-035",
+      "name": "Fjord dos Condenados",
+      "continent_id": "CONT-04",
+      "continent_name": "Nhal'Kora",
+      "biome": "damned_fjord",
+      "level_range": [
+        13,
+        17
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Refúgio dos Remadores",
+      "dungeon": "Caverna das Almas Perdidas",
+      "associated_boss": "BOSS-028",
+      "description": "Fiorde sinuoso encaixado entre montanhas cobertas de permafrost. Águas escuras e profundas refletem as neves eternas das geleiras circundantes.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.75,
+          0.75
+        ],
+        "normalized_bbox": [
+          0.68,
+          0.68,
+          0.82,
+          0.82
+        ],
+        "polygon_vertices": [
+          [
+            0.7,
+            0.69
+          ],
+          [
+            0.8,
+            0.68
+          ],
+          [
+            0.82,
+            0.77
+          ],
+          [
+            0.77,
+            0.82
+          ],
+          [
+            0.69,
+            0.8
+          ],
+          [
+            0.68,
+            0.73
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 40,
+        "max": 780,
+        "average": 360
+      },
+      "terrain": {
+        "primary_material": "Paredões de gelo e granito de 600 metros de altura, canais navegáveis gélidos, cais de barcos fúnebres e acampamentos cravados em fendas.",
+        "natural_boundaries": {
+          "north": "Penhascos Espectrais de REG-032.",
+          "south": "Estuário dos Sussurros de REG-037 e Maré Eterna de REG-038.",
+          "east": "Geleira Sussurrante de REG-036.",
+          "west": "Recife Abissal de REG-033."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-035_to_reg-032",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-032",
+          "target_region_name": "Penhascos Espectrais",
+          "display_name": "Passo de Fronteira: Fjord dos Condenados ↔ Penhascos Espectrais"
+        },
+        {
+          "id": "gate_reg-035_to_reg-033",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-033",
+          "target_region_name": "Recife Abissal",
+          "display_name": "Passo de Fronteira: Fjord dos Condenados ↔ Recife Abissal"
+        },
+        {
+          "id": "gate_reg-035_to_reg-036",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-036",
+          "target_region_name": "Geleira Sussurrante",
+          "display_name": "Passo de Fronteira: Fjord dos Condenados ↔ Geleira Sussurrante"
+        },
+        {
+          "id": "gate_reg-035_to_reg-037",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-037",
+          "target_region_name": "Estuário dos Sussurros",
+          "display_name": "Passo de Fronteira: Fjord dos Condenados ↔ Estuário dos Sussurros"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Refúgio dos Remadores",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Caverna das Almas Perdidas",
+          "recommended_level_min": 13
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Fjord dos Condenados",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-028",
+          "name": "Arena do Chefe BOSS-028",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-032",
+          "REG-033",
+          "REG-036",
+          "REG-037"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-036": {
+      "id": "REG-036",
+      "name": "Geleira Sussurrante",
+      "continent_id": "CONT-04",
+      "continent_name": "Nhal'Kora",
+      "biome": "frozen_expanse",
+      "level_range": [
+        16,
+        20
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Posto Glacial",
+      "dungeon": "Mina de Gelo Negro",
+      "associated_boss": "BOSS-029",
+      "description": "Monumento de gelo azul milenar e compacto. O gelo estala continuamente emitindo frequências ressonantes conhecidas como 'os lamentos dos afogados'.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.87,
+          0.76
+        ],
+        "normalized_bbox": [
+          0.8,
+          0.7,
+          0.94,
+          0.83
+        ],
+        "polygon_vertices": [
+          [
+            0.82,
+            0.71
+          ],
+          [
+            0.92,
+            0.7
+          ],
+          [
+            0.94,
+            0.79
+          ],
+          [
+            0.89,
+            0.83
+          ],
+          [
+            0.81,
+            0.81
+          ],
+          [
+            0.8,
+            0.75
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 420,
+        "max": 1680,
+        "average": 940
+      },
+      "terrain": {
+        "primary_material": "Seracs imensos de gelo transparente, fendas profundas de centenas de metros, cavernas de degelo azuladas e minas de gelo negro místico.",
+        "natural_boundaries": {
+          "north": "Costa das Névoas Frias de REG-034.",
+          "south": "Maré Eterna de REG-038.",
+          "east": "Borda da calota polar exterior.",
+          "west": "Fjord dos Condenados de REG-035."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-036_to_reg-034",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-034",
+          "target_region_name": "Costa das Névoas Frias",
+          "display_name": "Passo de Fronteira: Geleira Sussurrante ↔ Costa das Névoas Frias"
+        },
+        {
+          "id": "gate_reg-036_to_reg-035",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-035",
+          "target_region_name": "Fjord dos Condenados",
+          "display_name": "Passo de Fronteira: Geleira Sussurrante ↔ Fjord dos Condenados"
+        },
+        {
+          "id": "gate_reg-036_to_reg-038",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-038",
+          "target_region_name": "Maré Eterna",
+          "display_name": "Passo de Fronteira: Geleira Sussurrante ↔ Maré Eterna"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Posto Glacial",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Mina de Gelo Negro",
+          "recommended_level_min": 16
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Geleira Sussurrante",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-029",
+          "name": "Arena do Chefe BOSS-029",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-034",
+          "REG-035",
+          "REG-038"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-037": {
+      "id": "REG-037",
+      "name": "Estuário dos Sussurros",
+      "continent_id": "CONT-04",
+      "continent_name": "Nhal'Kora",
+      "biome": "whisper_estuary",
+      "level_range": [
+        19,
+        23
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Posto do Canal",
+      "dungeon": "Túmulo do Naufrágio",
+      "associated_boss": "BOSS-030",
+      "description": "Delta labiríntico onde as correntes de degelo das montanhas encontram o oceano glacial em meio a bancos de lodo negro e bancos de gelo flutuante.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.69,
+          0.87
+        ],
+        "normalized_bbox": [
+          0.61,
+          0.81,
+          0.76,
+          0.93
+        ],
+        "polygon_vertices": [
+          [
+            0.63,
+            0.82
+          ],
+          [
+            0.73,
+            0.81
+          ],
+          [
+            0.76,
+            0.89
+          ],
+          [
+            0.71,
+            0.93
+          ],
+          [
+            0.62,
+            0.91
+          ],
+          [
+            0.61,
+            0.85
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 5,
+        "max": 140,
+        "average": 55
+      },
+      "terrain": {
+        "primary_material": "Ilhotas de permafrost lamacento, canais rasos de maré, pontões de barcaças abandonadas e mirantes de vigília contra leviatãs.",
+        "natural_boundaries": {
+          "north": "Recife Abissal de REG-033 e Fjord dos Condenados de REG-035.",
+          "south": "Fossa Oceânica de REG-039.",
+          "east": "Maré Eterna de REG-038.",
+          "west": "Limite litorâneo do Estreito Meridional."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-037_to_reg-033",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-033",
+          "target_region_name": "Recife Abissal",
+          "display_name": "Passo de Fronteira: Estuário dos Sussurros ↔ Recife Abissal"
+        },
+        {
+          "id": "gate_reg-037_to_reg-035",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-035",
+          "target_region_name": "Fjord dos Condenados",
+          "display_name": "Passo de Fronteira: Estuário dos Sussurros ↔ Fjord dos Condenados"
+        },
+        {
+          "id": "gate_reg-037_to_reg-038",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-038",
+          "target_region_name": "Maré Eterna",
+          "display_name": "Passo de Fronteira: Estuário dos Sussurros ↔ Maré Eterna"
+        },
+        {
+          "id": "gate_reg-037_to_reg-039",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-039",
+          "target_region_name": "Fossa Oceânica",
+          "display_name": "Passo de Fronteira: Estuário dos Sussurros ↔ Fossa Oceânica"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Posto do Canal",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Túmulo do Naufrágio",
+          "recommended_level_min": 19
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Estuário dos Sussurros",
+          "discovery_xp": 60
+        },
+        {
+          "type": "boss_arena",
+          "boss_id": "BOSS-030",
+          "name": "Arena do Chefe BOSS-030",
+          "arena_radius_meters": 35.0
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-033",
+          "REG-035",
+          "REG-038",
+          "REG-039"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-038": {
+      "id": "REG-038",
+      "name": "Maré Eterna",
+      "continent_id": "CONT-04",
+      "continent_name": "Nhal'Kora",
+      "biome": "eternal_tide",
+      "level_range": [
+        22,
+        26
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Acampamento das Marés",
+      "dungeon": "Fenda Profunda das Conchas",
+      "associated_boss": null,
+      "description": "Golfo oceânico açoitado por tempestades e ressacas perpétuas cujas ondas de dez metros varrem ilhotas de rocha nua dia e noite.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.81,
+          0.87
+        ],
+        "normalized_bbox": [
+          0.74,
+          0.81,
+          0.88,
+          0.93
+        ],
+        "polygon_vertices": [
+          [
+            0.76,
+            0.82
+          ],
+          [
+            0.86,
+            0.81
+          ],
+          [
+            0.88,
+            0.89
+          ],
+          [
+            0.83,
+            0.93
+          ],
+          [
+            0.75,
+            0.91
+          ],
+          [
+            0.74,
+            0.85
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": 0,
+        "max": 85,
+        "average": 30
+      },
+      "terrain": {
+        "primary_material": "Rochedos negros lavados por ondas quebrando violentamente, quebra-mares ciclópicos de alvenaria ancestral e cavernas de sucção de maré.",
+        "natural_boundaries": {
+          "north": "Geleira Sussurrante de REG-036.",
+          "south": "Vórtice do Fim do Abismo de REG-040.",
+          "east": "Oceano austral exterior.",
+          "west": "Estuário dos Sussurros de REG-037."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-038_to_reg-036",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-036",
+          "target_region_name": "Geleira Sussurrante",
+          "display_name": "Passo de Fronteira: Maré Eterna ↔ Geleira Sussurrante"
+        },
+        {
+          "id": "gate_reg-038_to_reg-037",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-037",
+          "target_region_name": "Estuário dos Sussurros",
+          "display_name": "Passo de Fronteira: Maré Eterna ↔ Estuário dos Sussurros"
+        },
+        {
+          "id": "gate_reg-038_to_reg-040",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-040",
+          "target_region_name": "Fim do Abismo",
+          "display_name": "Passo de Fronteira: Maré Eterna ↔ Fim do Abismo"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Acampamento das Marés",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Fenda Profunda das Conchas",
+          "recommended_level_min": 22
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Maré Eterna",
+          "discovery_xp": 60
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-036",
+          "REG-037",
+          "REG-040"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-039": {
+      "id": "REG-039",
+      "name": "Fossa Oceânica",
+      "continent_id": "CONT-04",
+      "continent_name": "Nhal'Kora",
+      "biome": "oceanic_trench",
+      "level_range": [
+        25,
+        29
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Cidadela Submersa",
+      "dungeon": "Altar das Correntes",
+      "associated_boss": null,
+      "description": "Fossa submarina profunda cujas plataformas superiores emergem na maré baixa, revelando arcadas submersas de uma civilização pré-diluviana.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.68,
+          0.95
+        ],
+        "normalized_bbox": [
+          0.6,
+          0.9,
+          0.76,
+          0.98
+        ],
+        "polygon_vertices": [
+          [
+            0.62,
+            0.91
+          ],
+          [
+            0.74,
+            0.9
+          ],
+          [
+            0.76,
+            0.96
+          ],
+          [
+            0.7,
+            0.98
+          ],
+          [
+            0.61,
+            0.97
+          ],
+          [
+            0.6,
+            0.93
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": -850,
+        "max": 40,
+        "average": -320
+      },
+      "terrain": {
+        "primary_material": "Plataformas de cantaria submersas, florestas de quelp gigante azulado, correntes abissais verticais e aberturas para as profundezas oceânicas.",
+        "natural_boundaries": {
+          "north": "Estuário dos Sussurros de REG-037.",
+          "south": "Abismo abissal infinito.",
+          "east": "Fim do Abismo de REG-040.",
+          "west": "Profundezas marinhas meridionais."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-039_to_reg-037",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-037",
+          "target_region_name": "Estuário dos Sussurros",
+          "display_name": "Passo de Fronteira: Fossa Oceânica ↔ Estuário dos Sussurros"
+        },
+        {
+          "id": "gate_reg-039_to_reg-040",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-040",
+          "target_region_name": "Fim do Abismo",
+          "display_name": "Passo de Fronteira: Fossa Oceânica ↔ Fim do Abismo"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Cidadela Submersa",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Altar das Correntes",
+          "recommended_level_min": 25
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Fossa Oceânica",
+          "discovery_xp": 60
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-037",
+          "REG-040"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": []
+      }
+    },
+    "REG-040": {
+      "id": "REG-040",
+      "name": "Fim do Abismo",
+      "continent_id": "CONT-04",
+      "continent_name": "Nhal'Kora",
+      "biome": "abyssal_end",
+      "level_range": [
+        28,
+        35
+      ],
+      "status": "modular_staging",
+      "capital_settlement": "Santuário Abissal",
+      "dungeon": "Vórtice Final",
+      "associated_boss": null,
+      "description": "O limite sudeste do mundo: um redemoinho titânico onde as águas glaciais tombam em cascata no Vórtice Final do Abismo, revelando rifts dimensionais.",
+      "cartographic_position": {
+        "normalized_center": [
+          0.82,
+          0.95
+        ],
+        "normalized_bbox": [
+          0.75,
+          0.9,
+          0.89,
+          0.98
+        ],
+        "polygon_vertices": [
+          [
+            0.77,
+            0.91
+          ],
+          [
+            0.87,
+            0.9
+          ],
+          [
+            0.89,
+            0.96
+          ],
+          [
+            0.84,
+            0.98
+          ],
+          [
+            0.76,
+            0.97
+          ],
+          [
+            0.75,
+            0.93
+          ]
+        ]
+      },
+      "elevation_profile_meters": {
+        "min": -1200,
+        "max": 150,
+        "average": -450
+      },
+      "terrain": {
+        "primary_material": "Vórtice ciclônico marinho, pilares de gelo que se precipitam no vazio, anéis rituais de pedra flutuante e rifts de energia dimensional.",
+        "natural_boundaries": {
+          "north": "Maré Eterna de REG-038.",
+          "south": "Vazio infinito do Abismo.",
+          "east": "Horizonte de água em queda livre.",
+          "west": "Fossa Oceânica de REG-039."
+        }
+      },
+      "checkpoints": [
+        {
+          "id": "gate_reg-040_to_reg-038",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-038",
+          "target_region_name": "Maré Eterna",
+          "display_name": "Passo de Fronteira: Fim do Abismo ↔ Maré Eterna"
+        },
+        {
+          "id": "gate_reg-040_to_reg-039",
+          "type": "terrestrial_gate",
+          "target_region_id": "REG-039",
+          "target_region_name": "Fossa Oceânica",
+          "display_name": "Passo de Fronteira: Fim do Abismo ↔ Fossa Oceânica"
+        }
+      ],
+      "structures": [
+        {
+          "type": "capital_or_settlement",
+          "name": "Santuário Abissal",
+          "role": "safe_zone",
+          "safe_radius_meters": 25.0
+        },
+        {
+          "type": "dungeon_entrance",
+          "name": "Vórtice Final",
+          "recommended_level_min": 28
+        },
+        {
+          "type": "exploration_landmark",
+          "name": "Marco Geográfico de Fim do Abismo",
+          "discovery_xp": 60
+        }
+      ],
+      "connections": {
+        "terrestrial_neighbors": [
+          "REG-038",
+          "REG-039"
+        ],
+        "maritime_routes": [],
+        "dimensional_portals": [
+          {
+            "source_region": "REG-040",
+            "portal_id": "portal_reg-040_abyssal_forge",
+            "type": "high_tier_rift",
+            "location": "Santuário Abissal"
+          }
+        ]
+      }
+    }
+  }
+}

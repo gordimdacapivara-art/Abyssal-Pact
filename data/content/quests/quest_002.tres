@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="QuestData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/quest_data.gd" id="1_quest"]
+
+[resource]
+script = ExtResource("1_quest")
+id = &"QUEST-002"
+display_name = "A Fenda Abissal de Veyrath"
+description = "Investigue a fenda de lava ativa ao norte do Baluarte das Cinzas e derrote os demônios invasores."
+category = &"main"
+level_requirement = 3
+region_id = &"REG-001"
+class_id = &""
+race_id = &""
+rewards = {
+"xp": 250,
+"souls": 120
+}
+objectives = {
+"OBJ-001": {
+"description": "Eliminar Demônios das Cinzas na Fenda",
+"required": 4
+}
+}

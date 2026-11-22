@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="SubraceData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/models/subrace_data.gd" id="1_sub"]
+
+[resource]
+script = ExtResource("1_sub")
+id = &"SUBRACE-002"
+display_name = "Sub-raça SUBRACE-002 (protótipo: antenada)"
+parent_race_id = &"RACE-001"
+is_prototype = true
+pending_fields = PackedStringArray("display_name", "identity", "animations", "definitive_model")
+visual_overrides = {
+"head_tint": Color(0.36, 0.46, 0.42, 1.0),
+"accessories": PackedStringArray("antenna", "tail"),
+"scale": 0.94
+}
+description = "Sub-raça B do protótipo: antenas no osso 'head' + cauda no osso 'root' (peças PROVISÓRIAS do construtor modular), tinta distinta e escala menor. Nome e identidade PENDENTES de design."

@@ -1,0 +1,266 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200">
+  <defs>
+    <!-- Background & Vignette -->
+    <radialGradient id="reg-bg-7" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#2a201c"/>
+      <stop offset="60%" stop-color="#181311"/>
+      <stop offset="100%" stop-color="#0d0908"/>
+    </radialGradient>
+
+    <radialGradient id="territory-fill-7" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#382a24"/>
+      <stop offset="70%" stop-color="#261c18"/>
+      <stop offset="100%" stop-color="#120d0b"/>
+    </radialGradient>
+
+    <radialGradient id="safezone-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd54f" stop-opacity="0.25"/>
+      <stop offset="75%" stop-color="#ffb300" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ff8f00" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="boss-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e53935" stop-opacity="0.35"/>
+      <stop offset="80%" stop-color="#b71c1c" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#7f0000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Filters -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="3" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <!-- CANVAS BACKGROUND -->
+  <rect x="0" y="0" width="1600" height="1200" fill="url(#reg-bg-7)"/>
+
+  <!-- TERRITORY BASE & FRONTIER POLYGON -->
+  <g id="territory_ground" filter="url(#shadow)">
+    <!-- Organic Frontier Boundary Line -->
+    <rect x="70" y="150" width="1180" height="1000" rx="24" fill="url(#territory-fill-7)" stroke="#c85a2b" stroke-width="3.5"/>
+    <rect x="82" y="162" width="1156" height="976" rx="18" fill="none" stroke="#c85a2b" stroke-width="1.2" stroke-dasharray="6,4" opacity="0.6"/>
+  </g>
+  <!-- PROCEDURAL TERRAIN & RELIEF -->
+<g id="elevation_contours" stroke="#3a2a1f" stroke-width="1.2" fill="none" opacity="0.45" stroke-dasharray="8,4">
+  <path d="M 192.5 650.0 Q 320.85 364.40000000000003 660.0 243.0 Q 999.15 364.40000000000003 1141.5 650.0 Q 999.15 935.5999999999999 660.0 1051.0 Q 320.85 935.5999999999999 192.5 650.0 Z"/>
+  <path d="M 289.4 650.0 Q 388.68 421.52 660.0 324.6 Q 931.3199999999999 421.52 1044.6 650.0 Q 931.3199999999999 878.48 660.0 969.4 Q 388.68 878.48 289.4 650.0 Z"/>
+  <path d="M 392.0 650.0 Q 460.5 482.0 660.0 411.0 Q 859.5 482.0 942.0 650.0 Q 859.5 818.0 660.0 883.0 Q 460.5 818.0 392.0 650.0 Z"/>
+  <path d="M 494.6 650.0 Q 532.32 542.48 660.0 497.4 Q 787.68 542.48 839.4 650.0 Q 787.68 757.52 660.0 796.6 Q 532.32 757.52 494.6 650.0 Z"/>
+</g>
+<g id="mountain_chains" stroke="#140f0c" stroke-width="1.6" fill="#4a382e">
+  <polygon points="210,265 178.5,310 241.5,310"/>
+  <polygon points="210,265 210,310 241.5,310" fill="#1b1410"/>
+  <polygon points="270,275 231.5,330 308.5,330"/>
+  <polygon points="270,275 270,330 308.5,330" fill="#1b1410"/>
+  <polygon points="330,260 302.0,300 358.0,300"/>
+  <polygon points="330,260 330,300 358.0,300" fill="#1b1410"/>
+  <polygon points="970,270 935.0,320 1005.0,320"/>
+  <polygon points="970,270 970,320 1005.0,320" fill="#1b1410"/>
+  <polygon points="1040,290 998.0,350 1082.0,350"/>
+  <polygon points="1040,290 1040,350 1082.0,350" fill="#1b1410"/>
+  <polygon points="1110,265 1078.5,310 1141.5,310"/>
+  <polygon points="1110,265 1110,310 1141.5,310" fill="#1b1410"/>
+  <polygon points="230,882 196.4,930 263.6,930"/>
+  <polygon points="230,882 230,930 263.6,930" fill="#1b1410"/>
+  <polygon points="290,902 249.4,960 330.6,960"/>
+  <polygon points="290,902 290,960 330.6,960" fill="#1b1410"/>
+  <polygon points="1010,898 973.6,950 1046.4,950"/>
+  <polygon points="1010,898 1010,950 1046.4,950" fill="#1b1410"/>
+</g>
+  <!-- CITY & SAFE ZONE: Guarnição de Chumbo -->
+  <g id="poi_city" transform="translate(597.0, 651.0)" filter="url(#shadow)">
+    <!-- Safe Zone Perimeter Ring (25m radius) -->
+    <circle cx="0" cy="0" r="75" fill="url(#safezone-glow)" stroke="#ffd54f" stroke-width="2" stroke-dasharray="6,4"/>
+    <circle cx="0" cy="0" r="68" fill="none" stroke="#ffb300" stroke-width="0.8" opacity="0.5"/>
+    
+    <!-- Castle / Fortress Bastion Icon -->
+    <rect x="-24" y="-18" width="48" height="36" rx="3" fill="#241a14" stroke="#d4af37" stroke-width="2"/>
+    <polygon points="-24,-18 -16,-28 -8,-18 0,-28 8,-18 16,-28 24,-18" fill="#d4af37"/>
+    <rect x="-8" y="2" width="16" height="16" fill="#140d09" stroke="#d4af37" stroke-width="1"/>
+    
+    <!-- City Label -->
+    <rect x="-105" y="26" width="210" height="24" rx="4" fill="#140f0c" stroke="#d4af37" stroke-width="1.2"/>
+    <text x="0" y="42" text-anchor="middle" font-family="'Trajan Pro', 'Georgia', serif" font-size="11" font-weight="bold" fill="#ffe082">Guarnição de Chumbo</text>
+    <text x="0" y="60" text-anchor="middle" font-family="'Georgia', serif" font-size="8.5" fill="#a89278">Zona Segura • Sem Dano Hostil (Raio 25m)</text>
+  </g>
+  <!-- DUNGEON ENTRANCE: Complexo de Ferro Profundo -->
+  <g id="poi_dungeon" transform="translate(837.0, 537.0)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="32" fill="#1a1111" stroke="#d32f2f" stroke-width="2"/>
+    <!-- Cave Arch / Skull Gate -->
+    <path d="M -16 12 C -16 -16 16 -16 16 12 Z" fill="#0d0505" stroke="#ff5252" stroke-width="1.5"/>
+    <polygon points="-6,-6 0,-14 6,-6" fill="#ff5252"/>
+    
+    <!-- Label -->
+    <rect x="-115" y="20" width="230" height="24" rx="4" fill="#140808" stroke="#d32f2f" stroke-width="1.2"/>
+    <text x="0" y="36" text-anchor="middle" font-family="'Trajan Pro', 'Georgia', serif" font-size="10" font-weight="bold" fill="#ff8a80">🏰 Complexo de Ferro Profundo</text>
+    <text x="0" y="54" text-anchor="middle" font-family="'Georgia', serif" font-size="8.5" fill="#e57373">Entrada de Masmorra • Nível 15+</text>
+  </g>
+  <!-- BOSS ARENA: BOSS-007 -->
+  <g id="poi_boss_arena" transform="translate(855.0, 771.0)" filter="url(#shadow)">
+    <!-- Arena Perimeter (35m radius) -->
+    <circle cx="0" cy="0" r="85" fill="url(#boss-glow)" stroke="#b71c1c" stroke-width="2.5" stroke-dasharray="8,5"/>
+    <circle cx="0" cy="0" r="40" fill="#240707" stroke="#e53935" stroke-width="1.8"/>
+    <!-- Crossed Scythes / Horns -->
+    <path d="M -22 -14 L 22 14 M -22 14 L 22 -14" stroke="#ff5252" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Label -->
+    <rect x="-110" y="24" width="220" height="24" rx="4" fill="#1c0505" stroke="#e53935" stroke-width="1.2"/>
+    <text x="0" y="40" text-anchor="middle" font-family="'Trajan Pro', 'Georgia', serif" font-size="10.5" font-weight="bold" fill="#ff8a80">⚔️ Arena de Chefe: BOSS-007</text>
+    <text x="0" y="58" text-anchor="middle" font-family="'Georgia', serif" font-size="8.5" fill="#ef9a9a">Combate Demoníaco em Fases • Raio 35m</text>
+  </g>
+  <!-- EXPLORATION LANDMARK -->
+  <g id="poi_landmark" transform="translate(489.0, 787.0)" filter="url(#shadow)">
+    <!-- Monolith Pillar -->
+    <polygon points="-8,22 8,22 5,-22 -5,-22" fill="#292019" stroke="#bca473" stroke-width="1.8"/>
+    <polygon points="0,-28 -5,-22 5,-22" fill="#d4af37" stroke="#bca473" stroke-width="1.2"/>
+    <circle cx="0" cy="-5" r="3" fill="#69f0ae"/>
+    
+    <!-- Label -->
+    <rect x="-95" y="26" width="190" height="22" rx="4" fill="#17120e" stroke="#8c734b" stroke-width="1"/>
+    <text x="0" y="41" text-anchor="middle" font-family="'Georgia', serif" font-size="9.5" font-weight="bold" fill="#e8d5b5">Marco de Cratera Abissal de</text>
+    <text x="0" y="58" text-anchor="middle" font-family="'Georgia', serif" font-size="8" fill="#81c784">Ponto de Exploração • +60 XP</text>
+  </g>
+  <!-- ENTRY & EXIT GATES / CHECKPOINTS -->
+    <!-- Gate to REG-004 -->
+    <g transform="translate(660.0, 175.0)" filter="url(#shadow)">
+      <circle cx="0" cy="0" r="16" fill="#1e1611" stroke="#c85a2b" stroke-width="2"/>
+      <polygon points="0,6 0,-6 -4,0" fill="#c85a2b"/>
+      <rect x="-95" y="-28" width="190" height="22" rx="3" fill="#140f0c" stroke="#c85a2b" stroke-width="1"/>
+      <text x="0" y="-13" text-anchor="middle" font-family="'Trajan Pro', 'Georgia', serif" font-size="9" font-weight="bold" fill="#f5e1a4">PORTÃO NORTE ➔ REG-004</text>
+    </g>
+
+    <!-- Gate to REG-006 -->
+    <g transform="translate(660.0, 1125.0)" filter="url(#shadow)">
+      <circle cx="0" cy="0" r="16" fill="#1e1611" stroke="#c85a2b" stroke-width="2"/>
+      <polygon points="0,-6 0,6 4,0" fill="#c85a2b"/>
+      <rect x="-95" y="10" width="190" height="22" rx="3" fill="#140f0c" stroke="#c85a2b" stroke-width="1"/>
+      <text x="0" y="25" text-anchor="middle" font-family="'Trajan Pro', 'Georgia', serif" font-size="9" font-weight="bold" fill="#f5e1a4">PORTÃO SUL ➔ REG-006</text>
+    </g>
+
+    <!-- Gate to REG-008 -->
+    <g transform="translate(1225.0, 650.0)" filter="url(#shadow)">
+      <circle cx="0" cy="0" r="16" fill="#1e1611" stroke="#c85a2b" stroke-width="2"/>
+      <polygon points="-6,0 6,0 0,-4" fill="#c85a2b"/>
+      <rect x="10" y="-12" width="190" height="22" rx="3" fill="#140f0c" stroke="#c85a2b" stroke-width="1"/>
+      <text x="105" y="3" text-anchor="middle" font-family="'Trajan Pro', 'Georgia', serif" font-size="9" font-weight="bold" fill="#f5e1a4">PORTÃO LESTE ➔ REG-008</text>
+    </g>
+
+    <!-- Gate to REG-009 -->
+    <g transform="translate(95.0, 650.0)" filter="url(#shadow)">
+      <circle cx="0" cy="0" r="16" fill="#1e1611" stroke="#c85a2b" stroke-width="2"/>
+      <polygon points="6,0 -6,0 0,4" fill="#c85a2b"/>
+      <rect x="-180" y="-12" width="190" height="22" rx="3" fill="#140f0c" stroke="#c85a2b" stroke-width="1"/>
+      <text x="-85" y="3" text-anchor="middle" font-family="'Trajan Pro', 'Georgia', serif" font-size="9" font-weight="bold" fill="#f5e1a4">PORTÃO OESTE ➔ REG-009</text>
+    </g>
+
+  <!-- HEADER CARTOUCHE -->
+  <g transform="translate(800, 75)" filter="url(#shadow)">
+    <rect x="-720" y="-45" width="1440" height="90" rx="8" fill="#16110f" stroke="#8c734b" stroke-width="2.5"/>
+    <rect x="-712" y="-37" width="1424" height="74" rx="6" fill="none" stroke="#c85a2b" stroke-width="1.2"/>
+    
+    <!-- Title & Subtitle -->
+    <text x="0" y="-6" text-anchor="middle" font-family="'Trajan Pro', 'Cinzel', 'Georgia', serif" font-size="24" font-weight="bold" fill="#f5e1a4" letter-spacing="4">REG-007 • CRATERA ABISSAL DE FERRO</text>
+    <text x="0" y="22" text-anchor="middle" font-family="'Georgia', serif" font-size="11.5" fill="#d7c2a7">Continente: Veyrath (CONT-01)  •  Bioma: iron_crater  •  Faixa de Nível: 15–20  •  Status: modular_staging</text>
+  </g>
+
+  <!-- RIGHT-HAND REGIONAL INFORMATION SIDEBAR -->
+  <g transform="translate(1290, 150)" filter="url(#shadow)">
+    <!-- Sidebar Box -->
+    <rect x="0" y="0" width="280" height="1000" rx="6" fill="#140f0d" stroke="#8c734b" stroke-width="2"/>
+    <rect x="6" y="6" width="268" height="988" rx="4" fill="none" stroke="#c85a2b" stroke-width="1" opacity="0.6"/>
+
+    <!-- Sidebar Title -->
+    <rect x="14" y="14" width="252" height="32" rx="3" fill="#211814" stroke="#c85a2b" stroke-width="1.2"/>
+    <text x="140.0" y="35" text-anchor="middle" font-family="'Trajan Pro', 'Georgia', serif" font-size="11" font-weight="bold" fill="#f5e1a4" letter-spacing="1.5">DADOS TOPOGRÁFICOS</text>
+
+    <!-- Compass Mini-Rose -->
+    <g transform="translate(140.0, 95)">
+      <circle cx="0" cy="0" r="34" fill="#1a120e" stroke="#8c734b" stroke-width="1.5"/>
+      <polygon points="0,-30 4,-8 0,0" fill="#d4af37"/>
+      <polygon points="0,-30 -4,-8 0,0" fill="#8c734b"/>
+      <polygon points="0,30 4,8 0,0" fill="#8c734b"/>
+      <polygon points="0,30 -4,8 0,0" fill="#523f2b"/>
+      <polygon points="30,0 8,4 0,0" fill="#d4af37"/>
+      <polygon points="-30,0 -8,4 0,0" fill="#523f2b"/>
+      <text x="0" y="-35" text-anchor="middle" font-family="'Trajan Pro', serif" font-size="9" font-weight="bold" fill="#f5e1a4">N</text>
+    </g>
+
+    <!-- Elevation Profile -->
+    <g transform="translate(16, 160)" font-family="'Georgia', serif" font-size="9.5" fill="#e8d5b5">
+      <text x="0" y="0" font-weight="bold" fill="#c85a2b">PERFIL DE ELEVAÇÃO:</text>
+      <text x="0" y="18">Altitude Mínima: -60 m</text>
+      <text x="0" y="34">Altitude Máxima: 410 m</text>
+      <text x="0" y="50">Altitude Média: 120 m</text>
+    </g>
+
+    <!-- Natural Boundaries -->
+    <g transform="translate(16, 240)" font-family="'Georgia', serif" font-size="8.5" fill="#d5c2ad">
+      <text x="0" y="0" font-weight="bold" font-size="9.5" fill="#c85a2b">LIMITES NATURAIS:</text>
+      
+      <text x="0" y="18" font-weight="bold" fill="#f5e1a4">Norte:</text>
+      <text x="0" y="32">Cordilheira da Garganta Calcinada de</text>
+      <text x="0" y="44"> REG-009.</text>
+
+      <text x="0" y="66" font-weight="bold" fill="#f5e1a4">Sul:</text>
+      <text x="0" y="80">Pântano de Cinzas de REG-004.</text>
+      <text x="0" y="92"></text>
+
+      <text x="0" y="114" font-weight="bold" fill="#f5e1a4">Leste:</text>
+      <text x="0" y="128">Planalto de Terra Férrea de REG-008.</text>
+      <text x="0" y="140"></text>
+
+      <text x="0" y="162" font-weight="bold" fill="#f5e1a4">Oeste:</text>
+      <text x="0" y="176">Deserto Fuliginoso de REG-006.</text>
+      <text x="0" y="188"></text>
+    </g>
+
+    <!-- Demon Fauna -->
+    <g transform="translate(16, 465)" font-family="'Georgia', serif" font-size="9" fill="#e8d5b5">
+      <text x="0" y="0" font-weight="bold" font-size="9.5" fill="#c85a2b">FAUNA DEMONÍACA (5 SPAWNS):</text>
+      <text x="0" y="18" fill="#ffab91">DEMON-031 a DEMON-035</text>
+      <text x="0" y="32" font-size="8" fill="#b08d7b">Catalogados no DemonManager</text>
+    </g>
+
+    <!-- Adjacent Territories Table -->
+    <g transform="translate(16, 530)" font-family="'Georgia', serif" font-size="8.5" fill="#d5c2ad">
+      <text x="0" y="0" font-weight="bold" font-size="9.5" fill="#c85a2b">REGIÕES VIZINHAS:</text>
+      <text x="0" y="18">• <tspan font-weight="bold" fill="#f5e1a4">REG-004</tspan>: Pântano de Cinzas</text>      <text x="0" y="34">• <tspan font-weight="bold" fill="#f5e1a4">REG-006</tspan>: Deserto Fuliginoso</text>      <text x="0" y="50">• <tspan font-weight="bold" fill="#f5e1a4">REG-008</tspan>: Terra Férrea</text>      <text x="0" y="66">• <tspan font-weight="bold" fill="#f5e1a4">REG-009</tspan>: Garganta Calcinada</text>    </g>
+
+    <!-- Regional Symbology -->
+    <g transform="translate(16, 680)" font-family="'Georgia', serif" font-size="8.5" fill="#baa288">
+      <text x="0" y="0" font-weight="bold" font-size="9.5" fill="#c85a2b">LEGENDA LOCAL:</text>
+      <text x="0" y="18">🏙️ Cidade com SafeZone</text>
+      <text x="0" y="34">🏰 Entrada de Masmorra</text>
+      <text x="0" y="50">⚔️ Arena de Chefe Demoníaco</text>
+      <text x="0" y="66">🗿 Marco de Exploração (+XP)</text>
+      <text x="0" y="82">🚪 Portão de Fronteira Terrestre</text>
+      <text x="0" y="98">⚓ Porto / Rota Marítima</text>
+      <text x="0" y="114">🌀 Portal Dimensional Hell Forge</text>
+    </g>
+
+    <!-- Graphic Scale Bar -->
+    <g transform="translate(140.0, 860)">
+      <rect x="-80" y="-10" width="160" height="20" rx="3" fill="#1b120e" stroke="#8c734b" stroke-width="1"/>
+      <rect x="-70" y="-3" width="70" height="6" fill="#d4af37"/>
+      <rect x="0" y="-3" width="70" height="6" fill="#1b120e" stroke="#d4af37" stroke-width="0.8"/>
+      <text x="-70" y="-6" text-anchor="middle" font-family="'Georgia', serif" font-size="7.5" fill="#e8d5b5">0</text>
+      <text x="0" y="-6" text-anchor="middle" font-family="'Georgia', serif" font-size="7.5" fill="#e8d5b5">500m</text>
+      <text x="70" y="-6" text-anchor="middle" font-family="'Georgia', serif" font-size="7.5" fill="#e8d5b5">1.000m</text>
+      <text x="0" y="19" text-anchor="middle" font-family="'Georgia', serif" font-size="7" fill="#8c734b">Escala Tática Local da Região</text>
+    </g>
+
+    <!-- Official Seal -->
+    <g transform="translate(16, 915)">
+      <rect x="0" y="0" width="248" height="65" rx="4" fill="#1b1411" stroke="#c85a2b" stroke-width="1.2"/>
+      <text x="10" y="18" font-family="'Trajan Pro', serif" font-size="8.5" font-weight="bold" fill="#f5e1a4">SELO CARTOGRÁFICO REGIONAL</text>
+      <text x="10" y="32" font-family="'Georgia', serif" font-size="7.5" fill="#baa288">Abyssal Pact • Engine Coherent 2.0</text>
+      <text x="10" y="44" font-family="'Georgia', serif" font-size="7" fill="#7a6855">Coordenadas: (0.26, 0.14)</text>
+      <text x="10" y="55" font-family="'Georgia', serif" font-size="7" fill="#7a6855">Arquivo: region_07_cratera_abissal_de_ferro.svg</text>
+    </g>
+  </g>
+
+  <!-- TRIPLE CARTOGRAPHIC BORDER FRAME -->
+  <rect x="15" y="15" width="1570" height="1170" rx="10" fill="none" stroke="#8c734b" stroke-width="2.5"/>
+  <rect x="22" y="22" width="1556" height="1156" rx="8" fill="none" stroke="#c85a2b" stroke-width="1" stroke-dasharray="6,4"/>
+  <rect x="28" y="28" width="1544" height="1144" rx="6" fill="none" stroke="#524131" stroke-width="1.5"/>
+</svg>

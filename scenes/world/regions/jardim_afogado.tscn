@@ -1,0 +1,207 @@
+[gd_scene load_steps=22 format=3]
+
+[ext_resource type="Script" path="res://scenes/world/regions/jardim_afogado.gd" id="1_reg"]
+[ext_resource type="Script" path="res://scenes/world/components/world_boundary.gd" id="2_bound"]
+[ext_resource type="Script" path="res://scenes/world/components/point_of_interest.gd" id="3_poi"]
+[ext_resource type="Script" path="res://scenes/world/components/safe_zone.gd" id="4_safe"]
+[ext_resource type="Script" path="res://scenes/world/components/dungeon_entrance.gd" id="5_dung"]
+[ext_resource type="Script" path="res://scenes/world/components/boss_arena_zone.gd" id="6_boss"]
+[ext_resource type="Script" path="res://scenes/world/components/exploration_spot.gd" id="7_exp"]
+[ext_resource type="Script" path="res://scenes/world/components/region_gate.gd" id="8_gate"]
+[ext_resource type="Script" path="res://scenes/world/components/world_portal.gd" id="9_port"]
+[ext_resource type="Script" path="res://scenes/world/components/enemy_spawner_zone.gd" id="10_spawn"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_sky"]
+sky_top_color = Color(0.10, 0.22, 0.26, 1)
+sky_horizon_color = Color(0.25, 0.48, 0.50, 1)
+ground_bottom_color = Color(0.08, 0.12, 0.08, 1)
+ground_horizon_color = Color(0.25, 0.48, 0.50, 1)
+
+[sub_resource type="Sky" id="Sky_env"]
+sky_material = SubResource("ProceduralSkyMaterial_sky")
+
+[sub_resource type="Environment" id="Environment_env"]
+background_mode = 2
+sky = SubResource("Sky_env")
+ambient_light_source = 2
+ambient_light_color = Color(0.16, 0.35, 0.38, 1)
+ambient_light_energy = 0.85
+fog_enabled = true
+fog_light_color = Color(0.16, 0.35, 0.38, 1)
+fog_density = 0.01
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ground"]
+albedo_color = Color(0.15, 0.25, 0.25, 1)
+roughness = 0.85
+
+[sub_resource type="BoxMesh" id="BoxMesh_ground"]
+material = SubResource("StandardMaterial3D_ground")
+size = Vector3(250, 2, 250)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ground"]
+size = Vector3(250, 2, 250)
+
+[node name="JardimAfogado_REG_014" type="Node3D"]
+script = ExtResource("1_reg")
+
+[node name="Environment" type="Node3D" parent="."]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="Environment"]
+environment = SubResource("Environment_env")
+
+[node name="SunLight" type="DirectionalLight3D" parent="Environment"]
+transform = Transform3D(0.866025, -0.353553, 0.353553, 0, 0.707107, 0.707107, -0.5, -0.612372, 0.612372, 0, 25, 0)
+light_color = Color(0.65, 0.90, 0.95, 1)
+light_energy = 1.25
+shadow_enabled = true
+
+[node name="Terrain" type="Node3D" parent="."]
+
+[node name="MainGround" type="StaticBody3D" parent="Terrain"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="Terrain/MainGround"]
+mesh = SubResource("BoxMesh_ground")
+
+[node name="Collision" type="CollisionShape3D" parent="Terrain/MainGround"]
+shape = SubResource("BoxShape3D_ground")
+
+[node name="WorldBoundary" type="Node3D" parent="."]
+script = ExtResource("2_bound")
+radius = 120.0
+
+[node name="Spawns" type="Node3D" parent="."]
+
+[node name="Spawn_default" type="Marker3D" parent="Spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2, 0)
+
+[node name="Spawn_gatenorth" type="Marker3D" parent="Spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -95)
+
+[node name="Spawn_gatesouth" type="Marker3D" parent="Spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 95)
+
+[node name="Spawn_portal_main" type="Marker3D" parent="Spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0.2, 22)
+
+[node name="Structures" type="Node3D" parent="."]
+
+[node name="CitySanctuary" type="Node3D" parent="Structures"]
+
+[node name="POI_City" type="Area3D" parent="Structures/CitySanctuary"]
+script = ExtResource("3_poi")
+poi_id = &"poi_reg014_city"
+poi_name = "Posto do Lótus Pálido"
+poi_type = "city"
+description = "Assentamento ancestral e zona segura em Jardim Afogado."
+discovery_radius = 22.0
+discovery_xp = 100
+
+[node name="SafeZone" type="Area3D" parent="Structures/CitySanctuary"]
+script = ExtResource("4_safe")
+zone_name = "Posto do Lótus Pálido"
+radius = 22.0
+
+[node name="DungeonEntrance" type="Node3D" parent="Structures"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50, 0, -40)
+script = ExtResource("5_dung")
+dungeon_id = &"dungeon_submerged_fountains"
+dungeon_name = "Salão das Fontes Submersas"
+min_level = 8
+
+[node name="POI_Dungeon" type="Area3D" parent="Structures/DungeonEntrance"]
+script = ExtResource("3_poi")
+poi_id = &"poi_dungeon_submerged_fountains"
+poi_name = "Salão das Fontes Submersas"
+poi_type = "dungeon"
+description = "Masmorra ancestral Salão das Fontes Submersas de nível 8+."
+discovery_radius = 16.0
+discovery_xp = 80
+
+[node name="BossArena" type="Node3D" parent="Structures"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -55)
+script = ExtResource("6_boss")
+boss_id = &"BOSS-012"
+arena_name = "Espelho d'Água Submerso"
+radius = 18.0
+
+[node name="POI_Boss" type="Area3D" parent="Structures/BossArena"]
+script = ExtResource("3_poi")
+poi_id = &"poi_boss-012_arena"
+poi_name = "Espelho d'Água Submerso"
+poi_type = "boss_arena"
+description = "Arena de confronto do Chefe BOSS-012."
+discovery_radius = 20.0
+discovery_xp = 150
+
+[node name="Exploration" type="Node3D" parent="."]
+
+[node name="ExplorationSpot" type="Node3D" parent="Exploration"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45, 0, 30)
+script = ExtResource("7_exp")
+spot_id = &"poi_drowned_pavilion"
+spot_name = "Pavilhão do Lótus de Mármore"
+discovery_xp = 75
+
+[node name="POI_Exp" type="Area3D" parent="Exploration/ExplorationSpot"]
+script = ExtResource("3_poi")
+poi_id = &"poi_drowned_pavilion"
+poi_name = "Pavilhão do Lótus de Mármore"
+poi_type = "exploration"
+description = "Marco de exploração em Jardim Afogado."
+discovery_radius = 16.0
+discovery_xp = 75
+
+[node name="Travel" type="Node3D" parent="."]
+
+[node name="GateNorth" type="Area3D" parent="Travel"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -95)
+script = ExtResource("8_gate")
+gate_id = &"gatenorth"
+target_region = &"REG-012"
+target_spawn = &"gate_south"
+display_name = "Passo para o Pântano das Lanternas (REG-012)"
+radius = 5.0
+
+[node name="GateSouth" type="Area3D" parent="Travel"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 95)
+script = ExtResource("8_gate")
+gate_id = &"gatesouth"
+target_region = &"REG-016"
+target_spawn = &"gate_north"
+display_name = "Trilha Floral para o Vale das Mariposas (REG-016)"
+radius = 5.0
+
+[node name="Enemies" type="Node3D" parent="."]
+
+[node name="Spawn_DEMON066" type="Node3D" parent="Enemies"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35, 0, -45)
+script = ExtResource("10_spawn")
+demon_id = &"DEMON-066"
+spawn_count = 2
+
+[node name="Spawn_DEMON067" type="Node3D" parent="Enemies"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40, 0, 60)
+script = ExtResource("10_spawn")
+demon_id = &"DEMON-067"
+spawn_count = 2
+
+[node name="Spawn_DEMON068" type="Node3D" parent="Enemies"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 70, 0, -15)
+script = ExtResource("10_spawn")
+demon_id = &"DEMON-068"
+spawn_count = 2
+
+[node name="Spawn_DEMON069" type="Node3D" parent="Enemies"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, 65)
+script = ExtResource("10_spawn")
+demon_id = &"DEMON-069"
+spawn_count = 2
+
+[node name="Spawn_DEMON070" type="Node3D" parent="Enemies"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -75)
+script = ExtResource("10_spawn")
+demon_id = &"DEMON-070"
+spawn_count = 2
+
+[node name="Props" type="Node3D" parent="."]

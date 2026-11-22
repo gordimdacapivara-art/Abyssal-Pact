@@ -1,0 +1,234 @@
+[gd_scene load_steps=18 format=3]
+
+[ext_resource type="Script" path="res://scenes/world/dimension/hell_forge.gd" id="1_hf"]
+[ext_resource type="Script" path="res://scenes/world/components/world_boundary.gd" id="2_bound"]
+[ext_resource type="Script" path="res://scenes/world/components/point_of_interest.gd" id="3_poi"]
+[ext_resource type="Script" path="res://scenes/world/components/safe_zone.gd" id="4_safe"]
+[ext_resource type="Script" path="res://scenes/world/components/exploration_spot.gd" id="5_exp"]
+[ext_resource type="Script" path="res://scenes/world/components/world_portal.gd" id="6_port"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_sky"]
+sky_top_color = Color(0.25, 0.08, 0.12, 1)
+sky_horizon_color = Color(0.65, 0.22, 0.10, 1)
+ground_bottom_color = Color(0.10, 0.04, 0.05, 1)
+ground_horizon_color = Color(0.65, 0.22, 0.10, 1)
+
+[sub_resource type="Sky" id="Sky_env"]
+sky_material = SubResource("ProceduralSkyMaterial_sky")
+
+[sub_resource type="Environment" id="Environment_env"]
+background_mode = 2
+sky = SubResource("Sky_env")
+ambient_light_source = 2
+ambient_light_color = Color(0.35, 0.15, 0.12, 1)
+ambient_light_energy = 0.9
+fog_enabled = true
+fog_light_color = Color(0.38, 0.16, 0.12, 1)
+fog_density = 0.010
+tonemap_mode = 3
+tonemap_exposure = 1.1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ground"]
+albedo_color = Color(0.12, 0.10, 0.12, 1)
+roughness = 0.85
+
+[sub_resource type="BoxMesh" id="BoxMesh_ground"]
+material = SubResource("StandardMaterial3D_ground")
+size = Vector3(250, 2, 250)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ground"]
+size = Vector3(250, 2, 250)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_anvil"]
+albedo_color = Color(0.20, 0.18, 0.24, 1)
+metallic = 0.8
+roughness = 0.4
+emission_enabled = true
+emission = Color(0.85, 0.35, 0.12, 1)
+emission_energy_multiplier = 0.8
+
+[sub_resource type="BoxMesh" id="BoxMesh_anvil"]
+material = SubResource("StandardMaterial3D_anvil")
+size = Vector3(8, 5, 12)
+
+[node name="HellForge" type="Node3D"]
+script = ExtResource("1_hf")
+
+[node name="Environment" type="Node3D" parent="."]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="Environment"]
+environment = SubResource("Environment_env")
+
+[node name="SunLight" type="DirectionalLight3D" parent="Environment"]
+transform = Transform3D(0.866025, -0.353553, 0.353553, 0, 0.707107, 0.707107, -0.5, -0.612372, 0.612372, 0, 25, 0)
+light_color = Color(1, 0.65, 0.35, 1)
+light_energy = 1.45
+shadow_enabled = true
+
+[node name="Terrain" type="Node3D" parent="."]
+
+[node name="MainGround" type="StaticBody3D" parent="Terrain"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="Terrain/MainGround"]
+mesh = SubResource("BoxMesh_ground")
+
+[node name="Collision" type="CollisionShape3D" parent="Terrain/MainGround"]
+shape = SubResource("BoxShape3D_ground")
+
+[node name="WorldBoundary" type="Node3D" parent="."]
+script = ExtResource("2_bound")
+radius = 150.0
+
+[node name="Spawns" type="Node3D" parent="."]
+
+[node name="Spawn_default" type="Marker3D" parent="Spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2, 0)
+
+[node name="Spawn_respawn" type="Marker3D" parent="Spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2, 0)
+
+[node name="Spawn_portal_reg001" type="Marker3D" parent="Spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25, 0.2, 0)
+
+[node name="Spawn_portal_reg011" type="Marker3D" parent="Spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2, -25)
+
+[node name="Spawn_portal_reg021" type="Marker3D" parent="Spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25, 0.2, 0)
+
+[node name="Spawn_portal_reg031" type="Marker3D" parent="Spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2, 25)
+
+[node name="Spawn_portal_reg010" type="Marker3D" parent="Spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40, 0.2, -40)
+
+[node name="Spawn_portal_reg020" type="Marker3D" parent="Spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40, 0.2, -40)
+
+[node name="Spawn_portal_reg030" type="Marker3D" parent="Spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40, 0.2, 40)
+
+[node name="Spawn_portal_reg040" type="Marker3D" parent="Spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40, 0.2, 40)
+
+[node name="Structures" type="Node3D" parent="."]
+
+[node name="RespawnSanctuary" type="Node3D" parent="Structures"]
+
+[node name="POI_Sanctuary" type="Area3D" parent="Structures/RespawnSanctuary"]
+script = ExtResource("3_poi")
+poi_id = &"poi_hellforge_sanctuary"
+poi_name = "Santuário do Renascimento Abissal"
+poi_type = "city"
+description = "Nexo cósmico de ressurgimento e refúgio protegido da Hell Forge."
+discovery_radius = 35.0
+discovery_xp = 150
+
+[node name="SafeZone" type="Area3D" parent="Structures/RespawnSanctuary"]
+script = ExtResource("4_safe")
+zone_name = "Refúgio Sagrado da Hell Forge"
+radius = 35.0
+
+[node name="CentralAnvil" type="Node3D" parent="Structures"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, -8)
+
+[node name="AnvilMesh" type="MeshInstance3D" parent="Structures/CentralAnvil"]
+mesh = SubResource("BoxMesh_anvil")
+
+[node name="POI_Anvil" type="Area3D" parent="Structures/CentralAnvil"]
+script = ExtResource("3_poi")
+poi_id = &"poi_hellforge_anvil"
+poi_name = "A Grande Forja dos Pactos Primordiais"
+poi_type = "exploration"
+description = "A forja monumental onde almas, demônios e pactos arcanos são forjados."
+discovery_radius = 20.0
+discovery_xp = 200
+
+[node name="ExplorationSpot" type="Node3D" parent="Structures/CentralAnvil"]
+script = ExtResource("5_exp")
+spot_id = &"poi_hellforge_anvil"
+spot_name = "A Grande Forja dos Pactos Primordiais"
+discovery_xp = 200
+
+[node name="Travel" type="Node3D" parent="."]
+
+[node name="PortalVeyrathCapital" type="Area3D" parent="Travel"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30, 0, 0)
+script = ExtResource("6_port")
+portal_id = &"portal_hf_veyrath_capital"
+target_region = &"REG-001"
+target_spawn = &"portal_main"
+display_name = "Conduíte para Veyrath (REG-001 — Cinzália)"
+is_intercontinental = true
+activation_radius = 4.0
+
+[node name="PortalSylvaranCapital" type="Area3D" parent="Travel"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -30)
+script = ExtResource("6_port")
+portal_id = &"portal_hf_sylvaran_capital"
+target_region = &"REG-011"
+target_spawn = &"portal_main"
+display_name = "Conduíte para Sylvaran (REG-011 — Raiz Antiga)"
+is_intercontinental = true
+activation_radius = 4.0
+
+[node name="PortalKharduumCapital" type="Area3D" parent="Travel"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, 0)
+script = ExtResource("6_port")
+portal_id = &"portal_hf_kharduum_capital"
+target_region = &"REG-021"
+target_spawn = &"portal_main"
+display_name = "Conduíte para Khar-Duum (REG-021 — Caldeira Rubra)"
+is_intercontinental = true
+activation_radius = 4.0
+
+[node name="PortalNhalkoraCapital" type="Area3D" parent="Travel"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 30)
+script = ExtResource("6_port")
+portal_id = &"portal_hf_nhalkora_capital"
+target_region = &"REG-031"
+target_spawn = &"portal_main"
+display_name = "Conduíte para Nhal'Kora (REG-031 — Geleira dos Ecos)"
+is_intercontinental = true
+activation_radius = 4.0
+
+[node name="PortalVeyrathTerminal" type="Area3D" parent="Travel"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45, 0, -45)
+script = ExtResource("6_port")
+portal_id = &"portal_hf_veyrath_terminal"
+target_region = &"REG-010"
+target_spawn = &"portal_main"
+display_name = "Fenda Terminal de Veyrath (REG-010 — Torre de Aster)"
+is_intercontinental = true
+activation_radius = 4.0
+
+[node name="PortalSylvaranTerminal" type="Area3D" parent="Travel"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45, 0, -45)
+script = ExtResource("6_port")
+portal_id = &"portal_hf_sylvaran_terminal"
+target_region = &"REG-020"
+target_spawn = &"portal_main"
+display_name = "Fenda Terminal de Sylvaran (REG-020 — Fonte do Primeiro Broto)"
+is_intercontinental = true
+activation_radius = 4.0
+
+[node name="PortalKharduumTerminal" type="Area3D" parent="Travel"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45, 0, 45)
+script = ExtResource("6_port")
+portal_id = &"portal_hf_kharduum_terminal"
+target_region = &"REG-030"
+target_spawn = &"portal_main"
+display_name = "Fenda Terminal de Khar-Duum (REG-030 — Cratera do Coração)"
+is_intercontinental = true
+activation_radius = 4.0
+
+[node name="PortalNhalkoraTerminal" type="Area3D" parent="Travel"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45, 0, 45)
+script = ExtResource("6_port")
+portal_id = &"portal_hf_nhalkora_terminal"
+target_region = &"REG-040"
+target_spawn = &"portal_main"
+display_name = "Fenda Terminal de Nhal'Kora (REG-040 — Trono da Aurora Morta)"
+is_intercontinental = true
+activation_radius = 4.0
