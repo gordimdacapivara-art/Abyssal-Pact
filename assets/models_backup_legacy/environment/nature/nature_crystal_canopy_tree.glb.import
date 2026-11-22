@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dn880uyh2mrfp"
-path="res://.godot/imported/nature_crystal_canopy_tree.glb-38e5c345dc9bb62bf83cbab53af3d3b5.scn"
+path="res://.godot/imported/nature_crystal_canopy_tree.glb-dabf800fc80d49338801a43f1015377e.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/nature/nature_crystal_canopy_tree.glb"
-dest_files=["res://.godot/imported/nature_crystal_canopy_tree.glb-38e5c345dc9bb62bf83cbab53af3d3b5.scn"]
+source_file="res://assets/models_backup_legacy/environment/nature/nature_crystal_canopy_tree.glb"
+dest_files=["res://.godot/imported/nature_crystal_canopy_tree.glb-dabf800fc80d49338801a43f1015377e.scn"]
 
 [params]
 

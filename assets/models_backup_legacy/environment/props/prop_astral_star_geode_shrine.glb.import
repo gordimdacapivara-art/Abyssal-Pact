@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bfmrh82lxvovd"
-path="res://.godot/imported/prop_astral_star_geode_shrine.glb-c89d5052c5e50ff35f1a11b48c024c41.scn"
+path="res://.godot/imported/prop_astral_star_geode_shrine.glb-c5a29204250ffd1aacac2b60023ae341.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/props/prop_astral_star_geode_shrine.glb"
-dest_files=["res://.godot/imported/prop_astral_star_geode_shrine.glb-c89d5052c5e50ff35f1a11b48c024c41.scn"]
+source_file="res://assets/models_backup_legacy/environment/props/prop_astral_star_geode_shrine.glb"
+dest_files=["res://.godot/imported/prop_astral_star_geode_shrine.glb-c5a29204250ffd1aacac2b60023ae341.scn"]
 
 [params]
 

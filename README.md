@@ -2,6 +2,20 @@
 
 **Abyssal Pact** é um projeto de RPG de fantasia sombria em desenvolvimento com **Godot 4** e **GDScript**.
 
+[![Download Windows Release](https://img.shields.io/badge/Download-Windows%20Release%20(v0.1.0)-blue?logo=windows&logoColor=white)](https://github.com/gordimdacapivara-art/Abyssal-Pact/releases/tag/v0.1.0)
+[![Godot Engine](https://img.shields.io/badge/Godot-4.7-478cbf?logo=godotengine&logoColor=white)](https://godotengine.org)
+
+## 🎮 Download do Executável (Windows)
+
+Você pode baixar a versão executável pré-compilada diretamente na aba de Releases:
+- 📥 **[Baixar AbyssalPact-v0.1.0-Windows.zip](https://github.com/gordimdacapivara-art/Abyssal-Pact/releases/tag/v0.1.0)**
+
+### Como executar:
+1. Baixe o arquivo `.zip` acima.
+2. Descompacte a pasta no seu computador.
+3. Dê dois cliques em `AbyssalPact.exe`.
+
+
 > Este repositório está começando como a base oficial de documentação e desenvolvimento. Sistemas, conteúdo, números de balanceamento e recursos ainda precisam ser implementados e validados.
 
 ## Visão do projeto

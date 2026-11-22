@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c2vjhcut6d8x4"
-path="res://.godot/imported/structure_first_sprout_monument.glb-24638fb5acc15e8f84ef1f4c5f21c5b6.scn"
+path="res://.godot/imported/structure_first_sprout_monument.glb-23c07463ea843bae3fcc4c7954becdfe.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/structures/structure_first_sprout_monument.glb"
-dest_files=["res://.godot/imported/structure_first_sprout_monument.glb-24638fb5acc15e8f84ef1f4c5f21c5b6.scn"]
+source_file="res://assets/models_backup_legacy/environment/structures/structure_first_sprout_monument.glb"
+dest_files=["res://.godot/imported/structure_first_sprout_monument.glb-23c07463ea843bae3fcc4c7954becdfe.scn"]
 
 [params]
 

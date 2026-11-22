@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://djohqmj3imdpx"
-path="res://.godot/imported/prop_colossal_forge_anvil.glb-cb96abf633dcad50798b7a94338d6089.scn"
+path="res://.godot/imported/prop_colossal_forge_anvil.glb-09830484e9fb9db59a85ca593cba690f.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/props/prop_colossal_forge_anvil.glb"
-dest_files=["res://.godot/imported/prop_colossal_forge_anvil.glb-cb96abf633dcad50798b7a94338d6089.scn"]
+source_file="res://assets/models_backup_legacy/environment/props/prop_colossal_forge_anvil.glb"
+dest_files=["res://.godot/imported/prop_colossal_forge_anvil.glb-09830484e9fb9db59a85ca593cba690f.scn"]
 
 [params]
 

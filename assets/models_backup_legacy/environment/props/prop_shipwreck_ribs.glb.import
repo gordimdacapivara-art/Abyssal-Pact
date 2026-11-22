@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://sdvx4jcomqxy"
-path="res://.godot/imported/prop_shipwreck_ribs.glb-9407f4084bd63a13f38af2cca18e659c.scn"
+path="res://.godot/imported/prop_shipwreck_ribs.glb-5b9ffc416d66e4b9476713c14b47e2fa.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/props/prop_shipwreck_ribs.glb"
-dest_files=["res://.godot/imported/prop_shipwreck_ribs.glb-9407f4084bd63a13f38af2cca18e659c.scn"]
+source_file="res://assets/models_backup_legacy/environment/props/prop_shipwreck_ribs.glb"
+dest_files=["res://.godot/imported/prop_shipwreck_ribs.glb-5b9ffc416d66e4b9476713c14b47e2fa.scn"]
 
 [params]
 

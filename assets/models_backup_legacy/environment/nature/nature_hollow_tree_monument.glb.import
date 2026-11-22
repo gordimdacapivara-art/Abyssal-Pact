@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c2ry2p18wjig7"
-path="res://.godot/imported/nature_hollow_tree_monument.glb-a814228242a2c87b31057daa3ab07a99.scn"
+path="res://.godot/imported/nature_hollow_tree_monument.glb-1102660a9f278b73abe5b1f76daf1c4e.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/nature/nature_hollow_tree_monument.glb"
-dest_files=["res://.godot/imported/nature_hollow_tree_monument.glb-a814228242a2c87b31057daa3ab07a99.scn"]
+source_file="res://assets/models_backup_legacy/environment/nature/nature_hollow_tree_monument.glb"
+dest_files=["res://.godot/imported/nature_hollow_tree_monument.glb-1102660a9f278b73abe5b1f76daf1c4e.scn"]
 
 [params]
 

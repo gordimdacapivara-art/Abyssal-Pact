@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://clvjsa0xxc2s6"
-path="res://.godot/imported/rock_needle_peak_ice_spire.glb-21ff52b805b126c2c24ee45d1ec96bb1.scn"
+path="res://.godot/imported/rock_needle_peak_ice_spire.glb-84ff9601e541171020522499bb88e53c.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/rocks/rock_needle_peak_ice_spire.glb"
-dest_files=["res://.godot/imported/rock_needle_peak_ice_spire.glb-21ff52b805b126c2c24ee45d1ec96bb1.scn"]
+source_file="res://assets/models_backup_legacy/environment/rocks/rock_needle_peak_ice_spire.glb"
+dest_files=["res://.godot/imported/rock_needle_peak_ice_spire.glb-84ff9601e541171020522499bb88e53c.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dilbn13jqncmv"
-path="res://.godot/imported/structure_sleeping_palace_monument.glb-e498ae70937ddb63b9ee242538c92761.scn"
+path="res://.godot/imported/structure_sleeping_palace_monument.glb-0b442a85246ecdf2ef81e0f435b926c1.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/structures/structure_sleeping_palace_monument.glb"
-dest_files=["res://.godot/imported/structure_sleeping_palace_monument.glb-e498ae70937ddb63b9ee242538c92761.scn"]
+source_file="res://assets/models_backup_legacy/environment/structures/structure_sleeping_palace_monument.glb"
+dest_files=["res://.godot/imported/structure_sleeping_palace_monument.glb-0b442a85246ecdf2ef81e0f435b926c1.scn"]
 
 [params]
 

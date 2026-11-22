@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://blffwnmux3n7h"
-path="res://.godot/imported/rock_floating_island_chunk.glb-fc725c45d0760a0fb6e6b1cfa9045f7e.scn"
+path="res://.godot/imported/rock_floating_island_chunk.glb-6b2be63c923bdf536593f3a1f179ff77.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/rocks/rock_floating_island_chunk.glb"
-dest_files=["res://.godot/imported/rock_floating_island_chunk.glb-fc725c45d0760a0fb6e6b1cfa9045f7e.scn"]
+source_file="res://assets/models_backup_legacy/environment/rocks/rock_floating_island_chunk.glb"
+dest_files=["res://.godot/imported/rock_floating_island_chunk.glb-6b2be63c923bdf536593f3a1f179ff77.scn"]
 
 [params]
 

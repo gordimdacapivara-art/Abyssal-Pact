@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b4mp6tlgnburb"
-path="res://.godot/imported/structure_watchtower_ruin.glb-2dac106c599bd9ed821ce92d2e872efa.scn"
+path="res://.godot/imported/structure_watchtower_ruin.glb-9527e3269de056e571fbf3cf0c5dbb39.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/structures/structure_watchtower_ruin.glb"
-dest_files=["res://.godot/imported/structure_watchtower_ruin.glb-2dac106c599bd9ed821ce92d2e872efa.scn"]
+source_file="res://assets/models_backup_legacy/environment/structures/structure_watchtower_ruin.glb"
+dest_files=["res://.godot/imported/structure_watchtower_ruin.glb-9527e3269de056e571fbf3cf0c5dbb39.scn"]
 
 [params]
 

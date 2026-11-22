@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bweh7k213eivi"
-path="res://.godot/imported/structure_mountain_fortress_bastion.glb-6f782abe3ccaea9a87184e3a7f0ee604.scn"
+path="res://.godot/imported/structure_mountain_fortress_bastion.glb-e4c58eaaf0884cccfebb30b6a33fb317.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/structures/structure_mountain_fortress_bastion.glb"
-dest_files=["res://.godot/imported/structure_mountain_fortress_bastion.glb-6f782abe3ccaea9a87184e3a7f0ee604.scn"]
+source_file="res://assets/models_backup_legacy/environment/structures/structure_mountain_fortress_bastion.glb"
+dest_files=["res://.godot/imported/structure_mountain_fortress_bastion.glb-e4c58eaaf0884cccfebb30b6a33fb317.scn"]
 
 [params]
 

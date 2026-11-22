@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b2buedna6vnbw"
-path="res://.godot/imported/structure_mausoleum_crypt_entrance.glb-176d7636805ab7f88be080e88192e918.scn"
+path="res://.godot/imported/structure_mausoleum_crypt_entrance.glb-c14b4cd8064e8b3f59f116e036073003.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/structures/structure_mausoleum_crypt_entrance.glb"
-dest_files=["res://.godot/imported/structure_mausoleum_crypt_entrance.glb-176d7636805ab7f88be080e88192e918.scn"]
+source_file="res://assets/models_backup_legacy/environment/structures/structure_mausoleum_crypt_entrance.glb"
+dest_files=["res://.godot/imported/structure_mausoleum_crypt_entrance.glb-c14b4cd8064e8b3f59f116e036073003.scn"]
 
 [params]
 

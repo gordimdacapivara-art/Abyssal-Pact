@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d13rg3irowiet"
-path="res://.godot/imported/prop_volcanic_vent_horn.glb-d8dba013317fa7898622818880117097.scn"
+path="res://.godot/imported/prop_volcanic_vent_horn.glb-cd18b7cd229f9b98c15c1d0bae69fac0.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/props/prop_volcanic_vent_horn.glb"
-dest_files=["res://.godot/imported/prop_volcanic_vent_horn.glb-d8dba013317fa7898622818880117097.scn"]
+source_file="res://assets/models_backup_legacy/environment/props/prop_volcanic_vent_horn.glb"
+dest_files=["res://.godot/imported/prop_volcanic_vent_horn.glb-cd18b7cd229f9b98c15c1d0bae69fac0.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://3ikv31b3okyt"
-path="res://.godot/imported/prop_mining_ore_cart_track.glb-5ec8a1738402a2d32c313fc978ffca6e.scn"
+path="res://.godot/imported/prop_mining_ore_cart_track.glb-b85b24b3628dc07a103c9f0df448b093.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/props/prop_mining_ore_cart_track.glb"
-dest_files=["res://.godot/imported/prop_mining_ore_cart_track.glb-5ec8a1738402a2d32c313fc978ffca6e.scn"]
+source_file="res://assets/models_backup_legacy/environment/props/prop_mining_ore_cart_track.glb"
+dest_files=["res://.godot/imported/prop_mining_ore_cart_track.glb-b85b24b3628dc07a103c9f0df448b093.scn"]
 
 [params]
 

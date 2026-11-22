@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cpv5solodefut"
-path="res://.godot/imported/rock_glacial_echo_cliff.glb-0a4176f697c6501ca77f51bc205535ce.scn"
+path="res://.godot/imported/rock_glacial_echo_cliff.glb-4cca7a37d70212f90bd475946ef0fcd5.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/rocks/rock_glacial_echo_cliff.glb"
-dest_files=["res://.godot/imported/rock_glacial_echo_cliff.glb-0a4176f697c6501ca77f51bc205535ce.scn"]
+source_file="res://assets/models_backup_legacy/environment/rocks/rock_glacial_echo_cliff.glb"
+dest_files=["res://.godot/imported/rock_glacial_echo_cliff.glb-4cca7a37d70212f90bd475946ef0fcd5.scn"]
 
 [params]
 

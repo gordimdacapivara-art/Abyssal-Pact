@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c1ajk8tb24gft"
-path="res://.godot/imported/structure_bell_tower_ruin.glb-b7ad63cdbdf1c07f7144513662a77d60.scn"
+path="res://.godot/imported/structure_bell_tower_ruin.glb-0713595b510117f428532b1a6c4addfc.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/structures/structure_bell_tower_ruin.glb"
-dest_files=["res://.godot/imported/structure_bell_tower_ruin.glb-b7ad63cdbdf1c07f7144513662a77d60.scn"]
+source_file="res://assets/models_backup_legacy/environment/structures/structure_bell_tower_ruin.glb"
+dest_files=["res://.godot/imported/structure_bell_tower_ruin.glb-0713595b510117f428532b1a6c4addfc.scn"]
 
 [params]
 

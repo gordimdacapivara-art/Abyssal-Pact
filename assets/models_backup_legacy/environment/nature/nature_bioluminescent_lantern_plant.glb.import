@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bell6wl1i31ok"
-path="res://.godot/imported/nature_bioluminescent_lantern_plant.glb-cef4b6bb93f28aabddbb6292973bc07a.scn"
+path="res://.godot/imported/nature_bioluminescent_lantern_plant.glb-a1eef463b108f9facd6d1e2fc6370d3e.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/nature/nature_bioluminescent_lantern_plant.glb"
-dest_files=["res://.godot/imported/nature_bioluminescent_lantern_plant.glb-cef4b6bb93f28aabddbb6292973bc07a.scn"]
+source_file="res://assets/models_backup_legacy/environment/nature/nature_bioluminescent_lantern_plant.glb"
+dest_files=["res://.godot/imported/nature_bioluminescent_lantern_plant.glb-a1eef463b108f9facd6d1e2fc6370d3e.scn"]
 
 [params]
 

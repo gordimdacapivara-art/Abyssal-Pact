@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://1ocolhcl3a3r"
-path="res://.godot/imported/structure_boreal_coastal_pier.glb-f88bfb7387221a0bb5dba7f18b901950.scn"
+path="res://.godot/imported/structure_boreal_coastal_pier.glb-87351326325f5d513c85d4153d10d984.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/structures/structure_boreal_coastal_pier.glb"
-dest_files=["res://.godot/imported/structure_boreal_coastal_pier.glb-f88bfb7387221a0bb5dba7f18b901950.scn"]
+source_file="res://assets/models_backup_legacy/environment/structures/structure_boreal_coastal_pier.glb"
+dest_files=["res://.godot/imported/structure_boreal_coastal_pier.glb-87351326325f5d513c85d4153d10d984.scn"]
 
 [params]
 

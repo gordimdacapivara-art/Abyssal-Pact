@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bk06er1e4lqcj"
-path="res://.godot/imported/structure_sea_fortress_pier.glb-1222f040757ef7b47d45349eb1086cd7.scn"
+path="res://.godot/imported/structure_sea_fortress_pier.glb-cc211854a34a3c4af45218a4e050862d.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/structures/structure_sea_fortress_pier.glb"
-dest_files=["res://.godot/imported/structure_sea_fortress_pier.glb-1222f040757ef7b47d45349eb1086cd7.scn"]
+source_file="res://assets/models_backup_legacy/environment/structures/structure_sea_fortress_pier.glb"
+dest_files=["res://.godot/imported/structure_sea_fortress_pier.glb-cc211854a34a3c4af45218a4e050862d.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bvop4pokbtgq2"
-path="res://.godot/imported/nature_colossal_tree_ancient.glb-483cbf903fb54c700085c22becd1e628.scn"
+path="res://.godot/imported/nature_colossal_tree_ancient.glb-4b4253f16ddca489d5c204fcf47e287d.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/nature/nature_colossal_tree_ancient.glb"
-dest_files=["res://.godot/imported/nature_colossal_tree_ancient.glb-483cbf903fb54c700085c22becd1e628.scn"]
+source_file="res://assets/models_backup_legacy/environment/nature/nature_colossal_tree_ancient.glb"
+dest_files=["res://.godot/imported/nature_colossal_tree_ancient.glb-4b4253f16ddca489d5c204fcf47e287d.scn"]
 
 [params]
 

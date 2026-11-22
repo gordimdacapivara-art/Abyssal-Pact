@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://jsot1yrgagdl"
-path="res://.godot/imported/nature_monumental_roots_arch.glb-7fd582851bae1e761b8b640a1b366df6.scn"
+path="res://.godot/imported/nature_monumental_roots_arch.glb-5bdb95be5f2746194f164e805c7d7d27.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/nature/nature_monumental_roots_arch.glb"
-dest_files=["res://.godot/imported/nature_monumental_roots_arch.glb-7fd582851bae1e761b8b640a1b366df6.scn"]
+source_file="res://assets/models_backup_legacy/environment/nature/nature_monumental_roots_arch.glb"
+dest_files=["res://.godot/imported/nature_monumental_roots_arch.glb-5bdb95be5f2746194f164e805c7d7d27.scn"]
 
 [params]
 

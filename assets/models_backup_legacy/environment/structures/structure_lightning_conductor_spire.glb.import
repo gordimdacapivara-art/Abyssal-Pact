@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://n5ynxc201vnt"
-path="res://.godot/imported/structure_lightning_conductor_spire.glb-d3690f80b367a96dbfff5cff21db650c.scn"
+path="res://.godot/imported/structure_lightning_conductor_spire.glb-f381e38e16cddb603a7c434f3b783171.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/structures/structure_lightning_conductor_spire.glb"
-dest_files=["res://.godot/imported/structure_lightning_conductor_spire.glb-d3690f80b367a96dbfff5cff21db650c.scn"]
+source_file="res://assets/models_backup_legacy/environment/structures/structure_lightning_conductor_spire.glb"
+dest_files=["res://.godot/imported/structure_lightning_conductor_spire.glb-f381e38e16cddb603a7c434f3b783171.scn"]
 
 [params]
 

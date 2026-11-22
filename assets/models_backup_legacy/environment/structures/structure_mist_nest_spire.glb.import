@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bi0g1obfo2ty4"
-path="res://.godot/imported/structure_mist_nest_spire.glb-83da26f75d65ea303ba2288c371de507.scn"
+path="res://.godot/imported/structure_mist_nest_spire.glb-d614600d56d23fa44fb8432894cafc9c.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/structures/structure_mist_nest_spire.glb"
-dest_files=["res://.godot/imported/structure_mist_nest_spire.glb-83da26f75d65ea303ba2288c371de507.scn"]
+source_file="res://assets/models_backup_legacy/environment/structures/structure_mist_nest_spire.glb"
+dest_files=["res://.godot/imported/structure_mist_nest_spire.glb-d614600d56d23fa44fb8432894cafc9c.scn"]
 
 [params]
 

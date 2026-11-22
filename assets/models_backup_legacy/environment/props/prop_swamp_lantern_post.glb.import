@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bykqhq4p2i0cm"
-path="res://.godot/imported/prop_swamp_lantern_post.glb-b5958ceb7e00e6edb195fdfd1a120a31.scn"
+path="res://.godot/imported/prop_swamp_lantern_post.glb-91f587928afc3d3566f25c4aef2077ef.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/props/prop_swamp_lantern_post.glb"
-dest_files=["res://.godot/imported/prop_swamp_lantern_post.glb-b5958ceb7e00e6edb195fdfd1a120a31.scn"]
+source_file="res://assets/models_backup_legacy/environment/props/prop_swamp_lantern_post.glb"
+dest_files=["res://.godot/imported/prop_swamp_lantern_post.glb-91f587928afc3d3566f25c4aef2077ef.scn"]
 
 [params]
 

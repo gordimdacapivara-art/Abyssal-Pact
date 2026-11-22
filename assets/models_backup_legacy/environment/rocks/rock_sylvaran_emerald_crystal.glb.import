@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ri6wabdvf2n7"
-path="res://.godot/imported/rock_sylvaran_emerald_crystal.glb-9dad0cb0bf10d88ffe119e9fdb8a7f5a.scn"
+path="res://.godot/imported/rock_sylvaran_emerald_crystal.glb-aa2187d80d6f61011381a5515d7fbe23.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/rocks/rock_sylvaran_emerald_crystal.glb"
-dest_files=["res://.godot/imported/rock_sylvaran_emerald_crystal.glb-9dad0cb0bf10d88ffe119e9fdb8a7f5a.scn"]
+source_file="res://assets/models_backup_legacy/environment/rocks/rock_sylvaran_emerald_crystal.glb"
+dest_files=["res://.godot/imported/rock_sylvaran_emerald_crystal.glb-aa2187d80d6f61011381a5515d7fbe23.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cr0ep7mt1n4er"
-path="res://.godot/imported/rock_salt_crust_formation.glb-cdf03876124fe02fff366dc6a1506310.scn"
+path="res://.godot/imported/rock_salt_crust_formation.glb-4f3a942f63880d9d028eed3168f6be30.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/rocks/rock_salt_crust_formation.glb"
-dest_files=["res://.godot/imported/rock_salt_crust_formation.glb-cdf03876124fe02fff366dc6a1506310.scn"]
+source_file="res://assets/models_backup_legacy/environment/rocks/rock_salt_crust_formation.glb"
+dest_files=["res://.godot/imported/rock_salt_crust_formation.glb-4f3a942f63880d9d028eed3168f6be30.scn"]
 
 [params]
 

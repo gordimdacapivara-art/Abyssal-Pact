@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://borqwoiq46cja"
-path="res://.godot/imported/prop_ice_resonator_crystal.glb-28676a4fe8c27246e0a8a4d343cdc280.scn"
+path="res://.godot/imported/prop_ice_resonator_crystal.glb-f9e3ee1a1bca0bfc224fc9bbc61d3470.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/props/prop_ice_resonator_crystal.glb"
-dest_files=["res://.godot/imported/prop_ice_resonator_crystal.glb-28676a4fe8c27246e0a8a4d343cdc280.scn"]
+source_file="res://assets/models_backup_legacy/environment/props/prop_ice_resonator_crystal.glb"
+dest_files=["res://.godot/imported/prop_ice_resonator_crystal.glb-f9e3ee1a1bca0bfc224fc9bbc61d3470.scn"]
 
 [params]
 

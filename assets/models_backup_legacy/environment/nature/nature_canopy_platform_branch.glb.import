@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://27mgsg4i32xn"
-path="res://.godot/imported/nature_canopy_platform_branch.glb-43de83f78257a7487e8f8042556947a7.scn"
+path="res://.godot/imported/nature_canopy_platform_branch.glb-2afd998ae47c5cf752a00172818d77c0.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/nature/nature_canopy_platform_branch.glb"
-dest_files=["res://.godot/imported/nature_canopy_platform_branch.glb-43de83f78257a7487e8f8042556947a7.scn"]
+source_file="res://assets/models_backup_legacy/environment/nature/nature_canopy_platform_branch.glb"
+dest_files=["res://.godot/imported/nature_canopy_platform_branch.glb-2afd998ae47c5cf752a00172818d77c0.scn"]
 
 [params]
 

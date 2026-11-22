@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://da3giqjqyuii8"
-path="res://.godot/imported/structure_lyth_ancient_ruin.glb-2242414c139821f2078d4dcb747cd54c.scn"
+path="res://.godot/imported/structure_lyth_ancient_ruin.glb-6537f7149ad491cf083f61a7a02bb237.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/structures/structure_lyth_ancient_ruin.glb"
-dest_files=["res://.godot/imported/structure_lyth_ancient_ruin.glb-2242414c139821f2078d4dcb747cd54c.scn"]
+source_file="res://assets/models_backup_legacy/environment/structures/structure_lyth_ancient_ruin.glb"
+dest_files=["res://.godot/imported/structure_lyth_ancient_ruin.glb-6537f7149ad491cf083f61a7a02bb237.scn"]
 
 [params]
 

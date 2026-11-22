@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ictncv3ssggf"
-path="res://.godot/imported/rock_coal_chasm_archway.glb-1b023d49f4805040fb888d31116fa023.scn"
+path="res://.godot/imported/rock_coal_chasm_archway.glb-ee795682022606a9775b06d18abb561b.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/rocks/rock_coal_chasm_archway.glb"
-dest_files=["res://.godot/imported/rock_coal_chasm_archway.glb-1b023d49f4805040fb888d31116fa023.scn"]
+source_file="res://assets/models_backup_legacy/environment/rocks/rock_coal_chasm_archway.glb"
+dest_files=["res://.godot/imported/rock_coal_chasm_archway.glb-ee795682022606a9775b06d18abb561b.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://li7f44r0068c"
-path="res://.godot/imported/prop_butterfly_mana_shrine.glb-49009a3a2cbac5b76fa8cc76e307e775.scn"
+path="res://.godot/imported/prop_butterfly_mana_shrine.glb-8e277ea4c55bc3b0b70cdf32f473da89.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/props/prop_butterfly_mana_shrine.glb"
-dest_files=["res://.godot/imported/prop_butterfly_mana_shrine.glb-49009a3a2cbac5b76fa8cc76e307e775.scn"]
+source_file="res://assets/models_backup_legacy/environment/props/prop_butterfly_mana_shrine.glb"
+dest_files=["res://.godot/imported/prop_butterfly_mana_shrine.glb-8e277ea4c55bc3b0b70cdf32f473da89.scn"]
 
 [params]
 

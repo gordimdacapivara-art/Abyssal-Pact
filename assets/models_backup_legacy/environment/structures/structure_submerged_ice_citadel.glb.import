@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dglqwdpsftg4d"
-path="res://.godot/imported/structure_submerged_ice_citadel.glb-de9bdcde8b675f5d72c23d5b50a03caf.scn"
+path="res://.godot/imported/structure_submerged_ice_citadel.glb-9f37e193feb6454743d7acf565377cac.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/structures/structure_submerged_ice_citadel.glb"
-dest_files=["res://.godot/imported/structure_submerged_ice_citadel.glb-de9bdcde8b675f5d72c23d5b50a03caf.scn"]
+source_file="res://assets/models_backup_legacy/environment/structures/structure_submerged_ice_citadel.glb"
+dest_files=["res://.godot/imported/structure_submerged_ice_citadel.glb-9f37e193feb6454743d7acf565377cac.scn"]
 
 [params]
 

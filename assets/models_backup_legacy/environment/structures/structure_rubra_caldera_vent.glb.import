@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dkmuhfaswckm5"
-path="res://.godot/imported/structure_rubra_caldera_vent.glb-5f912b674237711395b7605460ee8deb.scn"
+path="res://.godot/imported/structure_rubra_caldera_vent.glb-39c0a29c8fd148c599daabe0b3bb2798.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/structures/structure_rubra_caldera_vent.glb"
-dest_files=["res://.godot/imported/structure_rubra_caldera_vent.glb-5f912b674237711395b7605460ee8deb.scn"]
+source_file="res://assets/models_backup_legacy/environment/structures/structure_rubra_caldera_vent.glb"
+dest_files=["res://.godot/imported/structure_rubra_caldera_vent.glb-39c0a29c8fd148c599daabe0b3bb2798.scn"]
 
 [params]
 

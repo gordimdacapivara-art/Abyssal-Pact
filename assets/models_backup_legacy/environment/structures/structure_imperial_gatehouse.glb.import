@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dcjha260bi37q"
-path="res://.godot/imported/structure_imperial_gatehouse.glb-160134569e49322d17919ec6eec021c6.scn"
+path="res://.godot/imported/structure_imperial_gatehouse.glb-5f3c4dbaffaf70fb5d87fb404ee5ab53.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/structures/structure_imperial_gatehouse.glb"
-dest_files=["res://.godot/imported/structure_imperial_gatehouse.glb-160134569e49322d17919ec6eec021c6.scn"]
+source_file="res://assets/models_backup_legacy/environment/structures/structure_imperial_gatehouse.glb"
+dest_files=["res://.godot/imported/structure_imperial_gatehouse.glb-5f3c4dbaffaf70fb5d87fb404ee5ab53.scn"]
 
 [params]
 

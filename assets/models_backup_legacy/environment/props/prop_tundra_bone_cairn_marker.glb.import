@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cys8aboqm8gey"
-path="res://.godot/imported/prop_tundra_bone_cairn_marker.glb-3bf63ad39daf5726ac7dda787995ab25.scn"
+path="res://.godot/imported/prop_tundra_bone_cairn_marker.glb-2bf7a4165c5c42cfbfd176e3270800a3.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/props/prop_tundra_bone_cairn_marker.glb"
-dest_files=["res://.godot/imported/prop_tundra_bone_cairn_marker.glb-3bf63ad39daf5726ac7dda787995ab25.scn"]
+source_file="res://assets/models_backup_legacy/environment/props/prop_tundra_bone_cairn_marker.glb"
+dest_files=["res://.godot/imported/prop_tundra_bone_cairn_marker.glb-2bf7a4165c5c42cfbfd176e3270800a3.scn"]
 
 [params]
 

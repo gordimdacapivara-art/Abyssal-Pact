@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bxbbfi0btwnnv"
-path="res://.godot/imported/structure_bastion_wall.glb-b2446f917fdf5c8e7f906dfaf26ca1a1.scn"
+path="res://.godot/imported/structure_bastion_wall.glb-bc38f62e9e1b7039ad866b1462a7f80b.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/structures/structure_bastion_wall.glb"
-dest_files=["res://.godot/imported/structure_bastion_wall.glb-b2446f917fdf5c8e7f906dfaf26ca1a1.scn"]
+source_file="res://assets/models_backup_legacy/environment/structures/structure_bastion_wall.glb"
+dest_files=["res://.godot/imported/structure_bastion_wall.glb-bc38f62e9e1b7039ad866b1462a7f80b.scn"]
 
 [params]
 

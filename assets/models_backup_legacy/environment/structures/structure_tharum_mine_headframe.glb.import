@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dgrx70bb0x5pl"
-path="res://.godot/imported/structure_tharum_mine_headframe.glb-d107e77637665cff4c4f39d4495631e9.scn"
+path="res://.godot/imported/structure_tharum_mine_headframe.glb-6a6b3f192c3ca7813dd1b5207dca07a1.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/structures/structure_tharum_mine_headframe.glb"
-dest_files=["res://.godot/imported/structure_tharum_mine_headframe.glb-d107e77637665cff4c4f39d4495631e9.scn"]
+source_file="res://assets/models_backup_legacy/environment/structures/structure_tharum_mine_headframe.glb"
+dest_files=["res://.godot/imported/structure_tharum_mine_headframe.glb-6a6b3f192c3ca7813dd1b5207dca07a1.scn"]
 
 [params]
 

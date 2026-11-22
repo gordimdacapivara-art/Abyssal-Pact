@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bs8xr13y80mbk"
-path="res://.godot/imported/prop_volcanic_brazier.glb-5f86f393b246157cf486f44662b053a4.scn"
+path="res://.godot/imported/prop_volcanic_brazier.glb-b3d93f35d72ab497f36cf1053fa09241.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/props/prop_volcanic_brazier.glb"
-dest_files=["res://.godot/imported/prop_volcanic_brazier.glb-5f86f393b246157cf486f44662b053a4.scn"]
+source_file="res://assets/models_backup_legacy/environment/props/prop_volcanic_brazier.glb"
+dest_files=["res://.godot/imported/prop_volcanic_brazier.glb-b3d93f35d72ab497f36cf1053fa09241.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dwdlnanfu5pp"
-path="res://.godot/imported/structure_drowned_garden_pavilion.glb-8affbef016b7a1167f28513b07745d42.scn"
+path="res://.godot/imported/structure_drowned_garden_pavilion.glb-39b3c04b7bb568df5d952c11b2959091.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/structures/structure_drowned_garden_pavilion.glb"
-dest_files=["res://.godot/imported/structure_drowned_garden_pavilion.glb-8affbef016b7a1167f28513b07745d42.scn"]
+source_file="res://assets/models_backup_legacy/environment/structures/structure_drowned_garden_pavilion.glb"
+dest_files=["res://.godot/imported/structure_drowned_garden_pavilion.glb-39b3c04b7bb568df5d952c11b2959091.scn"]
 
 [params]
 

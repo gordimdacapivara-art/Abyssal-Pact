@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://br2jx5a0lj7ej"
-path="res://.godot/imported/prop_aster_arcane_ring.glb-4c12fcbace44237a64d8757740dca537.scn"
+path="res://.godot/imported/prop_aster_arcane_ring.glb-706e25d9e4248166140ae28c6684b220.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/props/prop_aster_arcane_ring.glb"
-dest_files=["res://.godot/imported/prop_aster_arcane_ring.glb-4c12fcbace44237a64d8757740dca537.scn"]
+source_file="res://assets/models_backup_legacy/environment/props/prop_aster_arcane_ring.glb"
+dest_files=["res://.godot/imported/prop_aster_arcane_ring.glb-706e25d9e4248166140ae28c6684b220.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bsjv215mybo8s"
-path="res://.godot/imported/rock_crater_rim.glb-bd985d779913f32084d25095700d76c6.scn"
+path="res://.godot/imported/rock_crater_rim.glb-063bf5b1ee177adf3fe16d3178339c86.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/rocks/rock_crater_rim.glb"
-dest_files=["res://.godot/imported/rock_crater_rim.glb-bd985d779913f32084d25095700d76c6.scn"]
+source_file="res://assets/models_backup_legacy/environment/rocks/rock_crater_rim.glb"
+dest_files=["res://.godot/imported/rock_crater_rim.glb-063bf5b1ee177adf3fe16d3178339c86.scn"]
 
 [params]
 

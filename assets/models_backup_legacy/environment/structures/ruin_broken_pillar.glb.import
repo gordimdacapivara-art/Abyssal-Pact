@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b56n4n1q34p73"
-path="res://.godot/imported/ruin_broken_pillar.glb-01008e6dbe520a19d25ca56e26b7af99.scn"
+path="res://.godot/imported/ruin_broken_pillar.glb-6ac19b1e970a7a953f4ed5ba64425f66.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/structures/ruin_broken_pillar.glb"
-dest_files=["res://.godot/imported/ruin_broken_pillar.glb-01008e6dbe520a19d25ca56e26b7af99.scn"]
+source_file="res://assets/models_backup_legacy/environment/structures/ruin_broken_pillar.glb"
+dest_files=["res://.godot/imported/ruin_broken_pillar.glb-6ac19b1e970a7a953f4ed5ba64425f66.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://etgebk4he8rv"
-path="res://.godot/imported/rock_volcanic_boulder.glb-a51fb453897d9f7c39eaa7ca26aabe2c.scn"
+path="res://.godot/imported/rock_volcanic_boulder.glb-b7a27d375c699367853a0c4699e364b4.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/rocks/rock_volcanic_boulder.glb"
-dest_files=["res://.godot/imported/rock_volcanic_boulder.glb-a51fb453897d9f7c39eaa7ca26aabe2c.scn"]
+source_file="res://assets/models_backup_legacy/environment/rocks/rock_volcanic_boulder.glb"
+dest_files=["res://.godot/imported/rock_volcanic_boulder.glb-b7a27d375c699367853a0c4699e364b4.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://debwrvnibl6n7"
-path="res://.godot/imported/prop_broken_throne.glb-ca2b26550fefb3a315c2e3ca208a48f9.scn"
+path="res://.godot/imported/prop_broken_throne.glb-aba1719e0d8568e08eb78e5ec956ff7d.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/props/prop_broken_throne.glb"
-dest_files=["res://.godot/imported/prop_broken_throne.glb-ca2b26550fefb3a315c2e3ca208a48f9.scn"]
+source_file="res://assets/models_backup_legacy/environment/props/prop_broken_throne.glb"
+dest_files=["res://.godot/imported/prop_broken_throne.glb-aba1719e0d8568e08eb78e5ec956ff7d.scn"]
 
 [params]
 

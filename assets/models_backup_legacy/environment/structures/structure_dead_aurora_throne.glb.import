@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d06qpx8yhqfm8"
-path="res://.godot/imported/structure_dead_aurora_throne.glb-975aec2709eabd0429df4329df03693e.scn"
+path="res://.godot/imported/structure_dead_aurora_throne.glb-f0e0dba20622921ac6f4ee71076baf4e.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/structures/structure_dead_aurora_throne.glb"
-dest_files=["res://.godot/imported/structure_dead_aurora_throne.glb-975aec2709eabd0429df4329df03693e.scn"]
+source_file="res://assets/models_backup_legacy/environment/structures/structure_dead_aurora_throne.glb"
+dest_files=["res://.godot/imported/structure_dead_aurora_throne.glb-f0e0dba20622921ac6f4ee71076baf4e.scn"]
 
 [params]
 

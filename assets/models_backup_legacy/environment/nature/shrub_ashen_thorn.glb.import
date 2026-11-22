@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://buukso2nmcta0"
-path="res://.godot/imported/shrub_ashen_thorn.glb-d79b52502f191a599c5f6f2607a1d7ee.scn"
+path="res://.godot/imported/shrub_ashen_thorn.glb-e34b515caac4a07bd964a918dff35620.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/nature/shrub_ashen_thorn.glb"
-dest_files=["res://.godot/imported/shrub_ashen_thorn.glb-d79b52502f191a599c5f6f2607a1d7ee.scn"]
+source_file="res://assets/models_backup_legacy/environment/nature/shrub_ashen_thorn.glb"
+dest_files=["res://.godot/imported/shrub_ashen_thorn.glb-e34b515caac4a07bd964a918dff35620.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dls7kaw4hgkae"
-path="res://.godot/imported/structure_imperial_palace_ruin.glb-4080973ce4b7e47c0a4ad4d254c3f886.scn"
+path="res://.godot/imported/structure_imperial_palace_ruin.glb-29e3e2c8abc3acfb4fb0baa19d88be9f.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/structures/structure_imperial_palace_ruin.glb"
-dest_files=["res://.godot/imported/structure_imperial_palace_ruin.glb-4080973ce4b7e47c0a4ad4d254c3f886.scn"]
+source_file="res://assets/models_backup_legacy/environment/structures/structure_imperial_palace_ruin.glb"
+dest_files=["res://.godot/imported/structure_imperial_palace_ruin.glb-29e3e2c8abc3acfb4fb0baa19d88be9f.scn"]
 
 [params]
 

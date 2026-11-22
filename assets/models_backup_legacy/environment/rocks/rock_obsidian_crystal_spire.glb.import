@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cd27j6x6cdlvq"
-path="res://.godot/imported/rock_obsidian_crystal_spire.glb-aadcb17c814eca63170018bee06bea7e.scn"
+path="res://.godot/imported/rock_obsidian_crystal_spire.glb-152e8398878b5ff468bf49cd253892f3.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/rocks/rock_obsidian_crystal_spire.glb"
-dest_files=["res://.godot/imported/rock_obsidian_crystal_spire.glb-aadcb17c814eca63170018bee06bea7e.scn"]
+source_file="res://assets/models_backup_legacy/environment/rocks/rock_obsidian_crystal_spire.glb"
+dest_files=["res://.godot/imported/rock_obsidian_crystal_spire.glb-152e8398878b5ff468bf49cd253892f3.scn"]
 
 [params]
 

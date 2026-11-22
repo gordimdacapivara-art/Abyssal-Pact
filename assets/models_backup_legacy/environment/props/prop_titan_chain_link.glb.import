@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dv6hut8pcajcr"
-path="res://.godot/imported/prop_titan_chain_link.glb-50887b878bde25e5ebbb09a6824d8d52.scn"
+path="res://.godot/imported/prop_titan_chain_link.glb-3f486da7eccc33307cf616d89f979053.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/props/prop_titan_chain_link.glb"
-dest_files=["res://.godot/imported/prop_titan_chain_link.glb-50887b878bde25e5ebbb09a6824d8d52.scn"]
+source_file="res://assets/models_backup_legacy/environment/props/prop_titan_chain_link.glb"
+dest_files=["res://.godot/imported/prop_titan_chain_link.glb-3f486da7eccc33307cf616d89f979053.scn"]
 
 [params]
 

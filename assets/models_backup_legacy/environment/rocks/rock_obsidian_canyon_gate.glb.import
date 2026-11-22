@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bt3pbj0w2f7lm"
-path="res://.godot/imported/rock_obsidian_canyon_gate.glb-e0227ef6ef1455b7c4eb411494bf4abb.scn"
+path="res://.godot/imported/rock_obsidian_canyon_gate.glb-0222f9ee3a4c46786ebe3efdcf03fd59.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/rocks/rock_obsidian_canyon_gate.glb"
-dest_files=["res://.godot/imported/rock_obsidian_canyon_gate.glb-e0227ef6ef1455b7c4eb411494bf4abb.scn"]
+source_file="res://assets/models_backup_legacy/environment/rocks/rock_obsidian_canyon_gate.glb"
+dest_files=["res://.godot/imported/rock_obsidian_canyon_gate.glb-0222f9ee3a4c46786ebe3efdcf03fd59.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ca5docqoitqda"
-path="res://.godot/imported/rock_vitrified_glass_dune_ridge.glb-c3d9b4a3e6776bd16f616e2917ae7032.scn"
+path="res://.godot/imported/rock_vitrified_glass_dune_ridge.glb-5a6ec4b6e59697bebab35648c7e3c1ee.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/rocks/rock_vitrified_glass_dune_ridge.glb"
-dest_files=["res://.godot/imported/rock_vitrified_glass_dune_ridge.glb-c3d9b4a3e6776bd16f616e2917ae7032.scn"]
+source_file="res://assets/models_backup_legacy/environment/rocks/rock_vitrified_glass_dune_ridge.glb"
+dest_files=["res://.godot/imported/rock_vitrified_glass_dune_ridge.glb-5a6ec4b6e59697bebab35648c7e3c1ee.scn"]
 
 [params]
 

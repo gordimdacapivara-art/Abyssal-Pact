@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cigq25msyfyu2"
-path="res://.godot/imported/rock_aurora_monolith_sentinel.glb-8967b4f458523eb1a0d829605cecc542.scn"
+path="res://.godot/imported/rock_aurora_monolith_sentinel.glb-3436b9fc26f4b1a57d4e5d00624488ef.scn"
 
 [deps]
 
-source_file="res://assets/models/environment/rocks/rock_aurora_monolith_sentinel.glb"
-dest_files=["res://.godot/imported/rock_aurora_monolith_sentinel.glb-8967b4f458523eb1a0d829605cecc542.scn"]
+source_file="res://assets/models_backup_legacy/environment/rocks/rock_aurora_monolith_sentinel.glb"
+dest_files=["res://.godot/imported/rock_aurora_monolith_sentinel.glb-3436b9fc26f4b1a57d4e5d00624488ef.scn"]
 
 [params]
 
