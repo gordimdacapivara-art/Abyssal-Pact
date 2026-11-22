@@ -138,6 +138,7 @@ func open_screen(screen_id: StringName, params: Dictionary = {}) -> Error:
 	_active_screen_id = screen_id
 	if screen.has_method("open"):
 		screen.call("open", params)
+	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
 	log_info("Tela aberta: %s." % screen_id)
 	EventBus.screen_opened.emit(screen_id)
 	return OK
