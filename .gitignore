@@ -1,4 +1,4 @@
-# Godot 4+ ignore rules
+# Godot 4
 .godot/
 
 # Godot-specific export / build ignores
@@ -9,9 +9,24 @@
 data_*/
 mono_crash.*.json
 
-# System & Editor files
+# Exported builds
+/builds/
+/exports/
+*.pck
+
+# Editor and OS files
+.vscode/
+.idea/
 .DS_Store
 Thumbs.db
 desktop.ini
-*.tmp
+
+# Logs and temporary files
 *.log
+*.tmp
+*.bak
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
