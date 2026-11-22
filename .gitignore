@@ -1,0 +1,27 @@
+# Godot 4
+.godot/
+.import/
+.export/
+
+# Exported builds
+/builds/
+/exports/
+*.pck
+*. Godot
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
