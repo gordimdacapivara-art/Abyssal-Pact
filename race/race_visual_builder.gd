@@ -27,9 +27,9 @@ const BONE_FOR_ACCESSORY := {
 ## (colisão de nome no exportador Blender). Os dados continuam usando o nome
 ## canônico `head`; o resolvedor devolve o primeiro osso presente.
 const BONE_ALIASES := {
-	&"head": [&"head", &"head_2"],
-	&"root": [&"root"],
-	&"chest": [&"chest"],
+	&"head": [&"Head", &"head", &"head_2", &"Neck"],
+	&"root": [&"Root", &"root", &"Hips"],
+	&"chest": [&"Chest", &"chest", &"Spine"],
 }
 
 ## Nome real do osso no esqueleto para um nome canônico ("" quando ausente).

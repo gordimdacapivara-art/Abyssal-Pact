@@ -61,11 +61,13 @@ func _build_ui() -> void:
 		child.queue_free()
 
 	theme = DarkFantasyTheme.create()
+	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 
 	# Fundo escuro rúnico
 	var bg := ColorRect.new()
 	bg.color = Color(0.04, 0.035, 0.05, 1.0)
 	bg.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	bg.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	add_child(bg)
 
 	# Layout principal: HBox (Esquerda: 3D Preview + Nome | Direita: Passos + Conteúdo + Botões)
@@ -87,6 +89,7 @@ func _build_ui() -> void:
 
 	var preview_panel := PanelContainer.new()
 	preview_panel.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	preview_panel.custom_minimum_size = Vector2(380, 480)
 	left_vbox.add_child(preview_panel)
 
 	var viewport_container := SubViewportContainer.new()
@@ -96,14 +99,21 @@ func _build_ui() -> void:
 	preview_panel.add_child(viewport_container)
 
 	_viewport_3d = SubViewport.new()
-	_viewport_3d.size = Vector2(360, 500)
+	_viewport_3d.size = Vector2(380, 500)
 	_viewport_3d.render_target_update_mode = SubViewport.UPDATE_ALWAYS
 	_viewport_3d.transparent_bg = false
 	_viewport_3d.msaa_3d = Viewport.MSAA_4X
+	_viewport_3d.own_world_3d = true
 	viewport_container.add_child(_viewport_3d)
 
-	var world_3d := World3D.new()
-	_viewport_3d.world_3d = world_3d
+	var env := Environment.new()
+	env.background_mode = Environment.BG_COLOR
+	env.background_color = Color(0.08, 0.07, 0.1, 1.0)
+	env.ambient_light_source = Environment.AMBIENT_SOURCE_COLOR
+	env.ambient_light_color = Color(0.88, 0.84, 0.8, 1.0)
+	env.ambient_light_energy = 1.0
+	if _viewport_3d.world_3d:
+		_viewport_3d.world_3d.environment = env
 
 	var cam_rig := Node3D.new()
 	cam_rig.name = "CamRig"
@@ -111,12 +121,21 @@ func _build_ui() -> void:
 
 	_camera_3d = Camera3D.new()
 	_camera_3d.name = "Camera3D"
-	_camera_3d.transform = Transform3D(Basis(), Vector3(0, 1.1, 3.2))
+	_camera_3d.current = true
 	cam_rig.add_child(_camera_3d)
+	_camera_3d.look_at_from_position(Vector3(0, 1.05, 2.5), Vector3(0, 0.9, 0))
 
 	var light := DirectionalLight3D.new()
 	light.transform = Transform3D(Basis().rotated(Vector3.UP, 0.5).rotated(Vector3.RIGHT, -0.6), Vector3(0, 5, 3))
+	light.light_energy = 1.6
+	light.light_color = Color(1.0, 0.96, 0.9)
 	_viewport_3d.add_child(light)
+
+	var fill_light := DirectionalLight3D.new()
+	fill_light.transform = Transform3D(Basis().rotated(Vector3.UP, -2.4).rotated(Vector3.RIGHT, -0.3), Vector3(0, 3, -3))
+	fill_light.light_energy = 0.8
+	fill_light.light_color = Color(0.6, 0.7, 0.9)
+	_viewport_3d.add_child(fill_light)
 
 	_model_slot = Node3D.new()
 	_model_slot.name = "ModelSlot"
@@ -151,6 +170,7 @@ func _build_ui() -> void:
 	var content_panel_wrap := PanelContainer.new()
 	content_panel_wrap.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	content_panel_wrap.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	content_panel_wrap.custom_minimum_size = Vector2(0, 380)
 	right_vbox.add_child(content_panel_wrap)
 
 	_content_panel = VBoxContainer.new()
@@ -254,11 +274,13 @@ func _build_race_stage() -> void:
 	scroll.name = "ScrollContainer"
 	scroll.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	scroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	scroll.custom_minimum_size = Vector2(0, 320)
 	_content_panel.add_child(scroll)
 
 	var grid := VBoxContainer.new()
 	grid.name = "RaceList"
 	grid.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	grid.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	scroll.add_child(grid)
 
 	_populate_races(grid, "")
@@ -339,11 +361,13 @@ func _build_class_stage() -> void:
 	scroll.name = "ScrollContainer"
 	scroll.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	scroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	scroll.custom_minimum_size = Vector2(0, 320)
 	_content_panel.add_child(scroll)
 
 	var vbox := VBoxContainer.new()
 	vbox.name = "ClassList"
 	vbox.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	vbox.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	scroll.add_child(vbox)
 
 	_populate_classes(vbox, "")
@@ -393,10 +417,12 @@ func _build_customization_stage() -> void:
 	var scroll := ScrollContainer.new()
 	scroll.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	scroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	scroll.custom_minimum_size = Vector2(0, 320)
 	_content_panel.add_child(scroll)
 
 	var vbox := VBoxContainer.new()
 	vbox.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	vbox.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	vbox.add_theme_constant_override("separation", 12)
 	scroll.add_child(vbox)
 

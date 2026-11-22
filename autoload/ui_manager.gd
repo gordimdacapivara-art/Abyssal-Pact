@@ -133,6 +133,7 @@ func open_screen(screen_id: StringName, params: Dictionary = {}) -> Error:
 	if screen == null:
 		log_error("Tela '%s' nÃ£o Ã© Control." % screen_id)
 		return ERR_INVALID_PARAMETER
+	screen.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	_screens.add_child(screen)
 	_active_screen = screen
 	_active_screen_id = screen_id
